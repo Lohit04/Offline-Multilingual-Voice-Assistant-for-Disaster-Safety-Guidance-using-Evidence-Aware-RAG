@@ -1,0 +1,549 @@
+{
+ "eval_final_v1": {
+  "all": {
+   "n": 120,
+   "overall_correct": [
+    120,
+    120
+   ],
+   "answerable_answered": [
+    72,
+    72
+   ],
+   "answerable_right_hazard": [
+    72,
+    72
+   ],
+   "answerable_correct": [
+    72,
+    72
+   ],
+   "instant_answers": [
+    65,
+    72
+   ],
+   "instant_precision": [
+    65,
+    65
+   ],
+   "answer_language_ok": [
+    72,
+    72
+   ],
+   "offtopic_refused": [
+    24,
+    24
+   ],
+   "offtopic_instant": [
+    0,
+    24
+   ],
+   "live_handled": [
+    24,
+    24
+   ],
+   "live_instant": [
+    0,
+    24
+   ],
+   "median_latency_s": 0.03,
+   "median_latency_instant_s": 0.02
+  },
+  "by_language": {
+   "en": {
+    "n": 20,
+    "overall_correct": [
+     20,
+     20
+    ],
+    "answerable_answered": [
+     12,
+     12
+    ],
+    "answerable_right_hazard": [
+     12,
+     12
+    ],
+    "answerable_correct": [
+     12,
+     12
+    ],
+    "instant_answers": [
+     11,
+     12
+    ],
+    "instant_precision": [
+     11,
+     11
+    ],
+    "answer_language_ok": [
+     12,
+     12
+    ],
+    "offtopic_refused": [
+     4,
+     4
+    ],
+    "offtopic_instant": [
+     0,
+     4
+    ],
+    "live_handled": [
+     4,
+     4
+    ],
+    "live_instant": [
+     0,
+     4
+    ],
+    "median_latency_s": 0.05,
+    "median_latency_instant_s": 0.02
+   },
+   "hi": {
+    "n": 20,
+    "overall_correct": [
+     20,
+     20
+    ],
+    "answerable_answered": [
+     12,
+     12
+    ],
+    "answerable_right_hazard": [
+     12,
+     12
+    ],
+    "answerable_correct": [
+     12,
+     12
+    ],
+    "instant_answers": [
+     11,
+     12
+    ],
+    "instant_precision": [
+     11,
+     11
+    ],
+    "answer_language_ok": [
+     12,
+     12
+    ],
+    "offtopic_refused": [
+     4,
+     4
+    ],
+    "offtopic_instant": [
+     0,
+     4
+    ],
+    "live_handled": [
+     4,
+     4
+    ],
+    "live_instant": [
+     0,
+     4
+    ],
+    "median_latency_s": 0.03,
+    "median_latency_instant_s": 0.02
+   },
+   "kn": {
+    "n": 20,
+    "overall_correct": [
+     20,
+     20
+    ],
+    "answerable_answered": [
+     12,
+     12
+    ],
+    "answerable_right_hazard": [
+     12,
+     12
+    ],
+    "answerable_correct": [
+     12,
+     12
+    ],
+    "instant_answers": [
+     11,
+     12
+    ],
+    "instant_precision": [
+     11,
+     11
+    ],
+    "answer_language_ok": [
+     12,
+     12
+    ],
+    "offtopic_refused": [
+     4,
+     4
+    ],
+    "offtopic_instant": [
+     0,
+     4
+    ],
+    "live_handled": [
+     4,
+     4
+    ],
+    "live_instant": [
+     0,
+     4
+    ],
+    "median_latency_s": 0.03,
+    "median_latency_instant_s": 0.02
+   },
+   "ml": {
+    "n": 20,
+    "overall_correct": [
+     20,
+     20
+    ],
+    "answerable_answered": [
+     12,
+     12
+    ],
+    "answerable_right_hazard": [
+     12,
+     12
+    ],
+    "answerable_correct": [
+     12,
+     12
+    ],
+    "instant_answers": [
+     11,
+     12
+    ],
+    "instant_precision": [
+     11,
+     11
+    ],
+    "answer_language_ok": [
+     12,
+     12
+    ],
+    "offtopic_refused": [
+     4,
+     4
+    ],
+    "offtopic_instant": [
+     0,
+     4
+    ],
+    "live_handled": [
+     4,
+     4
+    ],
+    "live_instant": [
+     0,
+     4
+    ],
+    "median_latency_s": 0.03,
+    "median_latency_instant_s": 0.02
+   },
+   "ta": {
+    "n": 20,
+    "overall_correct": [
+     20,
+     20
+    ],
+    "answerable_answered": [
+     12,
+     12
+    ],
+    "answerable_right_hazard": [
+     12,
+     12
+    ],
+    "answerable_correct": [
+     12,
+     12
+    ],
+    "instant_answers": [
+     10,
+     12
+    ],
+    "instant_precision": [
+     10,
+     10
+    ],
+    "answer_language_ok": [
+     12,
+     12
+    ],
+    "offtopic_refused": [
+     4,
+     4
+    ],
+    "offtopic_instant": [
+     0,
+     4
+    ],
+    "live_handled": [
+     4,
+     4
+    ],
+    "live_instant": [
+     0,
+     4
+    ],
+    "median_latency_s": 2.56,
+    "median_latency_instant_s": 0.02
+   },
+   "te": {
+    "n": 20,
+    "overall_correct": [
+     20,
+     20
+    ],
+    "answerable_answered": [
+     12,
+     12
+    ],
+    "answerable_right_hazard": [
+     12,
+     12
+    ],
+    "answerable_correct": [
+     12,
+     12
+    ],
+    "instant_answers": [
+     11,
+     12
+    ],
+    "instant_precision": [
+     11,
+     11
+    ],
+    "answer_language_ok": [
+     12,
+     12
+    ],
+    "offtopic_refused": [
+     4,
+     4
+    ],
+    "offtopic_instant": [
+     0,
+     4
+    ],
+    "live_handled": [
+     4,
+     4
+    ],
+    "live_instant": [
+     0,
+     4
+    ],
+    "median_latency_s": 0.03,
+    "median_latency_instant_s": 0.02
+   }
+  }
+ },
+ "eval_final_v2_heldout": {
+  "all": {
+   "n": 87,
+   "overall_correct": [
+    85,
+    87
+   ],
+   "answerable_answered": [
+    53,
+    54
+   ],
+   "answerable_right_hazard": [
+    52,
+    53
+   ],
+   "answerable_correct": [
+    52,
+    54
+   ],
+   "instant_answers": [
+    37,
+    54
+   ],
+   "instant_precision": [
+    37,
+    37
+   ],
+   "answer_language_ok": [
+    53,
+    53
+   ],
+   "offtopic_refused": [
+    24,
+    24
+   ],
+   "offtopic_instant": [
+    0,
+    24
+   ],
+   "live_handled": [
+    9,
+    9
+   ],
+   "live_instant": [
+    0,
+    9
+   ],
+   "median_latency_s": 2.75,
+   "median_latency_instant_s": 0.02
+  },
+  "by_language": {
+   "en": {
+    "n": 29,
+    "overall_correct": [
+     29,
+     29
+    ],
+    "answerable_answered": [
+     18,
+     18
+    ],
+    "answerable_right_hazard": [
+     18,
+     18
+    ],
+    "answerable_correct": [
+     18,
+     18
+    ],
+    "instant_answers": [
+     14,
+     18
+    ],
+    "instant_precision": [
+     14,
+     14
+    ],
+    "answer_language_ok": [
+     18,
+     18
+    ],
+    "offtopic_refused": [
+     8,
+     8
+    ],
+    "offtopic_instant": [
+     0,
+     8
+    ],
+    "live_handled": [
+     3,
+     3
+    ],
+    "live_instant": [
+     0,
+     3
+    ],
+    "median_latency_s": 2.48,
+    "median_latency_instant_s": 0.02
+   },
+   "hi": {
+    "n": 29,
+    "overall_correct": [
+     28,
+     29
+    ],
+    "answerable_answered": [
+     18,
+     18
+    ],
+    "answerable_right_hazard": [
+     17,
+     18
+    ],
+    "answerable_correct": [
+     17,
+     18
+    ],
+    "instant_answers": [
+     12,
+     18
+    ],
+    "instant_precision": [
+     12,
+     12
+    ],
+    "answer_language_ok": [
+     18,
+     18
+    ],
+    "offtopic_refused": [
+     8,
+     8
+    ],
+    "offtopic_instant": [
+     0,
+     8
+    ],
+    "live_handled": [
+     3,
+     3
+    ],
+    "live_instant": [
+     0,
+     3
+    ],
+    "median_latency_s": 4.67,
+    "median_latency_instant_s": 0.02
+   },
+   "ta": {
+    "n": 29,
+    "overall_correct": [
+     28,
+     29
+    ],
+    "answerable_answered": [
+     17,
+     18
+    ],
+    "answerable_right_hazard": [
+     17,
+     17
+    ],
+    "answerable_correct": [
+     17,
+     18
+    ],
+    "instant_answers": [
+     11,
+     18
+    ],
+    "instant_precision": [
+     11,
+     11
+    ],
+    "answer_language_ok": [
+     17,
+     17
+    ],
+    "offtopic_refused": [
+     8,
+     8
+    ],
+    "offtopic_instant": [
+     0,
+     8
+    ],
+    "live_handled": [
+     3,
+     3
+    ],
+    "live_instant": [
+     0,
+     3
+    ],
+    "median_latency_s": 5.16,
+    "median_latency_instant_s": 0.02
+   }
+  }
+ }
+}

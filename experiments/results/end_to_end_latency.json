@@ -1,0 +1,1986 @@
+{
+ "text": [
+  {
+   "id": "A01",
+   "type": "answerable",
+   "lang": "en",
+   "secs": 0.171,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A01",
+   "type": "answerable",
+   "lang": "hi",
+   "secs": 0.069,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A01",
+   "type": "answerable",
+   "lang": "ta",
+   "secs": 0.062,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A01",
+   "type": "answerable",
+   "lang": "te",
+   "secs": 0.059,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A01",
+   "type": "answerable",
+   "lang": "kn",
+   "secs": 0.059,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A01",
+   "type": "answerable",
+   "lang": "ml",
+   "secs": 0.061,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A02",
+   "type": "answerable",
+   "lang": "en",
+   "secs": 0.057,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A02",
+   "type": "answerable",
+   "lang": "hi",
+   "secs": 0.063,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A02",
+   "type": "answerable",
+   "lang": "ta",
+   "secs": 0.054,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A02",
+   "type": "answerable",
+   "lang": "te",
+   "secs": 0.072,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A02",
+   "type": "answerable",
+   "lang": "kn",
+   "secs": 0.054,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A02",
+   "type": "answerable",
+   "lang": "ml",
+   "secs": 0.076,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A03",
+   "type": "answerable",
+   "lang": "en",
+   "secs": 0.061,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A03",
+   "type": "answerable",
+   "lang": "hi",
+   "secs": 0.063,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A03",
+   "type": "answerable",
+   "lang": "ta",
+   "secs": 0.056,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A03",
+   "type": "answerable",
+   "lang": "te",
+   "secs": 0.062,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A03",
+   "type": "answerable",
+   "lang": "kn",
+   "secs": 0.053,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A03",
+   "type": "answerable",
+   "lang": "ml",
+   "secs": 0.055,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A04",
+   "type": "answerable",
+   "lang": "en",
+   "secs": 4.645,
+   "cached": false,
+   "abstained": false
+  },
+  {
+   "id": "A04",
+   "type": "answerable",
+   "lang": "hi",
+   "secs": 6.673,
+   "cached": false,
+   "abstained": false
+  },
+  {
+   "id": "A04",
+   "type": "answerable",
+   "lang": "ta",
+   "secs": 8.041,
+   "cached": false,
+   "abstained": false
+  },
+  {
+   "id": "A04",
+   "type": "answerable",
+   "lang": "te",
+   "secs": 6.923,
+   "cached": false,
+   "abstained": false
+  },
+  {
+   "id": "A04",
+   "type": "answerable",
+   "lang": "kn",
+   "secs": 9.196,
+   "cached": false,
+   "abstained": false
+  },
+  {
+   "id": "A04",
+   "type": "answerable",
+   "lang": "ml",
+   "secs": 7.659,
+   "cached": false,
+   "abstained": false
+  },
+  {
+   "id": "A05",
+   "type": "answerable",
+   "lang": "en",
+   "secs": 0.072,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A05",
+   "type": "answerable",
+   "lang": "hi",
+   "secs": 0.071,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A05",
+   "type": "answerable",
+   "lang": "ta",
+   "secs": 0.068,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A05",
+   "type": "answerable",
+   "lang": "te",
+   "secs": 0.071,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A05",
+   "type": "answerable",
+   "lang": "kn",
+   "secs": 0.078,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A05",
+   "type": "answerable",
+   "lang": "ml",
+   "secs": 0.075,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A06",
+   "type": "answerable",
+   "lang": "en",
+   "secs": 0.077,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A06",
+   "type": "answerable",
+   "lang": "hi",
+   "secs": 0.078,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A06",
+   "type": "answerable",
+   "lang": "ta",
+   "secs": 0.073,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A06",
+   "type": "answerable",
+   "lang": "te",
+   "secs": 0.082,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A06",
+   "type": "answerable",
+   "lang": "kn",
+   "secs": 0.078,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A06",
+   "type": "answerable",
+   "lang": "ml",
+   "secs": 0.074,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A07",
+   "type": "answerable",
+   "lang": "en",
+   "secs": 0.076,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A07",
+   "type": "answerable",
+   "lang": "hi",
+   "secs": 0.07,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A07",
+   "type": "answerable",
+   "lang": "ta",
+   "secs": 0.07,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A07",
+   "type": "answerable",
+   "lang": "te",
+   "secs": 0.078,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A07",
+   "type": "answerable",
+   "lang": "kn",
+   "secs": 0.072,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A07",
+   "type": "answerable",
+   "lang": "ml",
+   "secs": 0.068,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A08",
+   "type": "answerable",
+   "lang": "en",
+   "secs": 0.075,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A08",
+   "type": "answerable",
+   "lang": "hi",
+   "secs": 0.071,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A08",
+   "type": "answerable",
+   "lang": "ta",
+   "secs": 0.072,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A08",
+   "type": "answerable",
+   "lang": "te",
+   "secs": 0.071,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A08",
+   "type": "answerable",
+   "lang": "kn",
+   "secs": 0.085,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A08",
+   "type": "answerable",
+   "lang": "ml",
+   "secs": 0.073,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A09",
+   "type": "answerable",
+   "lang": "en",
+   "secs": 0.073,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A09",
+   "type": "answerable",
+   "lang": "hi",
+   "secs": 0.06,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A09",
+   "type": "answerable",
+   "lang": "ta",
+   "secs": 0.073,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A09",
+   "type": "answerable",
+   "lang": "te",
+   "secs": 0.07,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A09",
+   "type": "answerable",
+   "lang": "kn",
+   "secs": 0.076,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A09",
+   "type": "answerable",
+   "lang": "ml",
+   "secs": 0.076,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A10",
+   "type": "answerable",
+   "lang": "en",
+   "secs": 0.069,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A10",
+   "type": "answerable",
+   "lang": "hi",
+   "secs": 0.074,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A10",
+   "type": "answerable",
+   "lang": "ta",
+   "secs": 0.076,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A10",
+   "type": "answerable",
+   "lang": "te",
+   "secs": 0.072,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A10",
+   "type": "answerable",
+   "lang": "kn",
+   "secs": 0.071,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A10",
+   "type": "answerable",
+   "lang": "ml",
+   "secs": 0.074,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A11",
+   "type": "answerable",
+   "lang": "en",
+   "secs": 0.077,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A11",
+   "type": "answerable",
+   "lang": "hi",
+   "secs": 0.071,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A11",
+   "type": "answerable",
+   "lang": "ta",
+   "secs": 11.358,
+   "cached": false,
+   "abstained": false
+  },
+  {
+   "id": "A11",
+   "type": "answerable",
+   "lang": "te",
+   "secs": 0.074,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A11",
+   "type": "answerable",
+   "lang": "kn",
+   "secs": 0.074,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A11",
+   "type": "answerable",
+   "lang": "ml",
+   "secs": 0.07,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A12",
+   "type": "answerable",
+   "lang": "en",
+   "secs": 0.068,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A12",
+   "type": "answerable",
+   "lang": "hi",
+   "secs": 0.077,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A12",
+   "type": "answerable",
+   "lang": "ta",
+   "secs": 0.076,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A12",
+   "type": "answerable",
+   "lang": "te",
+   "secs": 0.07,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A12",
+   "type": "answerable",
+   "lang": "kn",
+   "secs": 0.076,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "A12",
+   "type": "answerable",
+   "lang": "ml",
+   "secs": 0.076,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "U01",
+   "type": "unanswerable",
+   "lang": "en",
+   "secs": 0.101,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U01",
+   "type": "unanswerable",
+   "lang": "hi",
+   "secs": 2.847,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U01",
+   "type": "unanswerable",
+   "lang": "ta",
+   "secs": 2.654,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U01",
+   "type": "unanswerable",
+   "lang": "te",
+   "secs": 2.654,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U01",
+   "type": "unanswerable",
+   "lang": "kn",
+   "secs": 2.624,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U01",
+   "type": "unanswerable",
+   "lang": "ml",
+   "secs": 2.581,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U02",
+   "type": "unanswerable",
+   "lang": "en",
+   "secs": 2.873,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U02",
+   "type": "unanswerable",
+   "lang": "hi",
+   "secs": 5.148,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U02",
+   "type": "unanswerable",
+   "lang": "ta",
+   "secs": 5.143,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U02",
+   "type": "unanswerable",
+   "lang": "te",
+   "secs": 4.708,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U02",
+   "type": "unanswerable",
+   "lang": "kn",
+   "secs": 4.751,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U02",
+   "type": "unanswerable",
+   "lang": "ml",
+   "secs": 5.403,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U03",
+   "type": "unanswerable",
+   "lang": "en",
+   "secs": 0.067,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U03",
+   "type": "unanswerable",
+   "lang": "hi",
+   "secs": 2.803,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U03",
+   "type": "unanswerable",
+   "lang": "ta",
+   "secs": 2.636,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U03",
+   "type": "unanswerable",
+   "lang": "te",
+   "secs": 2.617,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U03",
+   "type": "unanswerable",
+   "lang": "kn",
+   "secs": 2.603,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U03",
+   "type": "unanswerable",
+   "lang": "ml",
+   "secs": 2.609,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U04",
+   "type": "unanswerable",
+   "lang": "en",
+   "secs": 4.549,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U04",
+   "type": "unanswerable",
+   "lang": "hi",
+   "secs": 5.776,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U04",
+   "type": "unanswerable",
+   "lang": "ta",
+   "secs": 4.865,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U04",
+   "type": "unanswerable",
+   "lang": "te",
+   "secs": 5.595,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U04",
+   "type": "unanswerable",
+   "lang": "kn",
+   "secs": 6.461,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U04",
+   "type": "unanswerable",
+   "lang": "ml",
+   "secs": 6.624,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "L01",
+   "type": "live",
+   "lang": "en",
+   "secs": 2.784,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "L01",
+   "type": "live",
+   "lang": "hi",
+   "secs": 5.145,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "L01",
+   "type": "live",
+   "lang": "ta",
+   "secs": 5.014,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "L01",
+   "type": "live",
+   "lang": "te",
+   "secs": 6.078,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "L01",
+   "type": "live",
+   "lang": "kn",
+   "secs": 5.275,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "L01",
+   "type": "live",
+   "lang": "ml",
+   "secs": 6.164,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "L02",
+   "type": "live",
+   "lang": "en",
+   "secs": 5.703,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "L02",
+   "type": "live",
+   "lang": "hi",
+   "secs": 8.137,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "L02",
+   "type": "live",
+   "lang": "ta",
+   "secs": 8.266,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "L02",
+   "type": "live",
+   "lang": "te",
+   "secs": 8.622,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "L02",
+   "type": "live",
+   "lang": "kn",
+   "secs": 8.044,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "L02",
+   "type": "live",
+   "lang": "ml",
+   "secs": 8.403,
+   "cached": false,
+   "abstained": false
+  },
+  {
+   "id": "L03",
+   "type": "live",
+   "lang": "en",
+   "secs": 4.093,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "L03",
+   "type": "live",
+   "lang": "hi",
+   "secs": 6.981,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "L03",
+   "type": "live",
+   "lang": "ta",
+   "secs": 4.975,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "L03",
+   "type": "live",
+   "lang": "te",
+   "secs": 6.194,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "L03",
+   "type": "live",
+   "lang": "kn",
+   "secs": 4.941,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "L03",
+   "type": "live",
+   "lang": "ml",
+   "secs": 4.835,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "L04",
+   "type": "live",
+   "lang": "en",
+   "secs": 2.499,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "L04",
+   "type": "live",
+   "lang": "hi",
+   "secs": 6.178,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "L04",
+   "type": "live",
+   "lang": "ta",
+   "secs": 4.921,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "L04",
+   "type": "live",
+   "lang": "te",
+   "secs": 5.3,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "L04",
+   "type": "live",
+   "lang": "kn",
+   "secs": 5.303,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "L04",
+   "type": "live",
+   "lang": "ml",
+   "secs": 4.807,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "H01",
+   "type": "answerable",
+   "lang": "en",
+   "secs": 0.092,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H01",
+   "type": "answerable",
+   "lang": "hi",
+   "secs": 0.099,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H01",
+   "type": "answerable",
+   "lang": "ta",
+   "secs": 0.079,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H02",
+   "type": "answerable",
+   "lang": "en",
+   "secs": 0.071,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H02",
+   "type": "answerable",
+   "lang": "hi",
+   "secs": 0.078,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H02",
+   "type": "answerable",
+   "lang": "ta",
+   "secs": 0.086,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H03",
+   "type": "answerable",
+   "lang": "en",
+   "secs": 0.104,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H03",
+   "type": "answerable",
+   "lang": "hi",
+   "secs": 8.671,
+   "cached": false,
+   "abstained": false
+  },
+  {
+   "id": "H03",
+   "type": "answerable",
+   "lang": "ta",
+   "secs": 8.298,
+   "cached": false,
+   "abstained": false
+  },
+  {
+   "id": "H04",
+   "type": "answerable",
+   "lang": "en",
+   "secs": 0.063,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H04",
+   "type": "answerable",
+   "lang": "hi",
+   "secs": 0.072,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H04",
+   "type": "answerable",
+   "lang": "ta",
+   "secs": 0.082,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H05",
+   "type": "answerable",
+   "lang": "en",
+   "secs": 0.083,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H05",
+   "type": "answerable",
+   "lang": "hi",
+   "secs": 0.076,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H05",
+   "type": "answerable",
+   "lang": "ta",
+   "secs": 8.08,
+   "cached": false,
+   "abstained": false
+  },
+  {
+   "id": "H06",
+   "type": "answerable",
+   "lang": "en",
+   "secs": 0.044,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H06",
+   "type": "answerable",
+   "lang": "hi",
+   "secs": 8.912,
+   "cached": false,
+   "abstained": false
+  },
+  {
+   "id": "H06",
+   "type": "answerable",
+   "lang": "ta",
+   "secs": 0.073,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H07",
+   "type": "answerable",
+   "lang": "en",
+   "secs": 0.083,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H07",
+   "type": "answerable",
+   "lang": "hi",
+   "secs": 0.085,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H07",
+   "type": "answerable",
+   "lang": "ta",
+   "secs": 9.539,
+   "cached": false,
+   "abstained": null
+  },
+  {
+   "id": "H08",
+   "type": "answerable",
+   "lang": "en",
+   "secs": 4.913,
+   "cached": false,
+   "abstained": false
+  },
+  {
+   "id": "H08",
+   "type": "answerable",
+   "lang": "hi",
+   "secs": 7.82,
+   "cached": false,
+   "abstained": false
+  },
+  {
+   "id": "H08",
+   "type": "answerable",
+   "lang": "ta",
+   "secs": 8.01,
+   "cached": false,
+   "abstained": false
+  },
+  {
+   "id": "H09",
+   "type": "answerable",
+   "lang": "en",
+   "secs": 0.055,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H09",
+   "type": "answerable",
+   "lang": "hi",
+   "secs": 0.069,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H09",
+   "type": "answerable",
+   "lang": "ta",
+   "secs": 0.075,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H10",
+   "type": "answerable",
+   "lang": "en",
+   "secs": 0.066,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H10",
+   "type": "answerable",
+   "lang": "hi",
+   "secs": 0.067,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H10",
+   "type": "answerable",
+   "lang": "ta",
+   "secs": 0.067,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H11",
+   "type": "answerable",
+   "lang": "en",
+   "secs": 0.072,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H11",
+   "type": "answerable",
+   "lang": "hi",
+   "secs": 0.065,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H11",
+   "type": "answerable",
+   "lang": "ta",
+   "secs": 0.075,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H12",
+   "type": "answerable",
+   "lang": "en",
+   "secs": 3.658,
+   "cached": false,
+   "abstained": false
+  },
+  {
+   "id": "H12",
+   "type": "answerable",
+   "lang": "hi",
+   "secs": 6.577,
+   "cached": false,
+   "abstained": false
+  },
+  {
+   "id": "H12",
+   "type": "answerable",
+   "lang": "ta",
+   "secs": 6.595,
+   "cached": false,
+   "abstained": false
+  },
+  {
+   "id": "H13",
+   "type": "answerable",
+   "lang": "en",
+   "secs": 0.047,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H13",
+   "type": "answerable",
+   "lang": "hi",
+   "secs": 0.073,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H13",
+   "type": "answerable",
+   "lang": "ta",
+   "secs": 0.071,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H14",
+   "type": "answerable",
+   "lang": "en",
+   "secs": 4.723,
+   "cached": false,
+   "abstained": false
+  },
+  {
+   "id": "H14",
+   "type": "answerable",
+   "lang": "hi",
+   "secs": 7.405,
+   "cached": false,
+   "abstained": false
+  },
+  {
+   "id": "H14",
+   "type": "answerable",
+   "lang": "ta",
+   "secs": 7.345,
+   "cached": false,
+   "abstained": false
+  },
+  {
+   "id": "H15",
+   "type": "answerable",
+   "lang": "en",
+   "secs": 0.1,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H15",
+   "type": "answerable",
+   "lang": "hi",
+   "secs": 0.1,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H15",
+   "type": "answerable",
+   "lang": "ta",
+   "secs": 0.115,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H16",
+   "type": "answerable",
+   "lang": "en",
+   "secs": 0.093,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H16",
+   "type": "answerable",
+   "lang": "hi",
+   "secs": 0.092,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H16",
+   "type": "answerable",
+   "lang": "ta",
+   "secs": 0.089,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H17",
+   "type": "answerable",
+   "lang": "en",
+   "secs": 0.095,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H17",
+   "type": "answerable",
+   "lang": "hi",
+   "secs": 0.086,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "H17",
+   "type": "answerable",
+   "lang": "ta",
+   "secs": 12.548,
+   "cached": false,
+   "abstained": false
+  },
+  {
+   "id": "H18",
+   "type": "answerable",
+   "lang": "en",
+   "secs": 3.441,
+   "cached": false,
+   "abstained": false
+  },
+  {
+   "id": "H18",
+   "type": "answerable",
+   "lang": "hi",
+   "secs": 6.183,
+   "cached": false,
+   "abstained": false
+  },
+  {
+   "id": "H18",
+   "type": "answerable",
+   "lang": "ta",
+   "secs": 0.088,
+   "cached": true,
+   "abstained": false
+  },
+  {
+   "id": "U05",
+   "type": "unanswerable",
+   "lang": "en",
+   "secs": 2.958,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U05",
+   "type": "unanswerable",
+   "lang": "hi",
+   "secs": 5.252,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U05",
+   "type": "unanswerable",
+   "lang": "ta",
+   "secs": 6.19,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U06",
+   "type": "unanswerable",
+   "lang": "en",
+   "secs": 2.701,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U06",
+   "type": "unanswerable",
+   "lang": "hi",
+   "secs": 5.529,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U06",
+   "type": "unanswerable",
+   "lang": "ta",
+   "secs": 5.592,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U07",
+   "type": "unanswerable",
+   "lang": "en",
+   "secs": 2.637,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U07",
+   "type": "unanswerable",
+   "lang": "hi",
+   "secs": 4.754,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U07",
+   "type": "unanswerable",
+   "lang": "ta",
+   "secs": 4.902,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U08",
+   "type": "unanswerable",
+   "lang": "en",
+   "secs": 0.122,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U08",
+   "type": "unanswerable",
+   "lang": "hi",
+   "secs": 2.514,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U08",
+   "type": "unanswerable",
+   "lang": "ta",
+   "secs": 2.661,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U09",
+   "type": "unanswerable",
+   "lang": "en",
+   "secs": 2.904,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U09",
+   "type": "unanswerable",
+   "lang": "hi",
+   "secs": 5.121,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U09",
+   "type": "unanswerable",
+   "lang": "ta",
+   "secs": 5.815,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U10",
+   "type": "unanswerable",
+   "lang": "en",
+   "secs": 2.716,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U10",
+   "type": "unanswerable",
+   "lang": "hi",
+   "secs": 5.2,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U10",
+   "type": "unanswerable",
+   "lang": "ta",
+   "secs": 5.297,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U11",
+   "type": "unanswerable",
+   "lang": "en",
+   "secs": 2.487,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U11",
+   "type": "unanswerable",
+   "lang": "hi",
+   "secs": 5.082,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U11",
+   "type": "unanswerable",
+   "lang": "ta",
+   "secs": 4.832,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U12",
+   "type": "unanswerable",
+   "lang": "en",
+   "secs": 2.588,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U12",
+   "type": "unanswerable",
+   "lang": "hi",
+   "secs": 4.707,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "U12",
+   "type": "unanswerable",
+   "lang": "ta",
+   "secs": 4.733,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "L05",
+   "type": "live",
+   "lang": "en",
+   "secs": 5.365,
+   "cached": false,
+   "abstained": false
+  },
+  {
+   "id": "L05",
+   "type": "live",
+   "lang": "hi",
+   "secs": 8.272,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "L05",
+   "type": "live",
+   "lang": "ta",
+   "secs": 7.999,
+   "cached": false,
+   "abstained": false
+  },
+  {
+   "id": "L06",
+   "type": "live",
+   "lang": "en",
+   "secs": 5.651,
+   "cached": false,
+   "abstained": false
+  },
+  {
+   "id": "L06",
+   "type": "live",
+   "lang": "hi",
+   "secs": 8.46,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "L06",
+   "type": "live",
+   "lang": "ta",
+   "secs": 8.216,
+   "cached": false,
+   "abstained": true
+  },
+  {
+   "id": "L07",
+   "type": "live",
+   "lang": "en",
+   "secs": 5.448,
+   "cached": false,
+   "abstained": false
+  },
+  {
+   "id": "L07",
+   "type": "live",
+   "lang": "hi",
+   "secs": 9.291,
+   "cached": false,
+   "abstained": false
+  },
+  {
+   "id": "L07",
+   "type": "live",
+   "lang": "ta",
+   "secs": 9.996,
+   "cached": false,
+   "abstained": false
+  }
+ ],
+ "voice": [
+  {
+   "qid": "A01",
+   "lang": "en",
+   "mode": "chosen",
+   "secs": 4.153,
+   "cached": true,
+   "transcript": "What should I do if flood water enters my house?",
+   "error": null
+  },
+  {
+   "qid": "A01",
+   "lang": "en",
+   "mode": "auto",
+   "secs": 18.96,
+   "cached": true,
+   "transcript": "What should I do if flood water enters my house?",
+   "error": null
+  },
+  {
+   "qid": "A01",
+   "lang": "hi",
+   "mode": "chosen",
+   "secs": 2.103,
+   "cached": true,
+   "transcript": "अगर बाड़ का पानी मेरे घर में घुस आए, तो मुझे क्या करना चाहिए?",
+   "error": null
+  },
+  {
+   "qid": "A01",
+   "lang": "hi",
+   "mode": "auto",
+   "secs": 3.321,
+   "cached": true,
+   "transcript": "अगर बाड का पानी मेरे घर में घुस आए तो मुझे क्या करना चाहिए?",
+   "error": null
+  },
+  {
+   "qid": "A01",
+   "lang": "ta",
+   "mode": "chosen",
+   "secs": 1.386,
+   "cached": true,
+   "transcript": "வெள்ளும் வீட்டுக்குள் வந்தால் நான் என்ன செய்யர் வேண்டும்",
+   "error": null
+  },
+  {
+   "qid": "A01",
+   "lang": "ta",
+   "mode": "auto",
+   "secs": 2.122,
+   "cached": true,
+   "transcript": "வெள்ளம் வீட்டுக்குள் வந்தால் நான் என்ன செய்ய வேண்டும்?",
+   "error": null
+  },
+  {
+   "qid": "A01",
+   "lang": "te",
+   "mode": "chosen",
+   "secs": 1.132,
+   "cached": true,
+   "transcript": "వరద నీరు నా ఇంట్లో కి వస్తి నేని ఏమి చేయాలి",
+   "error": null
+  },
+  {
+   "qid": "A01",
+   "lang": "te",
+   "mode": "auto",
+   "secs": 3.325,
+   "cached": true,
+   "transcript": "వరద నిరు నా ఇంట్ లోకి వస్తే నేను ఏమి చేయాలి?",
+   "error": null
+  },
+  {
+   "qid": "A01",
+   "lang": "kn",
+   "mode": "chosen",
+   "secs": 1.576,
+   "cached": true,
+   "transcript": "ಪ್ರವಾಹದ ನಿರು ನನ್ನ ಮನಗೆ ನುಗ್ಗಿದದೆ ನಾನು ಎನು ಮಡಬೇಕು?",
+   "error": null
+  },
+  {
+   "qid": "A01",
+   "lang": "kn",
+   "mode": "auto",
+   "secs": 4.211,
+   "cached": true,
+   "transcript": "ಪ್ರವಾಹದ ನಿರು ನನ್ನ ಮನಗೆ ನುಗ್ಗಿದವೇ ನಾನು ಎನು ಮಾಡಬೇಕು?",
+   "error": null
+  },
+  {
+   "qid": "A01",
+   "lang": "ml",
+   "mode": "chosen",
+   "secs": 12.757,
+   "cached": false,
+   "transcript": "വെള്ളപോ കത്തിലെ വെള്ലം എനേ വീടില് കയരിയാൽ ഞാന ഇന്ദു ചയയനം",
+   "error": null
+  },
+  {
+   "qid": "A01",
+   "lang": "ml",
+   "mode": "auto",
+   "secs": 55.056,
+   "cached": false,
+   "transcript": "വെള്ളപ്പോക്ക്കിലെ വെള്ളമ് എന്നിവിടും കയരിയെള് നാന് ഇന്നു ചേയെന്.",
+   "error": null
+  },
+  {
+   "qid": "A02",
+   "lang": "en",
+   "mode": "chosen",
+   "secs": 2.389,
+   "cached": true,
+   "transcript": "What should I do during an earthquake?",
+   "error": null
+  },
+  {
+   "qid": "A02",
+   "lang": "en",
+   "mode": "auto",
+   "secs": 10.982,
+   "cached": true,
+   "transcript": "What should I do during an earthquake?",
+   "error": null
+  },
+  {
+   "qid": "A02",
+   "lang": "hi",
+   "mode": "chosen",
+   "secs": 16.655,
+   "cached": false,
+   "transcript": "भूकम्प के दौरान मुझे क्या करना चाहिए?",
+   "error": null
+  },
+  {
+   "qid": "A02",
+   "lang": "hi",
+   "mode": "auto",
+   "secs": 13.293,
+   "cached": false,
+   "transcript": "भूकम के दोरान मुझे क्या करना चाहिए?",
+   "error": null
+  },
+  {
+   "qid": "A02",
+   "lang": "ta",
+   "mode": "chosen",
+   "secs": 14.643,
+   "cached": false,
+   "transcript": "நிலனடுக்கத்தின் போது நான் என்ன செய்ய வேண்டும்",
+   "error": null
+  },
+  {
+   "qid": "A02",
+   "lang": "ta",
+   "mode": "auto",
+   "secs": 14.067,
+   "cached": false,
+   "transcript": "நிலனடுக்கத்தின் போது நான் என்ன செய்ய வேண்டும்?",
+   "error": null
+  },
+  {
+   "qid": "A02",
+   "lang": "te",
+   "mode": "chosen",
+   "secs": 9.498,
+   "cached": false,
+   "transcript": "బూ కమ్పం సమియమ్ లో నేని యేమి చేయాలి",
+   "error": null
+  },
+  {
+   "qid": "A02",
+   "lang": "te",
+   "mode": "auto",
+   "secs": 27.606,
+   "cached": false,
+   "transcript": "బూకంపం సమేయం లో నేని ఏమి చేయాలి?",
+   "error": null
+  },
+  {
+   "qid": "A02",
+   "lang": "kn",
+   "mode": "chosen",
+   "secs": 2.767,
+   "cached": true,
+   "transcript": "ಭೂಕಂಪದ ಸಮಯದಲ್ಲಿ ನಾನು ಏನು ಮಡಬೇಕು?",
+   "error": null
+  },
+  {
+   "qid": "A02",
+   "lang": "kn",
+   "mode": "auto",
+   "secs": 15.516,
+   "cached": false,
+   "transcript": "ಬೂಕಮ್ಪದ ಸಮಯದಲ್ಲಿ ನಾನು ಏನು ಮಾಡಬೇಕು?",
+   "error": null
+  },
+  {
+   "qid": "A02",
+   "lang": "ml",
+   "mode": "chosen",
+   "secs": 13.006,
+   "cached": false,
+   "transcript": "ഭൂഗംപ സാമയത്ത്തു ന്യാന എന്ദു ചേയണം",
+   "error": null
+  },
+  {
+   "qid": "A02",
+   "lang": "ml",
+   "mode": "auto",
+   "secs": 23.088,
+   "cached": false,
+   "transcript": "ഭൂകമ്പസമേത് ന്യാന് എന്നിച്ചുള്ളിക്ക്ക്ക്ക്ക്ക്ക്ക്.",
+   "error": null
+  },
+  {
+   "qid": "A03",
+   "lang": "en",
+   "mode": "chosen",
+   "secs": 2.423,
+   "cached": true,
+   "transcript": "How should I prepare for a cyclone?",
+   "error": null
+  },
+  {
+   "qid": "A03",
+   "lang": "en",
+   "mode": "auto",
+   "secs": 1.751,
+   "cached": true,
+   "transcript": "How should I prepare for a cyclone?",
+   "error": null
+  },
+  {
+   "qid": "A03",
+   "lang": "hi",
+   "mode": "chosen",
+   "secs": 1.089,
+   "cached": true,
+   "transcript": "मुझे चक्रवात की तैयारी कैसे करनी चाहिए?",
+   "error": null
+  },
+  {
+   "qid": "A03",
+   "lang": "hi",
+   "mode": "auto",
+   "secs": 2.336,
+   "cached": true,
+   "transcript": "मुझे चक्रवात की तैयारी कैसे करनी चाहिए?",
+   "error": null
+  },
+  {
+   "qid": "A03",
+   "lang": "ta",
+   "mode": "chosen",
+   "secs": 0.988,
+   "cached": true,
+   "transcript": "புயலுக்கு நான் எப்படி தயாராக வெண்டும்",
+   "error": null
+  },
+  {
+   "qid": "A03",
+   "lang": "ta",
+   "mode": "auto",
+   "secs": 2.173,
+   "cached": true,
+   "transcript": "புயலுக்கு நான் எப்படி தயாராக வேண்டும்",
+   "error": null
+  },
+  {
+   "qid": "A03",
+   "lang": "te",
+   "mode": "chosen",
+   "secs": 1.188,
+   "cached": true,
+   "transcript": "తుఫానుకు నేను యలా సిద్ధం కావాలి",
+   "error": null
+  },
+  {
+   "qid": "A03",
+   "lang": "te",
+   "mode": "auto",
+   "secs": 15.614,
+   "cached": false,
+   "transcript": "తుఫోనుకు నేను ఎలా సిద్ధం కావాలి?",
+   "error": null
+  },
+  {
+   "qid": "A03",
+   "lang": "kn",
+   "mode": "chosen",
+   "secs": 11.451,
+   "cached": false,
+   "transcript": "ಶಂಡಮ ಆರುತಕ್ಕೆ ನಾನು ಹೇಗೆ ಸಿದ್ದರಾಗ ಬೇಕು.",
+   "error": null
+  },
+  {
+   "qid": "A03",
+   "lang": "kn",
+   "mode": "auto",
+   "secs": 17.425,
+   "cached": false,
+   "transcript": "ಶಂದಮಾರುತ್ತಕ್ಕೆ ನಾನು ಹೇಗೆ ಸಿದ್ಧರಾಗ ಬೇಕು.",
+   "error": null
+  },
+  {
+   "qid": "A03",
+   "lang": "ml",
+   "mode": "chosen",
+   "secs": 8.566,
+   "cached": false,
+   "transcript": "ചുളലിക കാതിനായി നാന എങ്ങറനേ തയാരിടുകണം",
+   "error": null
+  },
+  {
+   "qid": "A03",
+   "lang": "ml",
+   "mode": "auto",
+   "secs": 24.408,
+   "cached": false,
+   "transcript": "ചുള്ളിക്കാറ്റ് എന്നാം എങ്ങണേ തൈയാരിടുക്ക്ക്ക്ക്ക്ക്ക്ക്.",
+   "error": null
+  }
+ ]
+}

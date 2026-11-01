@@ -1,0 +1,141 @@
+=== Pre-flight check ===
+[PASS] chunks.jsonl
+[PASS] FAISS index
+[PASS] BM25 corpus
+[PASS] index/chunk counts match
+[PASS] Ollama reachable
+[PASS] Ollama model gemma4:e4b
+[PASS] Whisper model cached
+[PASS] Piper voice [en]
+[PASS] Piper voice [hi]
+[PASS] Piper voice [te]
+[PASS] Piper voice [ml]
+[PASS] HTTPS cert (certs/dev.crt)
+[PASS] port 8443 free
+[PASS] port 8001 free
+[PASS] port 8080 free
+[PASS] verified helplines present
+
+READY
+
+=== Starting server (wait ~30 s for model warm-up; Ctrl+C to stop) ===
+Open the https://... address printed below on this laptop or on your phone.
+APK download server (plain HTTP, for Android's Download Manager) on :8080
+Plain-HTTP API server (for the bundled Android app) on :8001
+
+=== Open one of these on the phone (same network as this laptop) ===
+  https://10.243.106.166:8443      (APK: http://10.243.106.166:8080/disaster-assistant.apk)
+If the phone can't connect, run scripts/open_firewall.ps1 once (as admin).
+
+INFO:     127.0.0.1:57751 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57751 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57751 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.166:57765 - "GET / HTTP/1.1" 200 OK
+INFO:     10.243.106.166:57767 - "GET / HTTP/1.1" 200 OK
+INFO:     10.243.106.166:57768 - "GET /api/health HTTP/1.1" 200 OK
+Warm-up: speech recognition and all voices loaded.
+INFO:     10.243.106.105:45490 - "GET / HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45490 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45492 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45490 - "GET /static/icon.svg HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45492 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45500 - "GET / HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45500 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45502 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45502 - "POST /api/tts HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45504 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45506 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45538 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51647 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51647 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60695 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55680 - "GET /static/manifest.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51647 - "GET /static/sw.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61602 - "GET /static/icon.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61602 - "GET /static/icon.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60695 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45550 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63260 - "POST /api/voice_ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63260 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65043 - "POST /api/tts HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45558 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65043 - "GET /static/icon.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54476 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45568 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54483 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45574 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61885 - "POST /api/voice_ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61885 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61885 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45588 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52581 - "POST /api/tts HTTP/1.1" 200 OK
+INFO:     10.243.106.166:49820 - "GET /?theme=dark HTTP/1.1" 200 OK
+INFO:     10.243.106.166:49820 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     10.243.106.166:53174 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     10.243.106.166:49675 - "GET /static/manifest.json HTTP/1.1" 200 OK
+INFO:     10.243.106.166:53174 - "GET /static/icon.svg HTTP/1.1" 200 OK
+INFO:     10.243.106.166:49820 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51200 - "GET /?theme=dark HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51200 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55335 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57323 - "GET /static/manifest.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50300 - "GET /static/sw.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50300 - "GET /static/icon.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50300 - "GET /static/icon.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61734 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54807 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45590 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56585 - "POST /api/voice_ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56585 - "POST /api/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57015 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45596 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55859 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45604 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55434 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45610 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50281 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45612 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45624 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45628 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45632 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45640 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45646 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50281 - "POST /api/voice_ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50281 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50281 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65290 - "POST /api/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57196 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52332 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45652 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61435 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45656 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45656 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59555 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45200 - "GET / HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45200 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45200 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45212 - "GET /static/icon.svg HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45212 - "GET /static/icon.svg HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45200 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45224 - "POST /api/voice_ask HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45230 - "POST /api/tts HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45224 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57676 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45234 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58802 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45254 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45262 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50924 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50927 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.166:50930 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65450 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45276 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61783 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54816 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64983 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50155 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62904 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54997 - "GET /api/health HTTP/1.1" 200 OK
+
+The server stopped. Scroll up for the reason, then press a key to close.
+Press any key to continue . . . 

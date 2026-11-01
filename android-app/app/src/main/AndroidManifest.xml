@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!--
+        usesCleartextTraffic is REQUIRED here, not optional. Android
+        defaults it to false for any app targeting API 28+ (ours targets
+        34), which silently blocks ALL plain-HTTP traffic. Without it,
+        both the one-time model download (ModelDownloader, port 8080) and
+        the Voice tab's calls (app.js, port 8001) fail outright.
+
+        Plain HTTP is used deliberately for those (see the docstrings on
+        server.py's _DownloadHandler and _start_plain_api_server) because
+        this server uses a self-signed cert that Android's download
+        manager and WebView background fetches don't reliably trust.
+        Acceptable only because this app talks exclusively to a local
+        Wi-Fi address the user controls, never the public internet.
+    -->
+    <!-- Android 11+ package visibility: lets the app see the system speech
+         recognition service (JsBridge.listenAndAsk). -->
+    <queries>
+        <intent>
+            <action android:name="android.speech.RecognitionService" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:usesCleartextTraffic="true"
+        android:theme="@android:style/Theme.DeviceDefault.NoActionBar">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:configChanges="orientation|screenSize|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

@@ -1,0 +1,16 @@
+{
+  "name": "Disaster Safety Assistant",
+  "short_name": "DisasterHelp",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b1320",
+  "theme_color": "#b3261e",
+  "icons": [
+    {
+      "src": "/static/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

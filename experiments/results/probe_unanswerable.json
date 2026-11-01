@@ -1,0 +1,682 @@
+[
+ {
+  "kind": "off_topic",
+  "question": "How do I invest in the stock market?",
+  "scores": [
+   [
+    0.7577824592590332,
+    19.934374653237327
+   ],
+   [
+    0.8174363374710083,
+    0.0
+   ],
+   [
+    0.8138191103935242,
+    0.0
+   ],
+   [
+    0.8131292462348938,
+    0.0
+   ],
+   [
+    0.8113671541213989,
+    0.0
+   ]
+  ],
+  "cats": [
+   "earthquake",
+   "nuclear_radiological_emergency",
+   "earthquake",
+   "cyclone",
+   "cold_wave"
+  ],
+  "top_text": "in more than 7,900 villages in 21 districts of Gujarat. The severe economic losses caused by the Gujarat earthquake were not only restricted"
+ },
+ {
+  "kind": "off_topic",
+  "question": "Teach me Python programming",
+  "scores": [
+   [
+    0.8312274813652039,
+    0.0
+   ],
+   [
+    0.7659436464309692,
+    5.302941933914967
+   ],
+   [
+    0.825478732585907,
+    0.0
+   ],
+   [
+    0.8244583606719971,
+    0.0
+   ],
+   [
+    0.824397623538971,
+    0.0
+   ]
+  ],
+  "cats": [
+   "flood",
+   "flood",
+   "flood",
+   "flood",
+   "flood"
+  ],
+  "top_text": "to the Development of the 129 Guidelines on Flood Management Contact Us 135 co n t e n tS"
+ },
+ {
+  "kind": "off_topic",
+  "question": "How do I file my income tax return?",
+  "scores": [
+   [
+    0.8133161664009094,
+    6.58301513717899
+   ],
+   [
+    0.7702542543411255,
+    10.796239047574495
+   ],
+   [
+    0.8110584020614624,
+    0.0
+   ],
+   [
+    0.7635480165481567,
+    10.097530984722264
+   ],
+   [
+    0.7909960150718689,
+    9.615209766794312
+   ]
+  ],
+  "cats": [
+   "nuclear_radiological_emergency",
+   "cyclone",
+   "cyclone",
+   "earthquake",
+   "cyclone"
+  ],
+  "top_text": "Eat only such covered items. • If you are out in the open, cover your face and body with a wet cloth. Return home quickly, remove footwear b"
+ },
+ {
+  "kind": "off_topic",
+  "question": "What is the score of the cricket match?",
+  "scores": [
+   [
+    0.7913321256637573,
+    0.0
+   ],
+   [
+    0.7550329566001892,
+    14.606385601787684
+   ],
+   [
+    0.7438954710960388,
+    14.19064774047866
+   ],
+   [
+    0.7392915487289429,
+    14.160074237834454
+   ],
+   [
+    0.7158710360527039,
+    14.096818301480337
+   ]
+  ],
+  "cats": [
+   "flood",
+   "flood",
+   "flood",
+   "cyclone",
+   "flood"
+  ],
+  "top_text": "40.50 23 Rajasthan 32.60 32.60 24 Sikkim - 0.20 25 T amil Nadu 4.50 4.50 26 T ripura 3.30 3.30 27 Uttar Pradesh 73.36 73.40 28 Uttarakhand -"
+ },
+ {
+  "kind": "off_topic",
+  "question": "Give me a recipe for margherita pizza",
+  "scores": [
+   [
+    0.7955430150032043,
+    7.255280372866756
+   ],
+   [
+    0.7861688137054443,
+    8.43012188779706
+   ],
+   [
+    0.7810477614402771,
+    9.070961163165366
+   ],
+   [
+    0.7968417406082153,
+    0.0
+   ],
+   [
+    0.7451237440109253,
+    9.401820576529854
+   ]
+  ],
+  "cats": [
+   "heat_wave",
+   "heat_wave",
+   "heat_wave",
+   "heat_wave",
+   "flood"
+  ],
+  "top_text": "BE SMART BE PREPARED DISASTER SURVIVAL GUIDE 72 73 which may generate unnecessary heat, as can computers or appliances. TIPS FOR TREATMENT O"
+ },
+ {
+  "kind": "off_topic",
+  "question": "Which movie should I watch this weekend?",
+  "scores": [
+   [
+    0.7994300127029419,
+    0.0
+   ],
+   [
+    0.7491592168807983,
+    10.517414849473312
+   ],
+   [
+    0.7786206007003784,
+    8.3373762144526
+   ],
+   [
+    0.7887887358665466,
+    0.0
+   ],
+   [
+    0.7784278392791748,
+    7.252129426829933
+   ]
+  ],
+  "cats": [
+   "flood",
+   "flood",
+   "drought",
+   "earthquake",
+   "thunderstorm_dust_storm_squall"
+  ],
+  "top_text": "iNs t i t u t i oNa l fr aMe w o r k aN D fiNaNc i a l ar r aNg eMeNt s 25 2.7 Action Plan"
+ },
+ {
+  "kind": "off_topic",
+  "question": "How do I learn to play the guitar?",
+  "scores": [
+   [
+    0.8016871213912964,
+    0.0
+   ],
+   [
+    0.7457975149154663,
+    14.031228797111915
+   ],
+   [
+    0.77360999584198,
+    13.79191027341188
+   ],
+   [
+    0.800216555595398,
+    0.0
+   ],
+   [
+    0.7977984547615051,
+    0.0
+   ]
+  ],
+  "cats": [
+   "cold_wave",
+   "cyclone",
+   "nuclear_radiological_emergency",
+   "earthquake",
+   "cyclone"
+  ],
+  "top_text": "• Stay indoors as much as possible, minimise travel to prevent exposure to cold wind. • Keep dry. If wet, change clothes quickly to prevent "
+ },
+ {
+  "kind": "off_topic",
+  "question": "Translate hello into French",
+  "scores": [
+   [
+    0.8216642141342163,
+    0.0
+   ],
+   [
+    0.7417168617248535,
+    8.087195002044915
+   ],
+   [
+    0.8192011713981628,
+    0.0
+   ],
+   [
+    0.8083205223083496,
+    0.0
+   ],
+   [
+    0.8052991628646851,
+    0.0
+   ]
+  ],
+  "cats": [
+   "flood",
+   "cyclone",
+   "flood",
+   "flood",
+   "flood"
+  ],
+  "top_text": "Fl o o d s-st a t u s a n d Co n t e x t 13 1.20 Action Plan"
+ },
+ {
+  "kind": "off_topic",
+  "question": "Which laptop is best for gaming?",
+  "scores": [
+   [
+    0.8008206486701965,
+    0.0
+   ],
+   [
+    0.7405428886413574,
+    7.393243051163045
+   ],
+   [
+    0.7276357412338257,
+    7.2057464834111755
+   ],
+   [
+    0.714814305305481,
+    7.1589658126044515
+   ],
+   [
+    0.7516233921051025,
+    6.855592825604956
+   ]
+  ],
+  "cats": [
+   "cyclone",
+   "flood",
+   "cyclone",
+   "earthquake",
+   "cyclone"
+  ],
+  "top_text": "in terms of operating systems like IRIX, HP UX, Sun Solaris, Linux, Windows 2000/ XP/Vista. By this strategy, a high scalability to follow t"
+ },
+ {
+  "kind": "off_topic",
+  "question": "Who is the prime minister of Japan?",
+  "scores": [
+   [
+    0.7538902759552002,
+    15.261690287544141
+   ],
+   [
+    0.7504777908325195,
+    15.41786505624756
+   ],
+   [
+    0.7738581895828247,
+    0.0
+   ],
+   [
+    0.7270594239234924,
+    15.203339957487161
+   ],
+   [
+    0.7461557388305664,
+    14.920984043956327
+   ]
+  ],
+  "cats": [
+   "cyclone",
+   "cyclone",
+   "flood",
+   "cyclone",
+   "earthquake"
+  ],
+  "top_text": "of the Department of Science and Technology (DST) brought the cyclone issues to the notice of the National Committee of Science and Technolo"
+ },
+ {
+  "kind": "near_topic_not_in_kb",
+  "question": "How do I treat a snake bite?",
+  "scores": [
+   [
+    0.8197289705276489,
+    12.519272366209123
+   ],
+   [
+    0.7930824160575867,
+    13.291056058740173
+   ],
+   [
+    0.8339191675186157,
+    0.0
+   ],
+   [
+    0.830862283706665,
+    0.0
+   ],
+   [
+    0.8178197145462036,
+    6.055352972819269
+   ]
+  ],
+  "cats": [
+   "flood",
+   "chemical_emergency",
+   "nuclear_radiological_emergency",
+   "cold_wave",
+   "heat_wave"
+  ],
+  "top_text": "unplug appliances - do not touch electrical equipment if wet. • Watch out for broken electric poles and wires, sharp objects and debris. • D"
+ },
+ {
+  "kind": "near_topic_not_in_kb",
+  "question": "What is the cure for dengue fever?",
+  "scores": [
+   [
+    0.8209809064865112,
+    0.0
+   ],
+   [
+    0.7392247915267944,
+    11.18559006002885
+   ],
+   [
+    0.7493664026260376,
+    10.841332700051925
+   ],
+   [
+    0.7803859114646912,
+    10.548531263938058
+   ],
+   [
+    0.7368901968002319,
+    10.364922585185266
+   ]
+  ],
+  "cats": [
+   "cold_wave",
+   "flood",
+   "flood",
+   "cyclone",
+   "cyclone"
+  ],
+  "top_text": "• Stay indoors as much as possible, minimise travel to prevent exposure to cold wind. • Keep dry. If wet, change clothes quickly to prevent "
+ },
+ {
+  "kind": "near_topic_not_in_kb",
+  "question": "What is the COVID vaccination schedule for children?",
+  "scores": [
+   [
+    0.8024755716323853,
+    8.744824427373704
+   ],
+   [
+    0.7792501449584961,
+    14.346559341155325
+   ],
+   [
+    0.7434717416763306,
+    13.439893929737199
+   ],
+   [
+    0.7909510135650635,
+    11.279158511277101
+   ],
+   [
+    0.7897671461105347,
+    11.082146099920795
+   ]
+  ],
+  "cats": [
+   "earthquake",
+   "earthquake",
+   "flood",
+   "earthquake",
+   "earthquake"
+  ],
+  "top_text": "of manpower. The schedule given in Table 10 (Pg 42) is considered reasonable at this juncture; all activities will be institutionalised by a"
+ },
+ {
+  "kind": "near_topic_not_in_kb",
+  "question": "How do I install solar panels on my roof?",
+  "scores": [
+   [
+    0.8082762956619263,
+    15.208723006221113
+   ],
+   [
+    0.8322134017944336,
+    0.0
+   ],
+   [
+    0.8299064636230469,
+    0.0
+   ],
+   [
+    0.8171452879905701,
+    10.3201671374993
+   ],
+   [
+    0.8170232772827148,
+    9.830496900147095
+   ]
+  ],
+  "cats": [
+   "heat_wave",
+   "fire",
+   "cyclone",
+   "cyclone",
+   "cyclone"
+  ],
+  "top_text": "BE SMART BE PREPARED DISASTER SURVIVAL GUIDE 68 69 will help reduce global warming and heat. • Don’t burn dry leaves, agriculture residue an"
+ },
+ {
+  "kind": "near_topic_not_in_kb",
+  "question": "How do I pass a driving test?",
+  "scores": [
+   [
+    0.7996478080749512,
+    11.995822330902282
+   ],
+   [
+    0.8243467211723328,
+    0.0
+   ],
+   [
+    0.8241517543792725,
+    0.0
+   ],
+   [
+    0.7879921793937683,
+    11.161940617316688
+   ],
+   [
+    0.7785645723342896,
+    10.137219676669952
+   ]
+  ],
+  "cats": [
+   "forest_fire",
+   "cyclone",
+   "thunderstorm_dust_storm_squall",
+   "fire",
+   "cyclone"
+  ],
+  "top_text": "BE SMART BE PREPARED DISASTER SURVIVAL GUIDE 62 63 • Do not drive through heavy smoke. If you can’t see what’s ahead, don’t risk danger. IN "
+ },
+ {
+  "kind": "near_topic_not_in_kb",
+  "question": "What is the history of the Taj Mahal?",
+  "scores": [
+   [
+    0.7516652345657349,
+    14.881107085852063
+   ],
+   [
+    0.7678108811378479,
+    0.0
+   ],
+   [
+    0.7284449338912964,
+    14.606385601787684
+   ],
+   [
+    0.7322063446044922,
+    14.330051000147254
+   ],
+   [
+    0.7099541425704956,
+    14.19064774047866
+   ]
+  ],
+  "cats": [
+   "flood",
+   "flood",
+   "flood",
+   "flood",
+   "flood"
+  ],
+  "top_text": "a priority area. National and regional libraries and information centres will be encouraged to build significant repositories of technical r"
+ },
+ {
+  "kind": "near_topic_not_in_kb",
+  "question": "What is the population of Tamil Nadu?",
+  "scores": [
+   [
+    0.8057966232299805,
+    17.758737263924193
+   ],
+   [
+    0.804941713809967,
+    17.420576199522614
+   ],
+   [
+    0.7949474453926086,
+    19.551084721039608
+   ],
+   [
+    0.799674928188324,
+    17.33612910737847
+   ],
+   [
+    0.8006076812744141,
+    16.288425307314515
+   ]
+  ],
+  "cats": [
+   "cyclone",
+   "cyclone",
+   "earthquake",
+   "cyclone",
+   "cyclone"
+  ],
+  "top_text": "adverse impacts. This coping capacity also includes defence mechanisms and access to resources (e.g., education and infrastructure) as well "
+ },
+ {
+  "kind": "near_topic_not_in_kb",
+  "question": "How does a nuclear power plant generate electricity?",
+  "scores": [
+   [
+    0.7932278513908386,
+    15.035298042101868
+   ],
+   [
+    0.8134956955909729,
+    0.0
+   ],
+   [
+    0.7570692896842957,
+    14.544829152139586
+   ],
+   [
+    0.7968034744262695,
+    11.461162747774544
+   ],
+   [
+    0.8018248081207275,
+    0.0
+   ]
+  ],
+  "cats": [
+   "earthquake",
+   "cyclone",
+   "flood",
+   "nuclear_radiological_emergency",
+   "cyclone"
+  ],
+  "top_text": "Congress every four years and currently has a membership of over 1,400 geologists, architects, engineers and seismologists. 1.6.2 The Univer"
+ },
+ {
+  "kind": "near_topic_not_in_kb",
+  "question": "How do I learn to swim?",
+  "scores": [
+   [
+    0.830382227897644,
+    8.292323203922919
+   ],
+   [
+    0.8352712392807007,
+    0.0
+   ],
+   [
+    0.8078296184539795,
+    11.481389597652928
+   ],
+   [
+    0.8336905241012573,
+    0.0
+   ],
+   [
+    0.7858437299728394,
+    11.11010329012996
+   ]
+  ],
+  "cats": [
+   "tsunami",
+   "tsunami",
+   "nuclear_radiological_emergency",
+   "cold_wave",
+   "cyclone"
+  ],
+  "top_text": "family about tsunami risk. • Prepare an ‘emergency kit’ and make a family communications plan. • Know the height of your street above sea le"
+ },
+ {
+  "kind": "near_topic_not_in_kb",
+  "question": "How do I get a flood insurance claim approved?",
+  "scores": [
+   [
+    0.843666672706604,
+    12.28194444891059
+   ],
+   [
+    0.8358615040779114,
+    12.764897433682805
+   ],
+   [
+    0.8437349796295166,
+    11.043505764844593
+   ],
+   [
+    0.8553389310836792,
+    0.0
+   ],
+   [
+    0.8233559131622314,
+    11.783735294834976
+   ]
+  ],
+  "cats": [
+   "flood",
+   "flood",
+   "flood",
+   "cyclone",
+   "flood"
+  ],
+  "top_text": "by excessive rainfall is taken care of. The insurance companies have not been able to arrive at the different rates of insurance premiua for"
+ }
+]

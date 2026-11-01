@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 13+ themed icon: the shield with the "!" cut out (one colour). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group android:scaleX="1.2" android:scaleY="1.2" android:translateX="25.2" android:translateY="25.2">
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:fillType="evenOdd"
+            android:pathData="M24,3 L43,11 V23 C43,34 35,42 24,45 C13,42 5,34 5,23 V11 Z M21.3,13 h5.4 v17 h-5.4 z M21.2,35.6 a2.8,2.8 0 1,0 5.6,0 a2.8,2.8 0 1,0 -5.6,0 z" />
+    </group>
+</vector>

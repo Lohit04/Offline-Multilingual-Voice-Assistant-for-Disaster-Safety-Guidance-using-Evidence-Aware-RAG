@@ -1,0 +1,164 @@
+INFO:     Started server process [23080]
+INFO:     Started server process [23080]
+INFO:     Waiting for application startup.
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     Uvicorn running on https://0.0.0.0:8443 (Press CTRL+C to quit)
+'[Errno 11001] offline guard: name resolution disabled' thrown while requesting HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/./config_sentence_transformers.json
+Retrying in 1s [Retry 1/5].
+'[Errno 11001] offline guard: name resolution disabled' thrown while requesting HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/./config_sentence_transformers.json
+Retrying in 2s [Retry 2/5].
+'[Errno 11001] offline guard: name resolution disabled' thrown while requesting HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/./config_sentence_transformers.json
+Retrying in 4s [Retry 3/5].
+'[Errno 11001] offline guard: name resolution disabled' thrown while requesting HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/./config_sentence_transformers.json
+Retrying in 8s [Retry 4/5].
+'[Errno 11001] offline guard: name resolution disabled' thrown while requesting HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/./config_sentence_transformers.json
+Retrying in 8s [Retry 5/5].
+Exception in callback _ProactorBasePipeTransport._call_connection_lost()
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost()>
+Traceback (most recent call last):
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+'[Errno 11001] offline guard: name resolution disabled' thrown while requesting HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/./config_sentence_transformers.json
+'[Errno 11001] offline guard: name resolution disabled' thrown while requesting HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/./config_sentence_transformers.json
+Retrying in 1s [Retry 1/5].
+'[Errno 11001] offline guard: name resolution disabled' thrown while requesting HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/./config_sentence_transformers.json
+Retrying in 2s [Retry 2/5].
+'[Errno 11001] offline guard: name resolution disabled' thrown while requesting HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/./config_sentence_transformers.json
+Retrying in 4s [Retry 3/5].
+'[Errno 11001] offline guard: name resolution disabled' thrown while requesting HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/./config_sentence_transformers.json
+Retrying in 8s [Retry 4/5].
+'[Errno 11001] offline guard: name resolution disabled' thrown while requesting HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/./config_sentence_transformers.json
+Retrying in 8s [Retry 5/5].
+'[Errno 11001] offline guard: name resolution disabled' thrown while requesting HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/./config_sentence_transformers.json
+'[Errno 11001] offline guard: name resolution disabled' thrown while requesting HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/adapter_config.json
+Retrying in 1s [Retry 1/5].
+'[Errno 11001] offline guard: name resolution disabled' thrown while requesting HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/adapter_config.json
+Retrying in 2s [Retry 2/5].
+'[Errno 11001] offline guard: name resolution disabled' thrown while requesting HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/adapter_config.json
+Retrying in 4s [Retry 3/5].
+'[Errno 11001] offline guard: name resolution disabled' thrown while requesting HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/adapter_config.json
+Retrying in 8s [Retry 4/5].
+'[Errno 11001] offline guard: name resolution disabled' thrown while requesting HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/adapter_config.json
+Retrying in 8s [Retry 5/5].
+'[Errno 11001] offline guard: name resolution disabled' thrown while requesting HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/adapter_config.json
+Could not reach the Hub ([Errno 11001] offline guard: name resolution disabled). Using cached commit hash for 'intfloat/multilingual-e5-small'.
+Could not reach the Hub ([Errno 11001] offline guard: name resolution disabled). Using cached commit hash for 'intfloat/multilingual-e5-small'.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2022.40it/s]
+Could not reach the Hub ([Errno 11001] offline guard: name resolution disabled). Using cached commit hash for 'intfloat/multilingual-e5-small'.
+'[Errno 11001] offline guard: name resolution disabled' thrown while requesting HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/2_Normalize/config.json
+Retrying in 1s [Retry 1/5].
+'[Errno 11001] offline guard: name resolution disabled' thrown while requesting HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/2_Normalize/config.json
+Retrying in 2s [Retry 2/5].
+'[Errno 11001] offline guard: name resolution disabled' thrown while requesting HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/2_Normalize/config.json
+Retrying in 4s [Retry 3/5].
+'[Errno 11001] offline guard: name resolution disabled' thrown while requesting HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/2_Normalize/config.json
+Retrying in 8s [Retry 4/5].
+'[Errno 11001] offline guard: name resolution disabled' thrown while requesting HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/2_Normalize/config.json
+Retrying in 8s [Retry 5/5].
+'[Errno 11001] offline guard: name resolution disabled' thrown while requesting HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/2_Normalize/config.json
+Could not reach the Hub ([Errno 11001] offline guard: name resolution disabled). Using cached commit hash for 'facebook/mms-tts-tam'.
+Loading weights:   0%|          | 0/762 [00:00<?, ?it/s]Loading weights:  39%|███▉      | 296/762 [00:00<00:00, 2939.55it/s]Loading weights:  77%|███████▋  | 590/762 [00:00<00:00, 2518.09it/s]Loading weights: 100%|██████████| 762/762 [00:00<00:00, 3178.56it/s]
+Could not reach the Hub ([Errno 11001] offline guard: name resolution disabled). Using cached commit hash for 'facebook/mms-tts-tam'.
+Could not reach the Hub ([Errno 11001] offline guard: name resolution disabled). Using cached commit hash for 'facebook/mms-tts-kan'.
+Loading weights:   0%|          | 0/762 [00:00<?, ?it/s]Loading weights:  37%|███▋      | 284/762 [00:00<00:00, 2837.61it/s]Loading weights:  75%|███████▍  | 568/762 [00:00<00:00, 2339.93it/s]Loading weights: 100%|██████████| 762/762 [00:00<00:00, 3071.67it/s]
+Could not reach the Hub ([Errno 11001] offline guard: name resolution disabled). Using cached commit hash for 'facebook/mms-tts-kan'.
+Exception in callback _ProactorBasePipeTransport._call_connection_lost()
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost()>
+Traceback (most recent call last):
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+Exception in callback _ProactorBasePipeTransport._call_connection_lost()
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost()>
+Traceback (most recent call last):
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+Exception in callback _ProactorBasePipeTransport._call_connection_lost()
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost()>
+Traceback (most recent call last):
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+Exception in callback _ProactorBasePipeTransport._call_connection_lost()
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost()>
+Traceback (most recent call last):
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+Exception in callback _ProactorBasePipeTransport._call_connection_lost()
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost()>
+Traceback (most recent call last):
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+Exception in callback _ProactorBasePipeTransport._call_connection_lost()
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost()>
+Traceback (most recent call last):
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+Exception in callback _ProactorBasePipeTransport._call_connection_lost()
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost()>
+Traceback (most recent call last):
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+Exception in callback _ProactorBasePipeTransport._call_connection_lost()
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost()>
+Traceback (most recent call last):
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+Exception in callback _ProactorBasePipeTransport._call_connection_lost()
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost()>
+Traceback (most recent call last):
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+10.243.106.105 - - [14/Oct/2026 11:44:17] "GET /disaster-assistant.apk HTTP/1.1" 304 -
+10.243.106.105 - - [14/Oct/2026 11:44:30] "GET /disaster-assistant.apk HTTP/1.1" 200 -

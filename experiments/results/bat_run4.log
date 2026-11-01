@@ -1,0 +1,100 @@
+Stopped 1 old server process(es).
+=== Pre-flight check ===
+[PASS] chunks.jsonl
+[PASS] FAISS index
+[PASS] BM25 corpus
+[PASS] index/chunk counts match
+[PASS] Ollama reachable
+[PASS] Ollama model gemma4:e4b
+[PASS] Whisper model cached
+[PASS] Piper voice [en]
+[PASS] Piper voice [hi]
+[PASS] Piper voice [te]
+[PASS] Piper voice [ml]
+[PASS] HTTPS cert (certs/dev.crt)
+[PASS] port 8443 free
+[PASS] port 8001 free
+[PASS] port 8080 free
+[PASS] verified helplines present
+
+READY
+
+=== Starting server (wait ~30 s for model warm-up; Ctrl+C to stop) ===
+Open the https://... address printed below on this laptop or on your phone.
+APK download server (plain HTTP, for Android's Download Manager) on :8080
+Plain-HTTP API server (for the bundled Android app) on :8001
+
+=== Open one of these on the phone (same network as this laptop) ===
+  https://172.17.76.13:8443      (APK: http://172.17.76.13:8080/disaster-assistant.apk)
+If the phone can't connect, run scripts/open_firewall.ps1 once (as admin).
+
+INFO:     127.0.0.1:50646 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50646 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50654 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50671 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50689 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50708 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50728 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50746 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51792 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51819 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51845 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51881 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51886 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51882 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51879 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51880 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51883 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51885 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51884 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51982 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51999 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52017 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52044 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52061 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52080 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52082 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52092 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52094 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60703 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60723 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54583 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62217 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62235 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62237 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62247 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62249 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62266 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62285 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62311 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62329 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62348 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49873 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58947 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58950 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60916 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60916 - "GET /static/style.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:60916 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60655 - "GET /static/manifest.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63556 - "GET /static/icon.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63556 - "GET /static/icon.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57407 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60916 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60916 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58660 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57580 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58725 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62353 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62370 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52554 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52604 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53359 - "POST /api/voice_ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53359 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53359 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53359 - "GET /static/icon.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58883 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62169 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49766 - "GET /api/health HTTP/1.1" 200 OK
+
+The server stopped. Scroll up for the reason, then press a key to close.
+Press any key to continue . . . 

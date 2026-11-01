@@ -1,0 +1,237 @@
+APK download server (plain HTTP, for Android's Download Manager) on :8080
+Plain-HTTP API server (for the bundled Android app) on :8001
+
+=== Open one of these on the phone (same network as this laptop) ===
+  https://172.17.76.13:8443      (APK: http://172.17.76.13:8080/disaster-assistant.apk)
+If the phone can't connect, run scripts/open_firewall.ps1 once (as admin).
+
+INFO:     Started server process [34772]
+INFO:     Waiting for application startup.
+INFO:     Started server process [34772]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     Uvicorn running on https://0.0.0.0:8443 (Press CTRL+C to quit)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  63%|██████▎   | 125/199 [00:00<00:00, 1249.90it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 1846.28it/s]
+INFO:     127.0.0.1:52987 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52990 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52992 - "POST /api/ask HTTP/1.1" 422 Unprocessable Content
+INFO:     127.0.0.1:53001 - "POST /api/ask HTTP/1.1" 422 Unprocessable Content
+INFO:     127.0.0.1:53004 - "POST /api/ask HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:53006 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53008 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53010 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53012 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53014 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53016 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50994 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51004 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51007 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51017 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51027 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51037 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51063 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51073 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51075 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51085 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51107 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51119 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51129 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51146 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51164 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51181 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51206 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51224 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51242 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51261 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51279 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51288 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59110 - "POST /api/voice_ask HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 416, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\fastapi\applications.py", line 1134, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\starlette\applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\starlette\middleware\cors.py", line 87, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\fastapi\routing.py", line 119, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\fastapi\routing.py", line 105, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\fastapi\routing.py", line 424, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\fastapi\routing.py", line 312, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ganes\OneDrive\Documents\NLP\src\disaster_assistant\api\server.py", line 127, in voice_ask
+    result = process_voice_question(get_retriever(), in_path, out_path)
+  File "C:\Users\ganes\OneDrive\Documents\NLP\src\disaster_assistant\pipeline.py", line 44, in process_voice_question
+    stt = transcribe(audio_path)
+  File "C:\Users\ganes\OneDrive\Documents\NLP\src\disaster_assistant\audio\asr.py", line 70, in transcribe
+    segments, info = model.transcribe(audio_path, beam_size=5)
+                     ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\faster_whisper\transcribe.py", line 876, in transcribe
+    audio = decode_audio(audio, sampling_rate=sampling_rate)
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\faster_whisper\audio.py", line 46, in decode_audio
+    with av.open(input_file, mode="r", metadata_errors="ignore") as container:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "av/container/core.py", line 578, in av.container.core.open
+    return InputContainer(
+    ^^^
+  File "av/container/core.py", line 344, in av.container.core.Container.__cinit__
+    self.err_check(res)
+    
+  File "av/container/core.py", line 369, in av.container.core.Container.err_check
+    return err_check(value, filename=self.name)
+    ^^^
+  File "av/error.py", line 354, in av.error.err_check
+    raise cls(code, message, filename, log)
+    ^^^
+av.error.InvalidDataError: [Errno 1094995529] Invalid data found when processing input: 'C:\\Users\\ganes\\AppData\\Local\\Temp\\tmpixuct2vb\\question.audio'
+INFO:     127.0.0.1:59113 - "POST /api/voice_ask HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 416, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\fastapi\applications.py", line 1134, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\starlette\applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\starlette\middleware\cors.py", line 87, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\fastapi\routing.py", line 119, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\fastapi\routing.py", line 105, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\fastapi\routing.py", line 424, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\fastapi\routing.py", line 312, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ganes\OneDrive\Documents\NLP\src\disaster_assistant\api\server.py", line 127, in voice_ask
+    result = process_voice_question(get_retriever(), in_path, out_path)
+  File "C:\Users\ganes\OneDrive\Documents\NLP\src\disaster_assistant\pipeline.py", line 44, in process_voice_question
+    stt = transcribe(audio_path)
+  File "C:\Users\ganes\OneDrive\Documents\NLP\src\disaster_assistant\audio\asr.py", line 70, in transcribe
+    segments, info = model.transcribe(audio_path, beam_size=5)
+                     ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\faster_whisper\transcribe.py", line 876, in transcribe
+    audio = decode_audio(audio, sampling_rate=sampling_rate)
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\site-packages\faster_whisper\audio.py", line 46, in decode_audio
+    with av.open(input_file, mode="r", metadata_errors="ignore") as container:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "av/container/core.py", line 578, in av.container.core.open
+    return InputContainer(
+    ^^^
+  File "av/container/core.py", line 344, in av.container.core.Container.__cinit__
+    self.err_check(res)
+    
+  File "av/container/core.py", line 369, in av.container.core.Container.err_check
+    return err_check(value, filename=self.name)
+    ^^^
+  File "av/error.py", line 354, in av.error.err_check
+    raise cls(code, message, filename, log)
+    ^^^
+av.error.InvalidDataError: [Errno 1094995529] Invalid data found when processing input: 'C:\\Users\\ganes\\AppData\\Local\\Temp\\tmp4564z18q\\question.audio'
+INFO:     127.0.0.1:59115 - "POST /api/voice_ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59407 - "POST /api/voice_ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59426 - "POST /api/voice_ask HTTP/1.1" 200 OK
+Loading weights:   0%|          | 0/762 [00:00<?, ?it/s]Loading weights:  30%|███       | 229/762 [00:00<00:00, 2271.22it/s]Loading weights:  60%|█████▉    | 457/762 [00:00<00:00, 1990.32it/s]Loading weights: 100%|██████████| 762/762 [00:00<00:00, 3071.87it/s]
+INFO:     127.0.0.1:50031 - "POST /api/voice_ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50058 - "POST /api/voice_ask HTTP/1.1" 200 OK
+Loading weights:   0%|          | 0/762 [00:00<?, ?it/s]Loading weights:  28%|██▊       | 217/762 [00:00<00:00, 2168.50it/s]Loading weights:  57%|█████▋    | 434/762 [00:00<00:00, 2008.64it/s]Loading weights: 100%|██████████| 762/762 [00:00<00:00, 3186.02it/s]
+INFO:     127.0.0.1:58425 - "POST /api/voice_ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58473 - "POST /api/voice_ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58515 - "POST /api/voice_ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58540 - "POST /api/voice_ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58582 - "POST /api/voice_ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50414 - "POST /api/voice_ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61785 - "POST /api/voice_ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61811 - "POST /api/voice_ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62857 - "POST /api/voice_ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62859 - "POST /api/voice_ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62877 - "POST /api/voice_ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62887 - "POST /api/voice_ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62916 - "POST /api/voice_ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62953 - "POST /api/voice_ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62970 - "POST /api/voice_ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62980 - "POST /api/voice_ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62989 - "POST /api/voice_ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63015 - "POST /api/voice_ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63033 - "POST /api/voice_ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63062 - "POST /api/voice_ask HTTP/1.1" 200 OK

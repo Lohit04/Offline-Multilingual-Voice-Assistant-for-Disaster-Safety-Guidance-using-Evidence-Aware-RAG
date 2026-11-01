@@ -1,0 +1,55 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace 'com.disasterassistant.app'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.disasterassistant.app"
+        minSdk 24
+        targetSdk 34
+        // Bumped whenever a build needs to be visibly distinguishable on a
+        // phone that already has an earlier build installed -- see the
+        // on-page build tag in app.js, which reports this versionName.
+        versionCode 33
+        versionName "4.8"
+        // Virtually all phones from the last ~8 years are arm64 -- limiting
+        // to one ABI avoids bundling multiple native-library copies for
+        // MediaPipe/whisper.cpp, which would otherwise bloat the APK.
+        ndk {
+            abiFilters "arm64-v8a"
+        }
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+        }
+    }
+
+    // MediaPipe's tasks-genai 0.10.27 ships class files requiring Java 21
+    // (class file version 65.0) -- found directly via a real build failure
+    // ("class file has wrong version 65.0, should be 61.0") when this was
+    // left at the project's prior default (Java 17). Needs a JDK 21
+    // installed, not just this compatibility setting.
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_21
+        targetCompatibility JavaVersion.VERSION_21
+    }
+
+    packagingOptions {
+        jniLibs {
+            useLegacyPackaging = true
+        }
+    }
+}
+
+dependencies {
+    // 0.10.27 -> 0.10.35: on a real device (vivo iQOO Z3, 2026-10-14),
+    // 0.10.27 failed every generation with "tflite: Input tensor 175 lacks
+    // data" during prefill, even with a tiny prompt and CPU backend --
+    // i.e. the litert-community Qwen2.5 .task file expects a graph input
+    // the older runtime never fills.
+    implementation 'com.google.mediapipe:tasks-genai:0.10.35'
+    implementation 'dev.ffmpegkit-maintained:whisper-android:1.0.0'
+}

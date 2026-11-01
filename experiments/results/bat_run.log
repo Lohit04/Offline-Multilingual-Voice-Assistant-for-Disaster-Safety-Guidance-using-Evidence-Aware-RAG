@@ -1,0 +1,33 @@
+=== Pre-flight check ===
+[PASS] chunks.jsonl
+[PASS] FAISS index
+[PASS] BM25 corpus
+[PASS] index/chunk counts match
+[PASS] Ollama reachable
+[PASS] Ollama model gemma4:e4b
+[PASS] Whisper model cached
+[PASS] Piper voice [en]
+[PASS] Piper voice [hi]
+[PASS] Piper voice [te]
+[PASS] Piper voice [ml]
+[PASS] HTTPS cert (certs/dev.crt)
+[PASS] port 8443 free
+[PASS] port 8001 free
+[PASS] port 8080 free
+[PASS] verified helplines present
+
+READY
+
+=== Starting server (wait ~30 s for model warm-up; Ctrl+C to stop) ===
+APK download server (plain HTTP, for Android's Download Manager) on :8080
+Plain-HTTP API server (for the bundled Android app) on :8001
+
+=== Open one of these on the phone (same network as this laptop) ===
+  https://172.17.76.13:8443      (APK: http://172.17.76.13:8080/disaster-assistant.apk)
+If the phone can't connect, run scripts/open_firewall.ps1 once (as admin).
+
+INFO:     172.17.76.13:52415 - "GET / HTTP/1.1" 200 OK
+INFO:     172.17.76.13:52416 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52419 - "POST /api/voice_ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52440 - "POST /api/voice_ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52466 - "POST /api/voice_ask HTTP/1.1" 200 OK

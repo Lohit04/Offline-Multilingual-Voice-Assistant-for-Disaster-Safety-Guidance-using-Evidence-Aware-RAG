@@ -1,0 +1,111 @@
+{
+  "documents": [
+    {
+      "document_id": "ndma_floods_2008",
+      "title": "National Disaster Management Guidelines: Management of Floods",
+      "issuing_authority": "National Disaster Management Authority, Government of India",
+      "source_url": "https://nidm.gov.in/pdf/guidelines/floods.pdf",
+      "publication_date": "2008",
+      "last_verified_date": "2026-10-10",
+      "document_version": "1",
+      "language": "en",
+      "disaster_category": "flood",
+      "file_path": "data/raw/ndma_guidelines/ndma_floods_guidelines.pdf",
+      "sha256": "2fc4518a29c249c91d223eb6edb6f5cba23d3fa85eaaa8a71d319bdde451981f",
+      "page_count": 168,
+      "review_status": "unreviewed_machine_extraction",
+      "notes": "Publication year inferred from foreword text ('average annual flood damage during the last 10 years (1996-2005)') and corroborating search-result descriptions; PDF metadata only carries a 2004 CreationDate, which appears to be from an earlier draft/template file, not the publication date. Flag for human verification before being cited as fact in the report."
+    },
+    {
+      "document_id": "ndma_earthquakes_2007",
+      "title": "National Disaster Management Guidelines: Management of Earthquakes",
+      "issuing_authority": "National Disaster Management Authority, Government of India",
+      "source_url": "https://nidm.gov.in/PDF/pubs/NDMA/a.pdf",
+      "publication_date": "2007-04",
+      "last_verified_date": "2026-10-10",
+      "document_version": "1",
+      "language": "en",
+      "disaster_category": "earthquake",
+      "file_path": "data/raw/ndma_guidelines/ndma_earthquakes_guidelines.pdf",
+      "sha256": "d2a2ea791cdba329c050c655e450c6b62978641e2fd32ca48562879b62a62c60",
+      "page_count": 74,
+      "review_status": "unreviewed_machine_extraction",
+      "notes": "Date 'April 2007' is printed directly on the document's title page (page 1 of extracted text)."
+    },
+    {
+      "document_id": "ndma_cyclones_2008",
+      "title": "National Disaster Management Guidelines: Management of Cyclones",
+      "issuing_authority": "National Disaster Management Authority, Government of India",
+      "source_url": "https://nidm.gov.in/PDF/pubs/NDMA/4.pdf",
+      "publication_date": "2008-04",
+      "last_verified_date": "2026-10-10",
+      "document_version": "1",
+      "language": "en",
+      "disaster_category": "cyclone",
+      "file_path": "data/raw/ndma_guidelines/ndma_cyclones_guidelines.pdf",
+      "sha256": "1993299df4a1fd72ce26e9ef3737ec6f7e233223f339b0adce6d438596e47b27",
+      "page_count": 190,
+      "review_status": "unreviewed_machine_extraction",
+      "notes": "Date inferred from PDF CreationDate metadata (2008-04-19), consistent with April 2008."
+    },
+    {
+      "document_id": "ndma_disaster_survival_guide_2020",
+      "title": "Disaster Survival Guide (Be Smart Be Prepared)",
+      "issuing_authority": "National Disaster Management Authority, Government of India",
+      "source_url": "https://sdma.cg.gov.in/Disaster%20survival%20guide.pdf",
+      "publication_date": "2019-2020",
+      "last_verified_date": "2026-10-10",
+      "document_version": "1",
+      "language": "en",
+      "disaster_category": "multi",
+      "file_path": "data/raw/ndma_guidelines/ndma_disaster_survival_guide.pdf",
+      "sha256": "8b3578112c71873806d78e7fd6e4196b4726e75e35dec1ee23c7dfabf9367410",
+      "page_count": 61,
+      "review_status": "unreviewed_machine_extraction",
+      "notes": "Citizen-facing IEC pocket book of Do's/Don'ts per hazard (Before/During/After), authored by NDMA per its own front matter (Foreword, NDMA acknowledgements), mirrored here from the Chhattisgarh State Disaster Management Authority's website (sdma.cg.gov.in) -- that domain's TLS certificate chain did not verify during fetch (fetched with cert verification bypassed; content itself is unaffected, but re-verify via an NDMA-hosted copy if one is found). Date range inferred from PDF CreationDate (2019-09-24) and ModDate (2020-11-05) metadata. All 18 hazard sections in the file are now ingested (expanded 2026-10-10 from an initial 3-category subset, per user request to broaden question coverage) -- see page_ranges below, derived from direct inspection of extracted page text page-by-page, not from the document's own table of contents (which does not match the actual section order/positions -- e.g. it claims Floods=50 appearing after Fire=46, but real content has Floods before Fire).",
+      "page_ranges": [
+        {"start_page": 8, "end_page": 10, "category": "avalanche"},
+        {"start_page": 11, "end_page": 12, "category": "biological_emergency"},
+        {"start_page": 13, "end_page": 15, "category": "chemical_emergency"},
+        {"start_page": 16, "end_page": 17, "category": "cold_wave"},
+        {"start_page": 18, "end_page": 20, "category": "cyclone"},
+        {"start_page": 21, "end_page": 22, "category": "drought"},
+        {"start_page": 23, "end_page": 26, "category": "earthquake"},
+        {"start_page": 27, "end_page": 29, "category": "flood"},
+        {"start_page": 30, "end_page": 34, "category": "fire"},
+        {"start_page": 35, "end_page": 38, "category": "forest_fire"},
+        {"start_page": 39, "end_page": 43, "category": "heat_wave"},
+        {"start_page": 44, "end_page": 45, "category": "landslide"},
+        {"start_page": 46, "end_page": 47, "category": "lightning"},
+        {"start_page": 48, "end_page": 49, "category": "nuclear_radiological_emergency"},
+        {"start_page": 50, "end_page": 51, "category": "smog_air_pollution"},
+        {"start_page": 52, "end_page": 54, "category": "thunderstorm_dust_storm_squall"},
+        {"start_page": 55, "end_page": 57, "category": "tsunami"},
+        {"start_page": 58, "end_page": 59, "category": "urban_flood"}
+      ]
+    }
+  ],
+  "verified_contacts": [
+    {
+      "label": "Tamil Nadu State Disaster Management Authority -- State control room",
+      "phone": "1070",
+      "source_url": "https://tnsdma.tn.gov.in/pages/view/flood",
+      "last_verified_date": "2026-10-10",
+      "notes": "Read directly off TNSDMA's own site footer/contact section during this session -- not independently cross-checked against a second source. Re-verify before relying on this for a live demo; helpline numbers can change."
+    },
+    {
+      "label": "Tamil Nadu State Disaster Management Authority -- District control room",
+      "phone": "1077",
+      "source_url": "https://tnsdma.tn.gov.in/pages/view/flood",
+      "last_verified_date": "2026-10-10",
+      "notes": "Same caveat as above."
+    },
+    {
+      "label": "India national emergency number",
+      "phone": "112",
+      "source_url": null,
+      "last_verified_date": "2026-10-10",
+      "notes": "Well-established public knowledge (Dept. of Telecommunications' single emergency number), not sourced from a specific fetched document."
+    }
+  ]
+}

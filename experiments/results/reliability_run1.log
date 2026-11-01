@@ -1,0 +1,18 @@
+== 1. repeatability (same question x3 must give identical text) ==
+  IDENTICAL What should I do if floodwater enters my house?
+  IDENTICAL What should I do during an earthquake?
+  IDENTICAL How should I prepare for a cyclone?
+== 2. concurrency (8 simultaneous requests) ==
+  http=200 abstained=False 15.6s  What should I do if floodwater enters my house?
+  http=200 abstained=False 10.2s  What should I do during an earthquake?
+  http=200 abstained=False 25.6s  How should I prepare for a cyclone?
+  http=200 abstained=False 23.2s  How can I stay safe during a cold wave?
+  http=200 abstained=False 19.1s  What should I do if there is a tsunami warning?
+  http=200 abstained=True 2.3s  Who won the cricket match yesterday?
+  http=200 abstained=True 7.1s  How do I cook chicken biryani?
+  http=200 abstained=True 2.3s  What is the capital of France?
+  wall time 25.6s; all 200: True; answer/abstain as expected: True
+== 3. soak (30 sequential mixed requests) ==
+  errors: 0; behaviour as expected: True; median latency first third 9.600000000000001s -> last third 9.65s
+
+RESULT: ALL PASSED

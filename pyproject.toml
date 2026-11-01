@@ -1,0 +1,38 @@
+[project]
+name = "disaster-assistant"
+version = "0.1.0"
+description = "Offline-capable multilingual voice RAG assistant for disaster emergency guidance (final-year research project)"
+requires-python = ">=3.14,<3.15"
+readme = "README.md"
+dependencies = [
+    "pypdf",
+    "rank-bm25",
+    "faiss-cpu",
+    "sentence-transformers",
+    "requests",
+    "faster-whisper",
+    # faster-whisper 1.2.1's audio decoding calls av.open(metadata_errors=...),
+    # a kwarg PyAV removed in 19.0 -- pin below that until faster-whisper
+    # updates its call, verified 2026-10-10.
+    "av<19",
+    "sounddevice",
+    "soundfile",
+    "piper-tts",
+    "transformers",  # for facebook/mms-tts-tam (Tamil TTS; Piper has no Tamil voice)
+    "streamlit",
+    "fastapi",
+    "uvicorn",
+    "python-multipart",  # required by FastAPI for Form()/File() uploads
+]
+
+[project.optional-dependencies]
+# GPU support for faster-whisper (ctranslate2) on Windows: the NVIDIA driver
+# alone isn't enough, these provide the cuBLAS/cuDNN runtime DLLs. Optional,
+# not a hard dependency, because audio/asr.py falls back to CPU
+# automatically (tested) if these aren't installed -- a machine without an
+# NVIDIA GPU shouldn't be forced to download ~1-2GB of unused CUDA libraries.
+# Install with: pip install -e ".[gpu]"
+gpu = ["nvidia-cublas-cu12", "nvidia-cudnn-cu12", "nvidia-cuda-runtime-cu12"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

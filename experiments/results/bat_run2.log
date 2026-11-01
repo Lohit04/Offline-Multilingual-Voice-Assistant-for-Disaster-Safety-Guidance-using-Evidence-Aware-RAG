@@ -1,0 +1,33 @@
+=== Pre-flight check ===
+[PASS] chunks.jsonl
+[PASS] FAISS index
+[PASS] BM25 corpus
+[PASS] index/chunk counts match
+[PASS] Ollama reachable
+[PASS] Ollama model gemma4:e4b
+[PASS] Whisper model cached
+[PASS] Piper voice [en]
+[PASS] Piper voice [hi]
+[PASS] Piper voice [te]
+[PASS] Piper voice [ml]
+[PASS] HTTPS cert (certs/dev.crt)
+[PASS] port 8443 free
+[PASS] port 8001 free
+[PASS] port 8080 free
+[PASS] verified helplines present
+
+READY
+
+=== Starting server (wait ~30 s for model warm-up; Ctrl+C to stop) ===
+Open the https://... address printed below on this laptop or on your phone.
+APK download server (plain HTTP, for Android's Download Manager) on :8080
+Plain-HTTP API server (for the bundled Android app) on :8001
+
+=== Open one of these on the phone (same network as this laptop) ===
+  https://172.17.76.13:8443      (APK: http://172.17.76.13:8080/disaster-assistant.apk)
+If the phone can't connect, run scripts/open_firewall.ps1 once (as admin).
+
+INFO:     127.0.0.1:52557 - "GET /api/health HTTP/1.1" 200 OK
+
+The server stopped. Scroll up for the reason, then press a key to close.
+Press any key to continue . . . 

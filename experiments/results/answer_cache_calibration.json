@@ -1,0 +1,3047 @@
+{
+ "thresholds": {
+  "known": {
+   "min_score": 0.8,
+   "min_margin": 0.0
+  },
+  "any": {
+   "min_score": 0.92,
+   "min_margin": 0.01
+  }
+ },
+ "rows": [
+  {
+   "set": "v1",
+   "id": "A01",
+   "type": "answerable",
+   "cats": [
+    "flood"
+   ],
+   "lang": "en",
+   "q": "What should I do if floodwater enters my house?",
+   "known_hazard": true,
+   "hazard": "flood",
+   "score": 0.978967547416687,
+   "margin": 0.05014145374298096,
+   "matched": "Floodwater is entering my house, what should I do?"
+  },
+  {
+   "set": "v1",
+   "id": "A01",
+   "type": "answerable",
+   "cats": [
+    "flood"
+   ],
+   "lang": "hi",
+   "q": "अगर बाढ़ का पानी मेरे घर में घुस आए तो मुझे क्या करना चाहिए?",
+   "known_hazard": true,
+   "hazard": "flood",
+   "score": 0.9680754542350769,
+   "margin": 0.048058927059173584,
+   "matched": "मेरे घर में बाढ़ का पानी आ रहा है, मुझे क्या करना चाहिए?"
+  },
+  {
+   "set": "v1",
+   "id": "A01",
+   "type": "answerable",
+   "cats": [
+    "flood"
+   ],
+   "lang": "ta",
+   "q": "வெள்ளம் வீட்டிற்குள் வந்தால் நான் என்ன செய்ய வேண்டும்?",
+   "known_hazard": true,
+   "hazard": "flood",
+   "score": 0.9657357931137085,
+   "margin": 0.002962470054626465,
+   "matched": "வெள்ளம் வரும்போது நான் என்ன செய்ய வேண்டும்?"
+  },
+  {
+   "set": "v1",
+   "id": "A01",
+   "type": "answerable",
+   "cats": [
+    "flood"
+   ],
+   "lang": "te",
+   "q": "వరద నీరు నా ఇంట్లోకి వస్తే నేను ఏమి చేయాలి?",
+   "known_hazard": true,
+   "hazard": "flood",
+   "score": 0.9784641265869141,
+   "margin": 0.024624168872833252,
+   "matched": "నా ఇంట్లోకి వరద నీళ్లు వస్తున్నాయి, నేను ఏం చేయాలి?"
+  },
+  {
+   "set": "v1",
+   "id": "A01",
+   "type": "answerable",
+   "cats": [
+    "flood"
+   ],
+   "lang": "kn",
+   "q": "ಪ್ರವಾಹದ ನೀರು ನನ್ನ ಮನೆಗೆ ನುಗ್ಗಿದರೆ ನಾನು ಏನು ಮಾಡಬೇಕು?",
+   "known_hazard": true,
+   "hazard": "flood",
+   "score": 0.9791024327278137,
+   "margin": 0.042036235332489014,
+   "matched": "ನನ್ನ ಮನೆಗೆ ಪ್ರವಾಹ ನೀರು ಬರುತ್ತಿದೆ, ನಾನು ಏನು ಮಾಡಬೇಕು?"
+  },
+  {
+   "set": "v1",
+   "id": "A01",
+   "type": "answerable",
+   "cats": [
+    "flood"
+   ],
+   "lang": "ml",
+   "q": "വെള്ളപ്പൊക്കത്തിലെ വെള്ളം എന്റെ വീട്ടിൽ കയറിയാൽ ഞാൻ എന്ത് ചെയ്യണം?",
+   "known_hazard": true,
+   "hazard": "flood",
+   "score": 0.9685555100440979,
+   "margin": 0.017238497734069824,
+   "matched": "मेरे घर में पानी आ रहा है, मुझे क्या करना चाहिए?"
+  },
+  {
+   "set": "v1",
+   "id": "A02",
+   "type": "answerable",
+   "cats": [
+    "earthquake"
+   ],
+   "lang": "en",
+   "q": "What should I do during an earthquake?",
+   "known_hazard": true,
+   "hazard": "earthquake",
+   "score": 1.0,
+   "margin": 0.020846903324127197,
+   "matched": "What should I do during an earthquake?"
+  },
+  {
+   "set": "v1",
+   "id": "A02",
+   "type": "answerable",
+   "cats": [
+    "earthquake"
+   ],
+   "lang": "hi",
+   "q": "भूकंप के दौरान मुझे क्या करना चाहिए?",
+   "known_hazard": true,
+   "hazard": "earthquake",
+   "score": 1.0,
+   "margin": 0.025744616985321045,
+   "matched": "भूकंप के दौरान मुझे क्या करना चाहिए?"
+  },
+  {
+   "set": "v1",
+   "id": "A02",
+   "type": "answerable",
+   "cats": [
+    "earthquake"
+   ],
+   "lang": "ta",
+   "q": "நிலநடுக்கத்தின் போது நான் என்ன செய்ய வேண்டும்?",
+   "known_hazard": true,
+   "hazard": "earthquake",
+   "score": 0.9928094744682312,
+   "margin": 0.00944441556930542,
+   "matched": "நிலநடுக்கம் ஏற்படும்போது நான் என்ன செய்ய வேண்டும்?"
+  },
+  {
+   "set": "v1",
+   "id": "A02",
+   "type": "answerable",
+   "cats": [
+    "earthquake"
+   ],
+   "lang": "te",
+   "q": "భూకంపం సమయంలో నేను ఏమి చేయాలి?",
+   "known_hazard": true,
+   "hazard": "earthquake",
+   "score": 0.9862948656082153,
+   "margin": 0.01118767261505127,
+   "matched": "భూకంపం వచ్చినప్పుడు నేను ఏం చేయాలి?"
+  },
+  {
+   "set": "v1",
+   "id": "A02",
+   "type": "answerable",
+   "cats": [
+    "earthquake"
+   ],
+   "lang": "kn",
+   "q": "ಭೂಕಂಪದ ಸಮಯದಲ್ಲಿ ನಾನು ಏನು ಮಾಡಬೇಕು?",
+   "known_hazard": true,
+   "hazard": "earthquake",
+   "score": 0.9796769022941589,
+   "margin": 0.006407439708709717,
+   "matched": "ಭೂಕಂಪನವಾದರೆ ನಾನು ಏನು ಮಾಡಬೇಕು?"
+  },
+  {
+   "set": "v1",
+   "id": "A02",
+   "type": "answerable",
+   "cats": [
+    "earthquake"
+   ],
+   "lang": "ml",
+   "q": "ഭൂകമ്പ സമയത്ത് ഞാൻ എന്ത് ചെയ്യണം?",
+   "known_hazard": true,
+   "hazard": "earthquake",
+   "score": 0.9763096570968628,
+   "margin": 0.002994060516357422,
+   "matched": "భూకంపం వచ్చినప్పుడు నేను ఏం చేయాలి?"
+  },
+  {
+   "set": "v1",
+   "id": "A03",
+   "type": "answerable",
+   "cats": [
+    "cyclone"
+   ],
+   "lang": "en",
+   "q": "How should I prepare for a cyclone?",
+   "known_hazard": true,
+   "hazard": "cyclone",
+   "score": 0.9963775873184204,
+   "margin": 0.034498512744903564,
+   "matched": "How do I prepare for a cyclone?"
+  },
+  {
+   "set": "v1",
+   "id": "A03",
+   "type": "answerable",
+   "cats": [
+    "cyclone"
+   ],
+   "lang": "hi",
+   "q": "मुझे चक्रवात की तैयारी कैसे करनी चाहिए?",
+   "known_hazard": true,
+   "hazard": "cyclone",
+   "score": 0.9911448955535889,
+   "margin": 0.03765743970870972,
+   "matched": "मैं चक्रवात के लिए कैसे तैयारी करूँ?"
+  },
+  {
+   "set": "v1",
+   "id": "A03",
+   "type": "answerable",
+   "cats": [
+    "cyclone"
+   ],
+   "lang": "ta",
+   "q": "புயலுக்கு நான் எப்படி தயாராக வேண்டும்?",
+   "known_hazard": true,
+   "hazard": "cyclone",
+   "score": 0.9918931722640991,
+   "margin": 0.06234478950500488,
+   "matched": "புயலுக்கு நான் எப்படி தயாராவது?"
+  },
+  {
+   "set": "v1",
+   "id": "A03",
+   "type": "answerable",
+   "cats": [
+    "cyclone"
+   ],
+   "lang": "te",
+   "q": "తుఫానుకు నేను ఎలా సిద్ధం కావాలి?",
+   "known_hazard": true,
+   "hazard": "cyclone",
+   "score": 0.9976412653923035,
+   "margin": 0.03569859266281128,
+   "matched": "తుఫానుకు నేను ఎలా సిద్ధం చేసుకోవాలి?"
+  },
+  {
+   "set": "v1",
+   "id": "A03",
+   "type": "answerable",
+   "cats": [
+    "cyclone"
+   ],
+   "lang": "kn",
+   "q": "ಚಂಡಮಾರುತಕ್ಕೆ ನಾನು ಹೇಗೆ ಸಿದ್ಧರಾಗಬೇಕು?",
+   "known_hazard": true,
+   "hazard": "cyclone",
+   "score": 0.9993395209312439,
+   "margin": 0.03756743669509888,
+   "matched": "ಚಂಡಮಾರುತಕ್ಕೆ ನಾನು ಹೇಗೆ ಸಿದ್ಧನಾಗಬೇಕು?"
+  },
+  {
+   "set": "v1",
+   "id": "A03",
+   "type": "answerable",
+   "cats": [
+    "cyclone"
+   ],
+   "lang": "ml",
+   "q": "ചുഴലിക്കാറ്റിനായി ഞാൻ എങ്ങനെ തയ്യാറെടുക്കണം?",
+   "known_hazard": true,
+   "hazard": "cyclone",
+   "score": 0.9704792499542236,
+   "margin": 0.0251615047454834,
+   "matched": "ചുഴലിക്കാറ്റിന് വേണ്ടി ഞാൻ എന്ത് ചെയ്യണം?"
+  },
+  {
+   "set": "v1",
+   "id": "A04",
+   "type": "answerable",
+   "cats": [
+    "flood",
+    "cyclone",
+    "earthquake",
+    "fire",
+    "urban_flood"
+   ],
+   "lang": "en",
+   "q": "What supplies should I keep in an emergency kit?",
+   "known_hazard": false,
+   "hazard": "nuclear_radiological_emergency",
+   "score": 0.8899490833282471,
+   "margin": 0.0015559196472167969,
+   "matched": "How do I stay safe during a nuclear or radiation emergency?"
+  },
+  {
+   "set": "v1",
+   "id": "A04",
+   "type": "answerable",
+   "cats": [
+    "flood",
+    "cyclone",
+    "earthquake",
+    "fire",
+    "urban_flood"
+   ],
+   "lang": "hi",
+   "q": "आपातकालीन किट में मुझे कौन-सा सामान रखना चाहिए?",
+   "known_hazard": false,
+   "hazard": "cyclone",
+   "score": 0.8972029685974121,
+   "margin": 0.00733637809753418,
+   "matched": "मैं चक्रवात के दौरान खुद को सुरक्षित कैसे रखूँ?"
+  },
+  {
+   "set": "v1",
+   "id": "A04",
+   "type": "answerable",
+   "cats": [
+    "flood",
+    "cyclone",
+    "earthquake",
+    "fire",
+    "urban_flood"
+   ],
+   "lang": "ta",
+   "q": "அவசரகால பெட்டியில் நான் என்னென்ன பொருட்களை வைத்திருக்க வேண்டும்?",
+   "known_hazard": false,
+   "hazard": "nuclear_radiological_emergency",
+   "score": 0.9325278997421265,
+   "margin": 0.007018029689788818,
+   "matched": "அணு உலை அல்லது கதிர்வீச்சு அவசரகாலத்தின் போது நான் என்ன செய்ய வேண்டும்?"
+  },
+  {
+   "set": "v1",
+   "id": "A04",
+   "type": "answerable",
+   "cats": [
+    "flood",
+    "cyclone",
+    "earthquake",
+    "fire",
+    "urban_flood"
+   ],
+   "lang": "te",
+   "q": "అత్యవసర కిట్‌లో నేను ఏ వస్తువులను ఉంచుకోవాలి?",
+   "known_hazard": false,
+   "hazard": "avalanche",
+   "score": 0.8955481052398682,
+   "margin": 0.0002790689468383789,
+   "matched": "അവലാഞ്ചിന സമയത്ത് ഞാൻ എങ്ങനെ സുരക്ഷിതനായി ഇരിക്കാൻ കഴിയും?"
+  },
+  {
+   "set": "v1",
+   "id": "A04",
+   "type": "answerable",
+   "cats": [
+    "flood",
+    "cyclone",
+    "earthquake",
+    "fire",
+    "urban_flood"
+   ],
+   "lang": "kn",
+   "q": "ತುರ್ತು ಕಿಟ್‌ನಲ್ಲಿ ನಾನು ಯಾವ ವಸ್ತುಗಳನ್ನು ಇಟ್ಟುಕೊಳ್ಳಬೇಕು?",
+   "known_hazard": false,
+   "hazard": "nuclear_radiological_emergency",
+   "score": 0.9266009330749512,
+   "margin": 0.0028198957443237305,
+   "matched": "ಪರಮಾಣು ಅಥವಾ ವಿಕಿರಣ ತುರ್ತು ಪರಿಸ್ಥಿತಿಯಲ್ಲಿ ನಾನು ಏನು ಮಾಡಬೇಕು?"
+  },
+  {
+   "set": "v1",
+   "id": "A04",
+   "type": "answerable",
+   "cats": [
+    "flood",
+    "cyclone",
+    "earthquake",
+    "fire",
+    "urban_flood"
+   ],
+   "lang": "ml",
+   "q": "അടിയന്തര കിറ്റിൽ ഞാൻ എന്തൊക്കെ സാധനങ്ങൾ സൂക്ഷിക്കണം?",
+   "known_hazard": false,
+   "hazard": "earthquake",
+   "score": 0.9360078573226929,
+   "margin": 0.006193101406097412,
+   "matched": "ഭൂകമ്പസമയത്ത് ഞാൻ എങ്ങനെ സുരക്ഷിതനായി ഇരിക്കണം?"
+  },
+  {
+   "set": "v1",
+   "id": "A05",
+   "type": "answerable",
+   "cats": [
+    "flood",
+    "urban_flood"
+   ],
+   "lang": "en",
+   "q": "Is it safe to walk or drive through flood water?",
+   "known_hazard": true,
+   "hazard": "flood",
+   "score": 0.9091596603393555,
+   "margin": 0.007068514823913574,
+   "matched": "How do I stay safe during a flood?"
+  },
+  {
+   "set": "v1",
+   "id": "A05",
+   "type": "answerable",
+   "cats": [
+    "flood",
+    "urban_flood"
+   ],
+   "lang": "hi",
+   "q": "क्या बाढ़ के पानी में चलना या गाड़ी चलाना सुरक्षित है?",
+   "known_hazard": true,
+   "hazard": "flood",
+   "score": 0.8982552886009216,
+   "margin": 0.005067169666290283,
+   "matched": "बाढ़ के दौरान मैं खुद को सुरक्षित कैसे रखूँ?"
+  },
+  {
+   "set": "v1",
+   "id": "A05",
+   "type": "answerable",
+   "cats": [
+    "flood",
+    "urban_flood"
+   ],
+   "lang": "ta",
+   "q": "வெள்ள நீரில் நடப்பது அல்லது வாகனம் ஓட்டுவது பாதுகாப்பானதா?",
+   "known_hazard": true,
+   "hazard": "urban_flood",
+   "score": 0.9225981831550598,
+   "margin": 0.004349172115325928,
+   "matched": "நகர்ப்புற வெள்ளத்தின் போது நான் எப்படி பாதுகாப்பாக இருப்பது?"
+  },
+  {
+   "set": "v1",
+   "id": "A05",
+   "type": "answerable",
+   "cats": [
+    "flood",
+    "urban_flood"
+   ],
+   "lang": "te",
+   "q": "వరద నీటిలో నడవడం లేదా డ్రైవ్ చేయడం సురక్షితమేనా?",
+   "known_hazard": true,
+   "hazard": "flood",
+   "score": 0.9213067889213562,
+   "margin": 0.0012812018394470215,
+   "matched": "వరద సమయంలో నేను ఎలా సురక్షితంగా ఉండగలను?"
+  },
+  {
+   "set": "v1",
+   "id": "A05",
+   "type": "answerable",
+   "cats": [
+    "flood",
+    "urban_flood"
+   ],
+   "lang": "kn",
+   "q": "ಪ್ರವಾಹದ ನೀರಿನಲ್ಲಿ ನಡೆಯುವುದು ಅಥವಾ ವಾಹನ ಚಲಾಯಿಸುವುದು ಸುರಕ್ಷಿತವೇ?",
+   "known_hazard": true,
+   "hazard": "flood",
+   "score": 0.9083539247512817,
+   "margin": 0.0025908350944519043,
+   "matched": "ಪ್ರವಾಹದ ಸಮಯದಲ್ಲಿ ನಾನು ಹೇಗೆ ಸುರಕ್ಷಿತವಾಗಿರಬಹುದು?"
+  },
+  {
+   "set": "v1",
+   "id": "A05",
+   "type": "answerable",
+   "cats": [
+    "flood",
+    "urban_flood"
+   ],
+   "lang": "ml",
+   "q": "വെള്ളപ്പൊക്ക വെള്ളത്തിലൂടെ നടക്കുന്നതോ വാഹനമോടിക്കുന്നതോ സുരക്ഷിതമാണോ?",
+   "known_hazard": true,
+   "hazard": "urban_flood",
+   "score": 0.909791886806488,
+   "margin": 0.0029155611991882324,
+   "matched": "നഗരത്തിൽ വെള്ളപ്പൊക്കം കഴിഞ്ഞാൽ എന്ത് മുൻകരുതലുകൾ എടുക്കണം?"
+  },
+  {
+   "set": "v1",
+   "id": "A06",
+   "type": "answerable",
+   "cats": [
+    "lightning",
+    "thunderstorm_dust_storm_squall"
+   ],
+   "lang": "en",
+   "q": "What should I do to stay safe during lightning?",
+   "known_hazard": true,
+   "hazard": "lightning",
+   "score": 0.9908896684646606,
+   "margin": 0.02944314479827881,
+   "matched": "How do I stay safe during lightning?"
+  },
+  {
+   "set": "v1",
+   "id": "A06",
+   "type": "answerable",
+   "cats": [
+    "lightning",
+    "thunderstorm_dust_storm_squall"
+   ],
+   "lang": "hi",
+   "q": "बिजली गिरने के दौरान सुरक्षित रहने के लिए मुझे क्या करना चाहिए?",
+   "known_hazard": false,
+   "hazard": "lightning",
+   "score": 0.9663297533988953,
+   "margin": 0.020057976245880127,
+   "matched": "बिजली गिरने के बाद मुझे क्या सावधानियां बरतनी चाहिए?"
+  },
+  {
+   "set": "v1",
+   "id": "A06",
+   "type": "answerable",
+   "cats": [
+    "lightning",
+    "thunderstorm_dust_storm_squall"
+   ],
+   "lang": "ta",
+   "q": "மின்னல் தாக்கும் போது பாதுகாப்பாக இருக்க நான் என்ன செய்ய வேண்டும்?",
+   "known_hazard": true,
+   "hazard": "lightning",
+   "score": 0.9859511852264404,
+   "margin": 0.019680023193359375,
+   "matched": "மின்னல் தாக்கும்போது நான் எப்படி பாதுகாப்பாக இருப்பது?"
+  },
+  {
+   "set": "v1",
+   "id": "A06",
+   "type": "answerable",
+   "cats": [
+    "lightning",
+    "thunderstorm_dust_storm_squall"
+   ],
+   "lang": "te",
+   "q": "పిడుగుల సమయంలో సురక్షితంగా ఉండటానికి నేను ఏమి చేయాలి?",
+   "known_hazard": true,
+   "hazard": "lightning",
+   "score": 0.9500716328620911,
+   "margin": 0.02337932586669922,
+   "matched": "మెరుపు సమయంలో నేను ఎలా సురక్షితంగా ఉండగలను?"
+  },
+  {
+   "set": "v1",
+   "id": "A06",
+   "type": "answerable",
+   "cats": [
+    "lightning",
+    "thunderstorm_dust_storm_squall"
+   ],
+   "lang": "kn",
+   "q": "ಸಿಡಿಲಿನ ಸಮಯದಲ್ಲಿ ಸುರಕ್ಷಿತವಾಗಿರಲು ನಾನು ಏನು ಮಾಡಬೇಕು?",
+   "known_hazard": true,
+   "hazard": "lightning",
+   "score": 0.9542924165725708,
+   "margin": 0.024844765663146973,
+   "matched": "ಮಿಂಚಿನ ಸಮಯದಲ್ಲಿ ನಾನು ಹೇಗೆ ಸುರಕ್ಷಿತವಾಗಿರಬಹುದು?"
+  },
+  {
+   "set": "v1",
+   "id": "A06",
+   "type": "answerable",
+   "cats": [
+    "lightning",
+    "thunderstorm_dust_storm_squall"
+   ],
+   "lang": "ml",
+   "q": "ഇടിമിന്നൽ സമയത്ത് സുരക്ഷിതമായിരിക്കാൻ ഞാൻ എന്ത് ചെയ്യണം?",
+   "known_hazard": true,
+   "hazard": "lightning",
+   "score": 0.9629960060119629,
+   "margin": 0.014586329460144043,
+   "matched": "ഇടിമിന്നൽ സമയത്ത് എങ്ങനെ സുരക്ഷിതമായി ഇരിക്കാം?"
+  },
+  {
+   "set": "v1",
+   "id": "A07",
+   "type": "answerable",
+   "cats": [
+    "tsunami"
+   ],
+   "lang": "en",
+   "q": "What should I do if there is a tsunami warning?",
+   "known_hazard": true,
+   "hazard": "tsunami",
+   "score": 0.9562160968780518,
+   "margin": 0.006268143653869629,
+   "matched": "What should I do during a tsunami?"
+  },
+  {
+   "set": "v1",
+   "id": "A07",
+   "type": "answerable",
+   "cats": [
+    "tsunami"
+   ],
+   "lang": "hi",
+   "q": "सुनामी की चेतावनी मिलने पर मुझे क्या करना चाहिए?",
+   "known_hazard": true,
+   "hazard": "tsunami",
+   "score": 0.9602352380752563,
+   "margin": 0.0023626089096069336,
+   "matched": "सुनामी के दौरान मुझे क्या करना चाहिए?"
+  },
+  {
+   "set": "v1",
+   "id": "A07",
+   "type": "answerable",
+   "cats": [
+    "tsunami"
+   ],
+   "lang": "ta",
+   "q": "சுனாமி எச்சரிக்கை வந்தால் நான் என்ன செய்ய வேண்டும்?",
+   "known_hazard": true,
+   "hazard": "tsunami",
+   "score": 0.9739290475845337,
+   "margin": 0.011403024196624756,
+   "matched": "சுனாமி ஏற்படும்போது நான் என்ன செய்ய வேண்டும்?"
+  },
+  {
+   "set": "v1",
+   "id": "A07",
+   "type": "answerable",
+   "cats": [
+    "tsunami"
+   ],
+   "lang": "te",
+   "q": "సునామీ హెచ్చరిక ఉంటే నేను ఏమి చేయాలి?",
+   "known_hazard": true,
+   "hazard": "tsunami",
+   "score": 0.9611000418663025,
+   "margin": 0.0010398626327514648,
+   "matched": "సునామీ తర్వాత నేను ఎలాంటి జాగ్రత్తలు తీసుకోవాలి?"
+  },
+  {
+   "set": "v1",
+   "id": "A07",
+   "type": "answerable",
+   "cats": [
+    "tsunami"
+   ],
+   "lang": "kn",
+   "q": "ಸುನಾಮಿ ಎಚ್ಚರಿಕೆ ಇದ್ದರೆ ನಾನು ಏನು ಮಾಡಬೇಕು?",
+   "known_hazard": true,
+   "hazard": "tsunami",
+   "score": 0.9639086723327637,
+   "margin": 0.00863945484161377,
+   "matched": "ಸುನಾಮಿ ಬಂದಾಗ ನಾನು ಏನು ಮಾಡಬೇಕು?"
+  },
+  {
+   "set": "v1",
+   "id": "A07",
+   "type": "answerable",
+   "cats": [
+    "tsunami"
+   ],
+   "lang": "ml",
+   "q": "സുനാമി മുന്നറിയിപ്പ് ഉണ്ടെങ്കിൽ ഞാൻ എന്ത് ചെയ്യണം?",
+   "known_hazard": true,
+   "hazard": "tsunami",
+   "score": 0.9590945243835449,
+   "margin": 0.002452373504638672,
+   "matched": "சுனாமி ஏற்படும்போது நான் என்ன செய்ய வேண்டும்?"
+  },
+  {
+   "set": "v1",
+   "id": "A08",
+   "type": "answerable",
+   "cats": [
+    "heat_wave"
+   ],
+   "lang": "en",
+   "q": "How can I protect myself from a heat wave?",
+   "known_hazard": true,
+   "hazard": "heat_wave",
+   "score": 0.9665241837501526,
+   "margin": 0.022054851055145264,
+   "matched": "How do I stay safe during a heat wave?"
+  },
+  {
+   "set": "v1",
+   "id": "A08",
+   "type": "answerable",
+   "cats": [
+    "heat_wave"
+   ],
+   "lang": "hi",
+   "q": "मैं लू से खुद को कैसे बचा सकता हूँ?",
+   "known_hazard": true,
+   "hazard": "heat_wave",
+   "score": 0.9634299874305725,
+   "margin": 0.017647147178649902,
+   "matched": "मैं लू के दौरान खुद को सुरक्षित कैसे रखूँ?"
+  },
+  {
+   "set": "v1",
+   "id": "A08",
+   "type": "answerable",
+   "cats": [
+    "heat_wave"
+   ],
+   "lang": "ta",
+   "q": "வெப்ப அலையிலிருந்து என்னை நான் எப்படி பாதுகாத்துக் கொள்வது?",
+   "known_hazard": true,
+   "hazard": "heat_wave",
+   "score": 0.9674365520477295,
+   "margin": 0.014125287532806396,
+   "matched": "வெப்ப அலை நேரத்தில் நான் எப்படி பாதுகாப்பாக இருப்பது?"
+  },
+  {
+   "set": "v1",
+   "id": "A08",
+   "type": "answerable",
+   "cats": [
+    "heat_wave"
+   ],
+   "lang": "te",
+   "q": "వడగాలుల నుండి నన్ను నేను ఎలా రక్షించుకోవాలి?",
+   "known_hazard": true,
+   "hazard": "heat_wave",
+   "score": 0.9375721216201782,
+   "margin": 0.008951425552368164,
+   "matched": "వేడిగాలుల తర్వాత నేను ఎలాంటి జాగ్రత్తలు తీసుకోవాలి?"
+  },
+  {
+   "set": "v1",
+   "id": "A08",
+   "type": "answerable",
+   "cats": [
+    "heat_wave"
+   ],
+   "lang": "kn",
+   "q": "ಬಿಸಿಗಾಳಿಯಿಂದ ನಾನು ನನ್ನನ್ನು ಹೇಗೆ ರಕ್ಷಿಸಿಕೊಳ್ಳಬಹುದು?",
+   "known_hazard": true,
+   "hazard": "heat_wave",
+   "score": 0.9255950450897217,
+   "margin": 0.015968620777130127,
+   "matched": "వేడిగాలుల సమయంలో నేను ఎలా సురక్షితంగా ఉండగలను?"
+  },
+  {
+   "set": "v1",
+   "id": "A08",
+   "type": "answerable",
+   "cats": [
+    "heat_wave"
+   ],
+   "lang": "ml",
+   "q": "ഉഷ്ണതരംഗത്തിൽ നിന്ന് എനിക്ക് എങ്ങനെ സ്വയം സംരക്ഷിക്കാം?",
+   "known_hazard": true,
+   "hazard": "heat_wave",
+   "score": 0.9333212971687317,
+   "margin": 0.026818692684173584,
+   "matched": "வெப்ப பக்கவாதத்தை நான் எப்படித் தவிர்ப்பது?"
+  },
+  {
+   "set": "v1",
+   "id": "A09",
+   "type": "answerable",
+   "cats": [
+    "earthquake"
+   ],
+   "lang": "en",
+   "q": "What should I do after an earthquake stops?",
+   "known_hazard": true,
+   "hazard": "earthquake",
+   "score": 0.9794840812683105,
+   "margin": 0.015480279922485352,
+   "matched": "What should I do after an earthquake?"
+  },
+  {
+   "set": "v1",
+   "id": "A09",
+   "type": "answerable",
+   "cats": [
+    "earthquake"
+   ],
+   "lang": "hi",
+   "q": "भूकंप रुकने के बाद मुझे क्या करना चाहिए?",
+   "known_hazard": true,
+   "hazard": "earthquake",
+   "score": 0.9844885468482971,
+   "margin": 0.02111208438873291,
+   "matched": "भूकंप के बाद मुझे क्या करना चाहिए?"
+  },
+  {
+   "set": "v1",
+   "id": "A09",
+   "type": "answerable",
+   "cats": [
+    "earthquake"
+   ],
+   "lang": "ta",
+   "q": "நிலநடுக்கம் நின்ற பிறகு நான் என்ன செய்ய வேண்டும்?",
+   "known_hazard": true,
+   "hazard": "earthquake",
+   "score": 0.9909534454345703,
+   "margin": 0.0060613155364990234,
+   "matched": "நிலநடுக்கத்திற்குப் பிறகு நான் என்ன செய்ய வேண்டும்?"
+  },
+  {
+   "set": "v1",
+   "id": "A09",
+   "type": "answerable",
+   "cats": [
+    "earthquake"
+   ],
+   "lang": "te",
+   "q": "భూకంపం ఆగిన తర్వాత నేను ఏమి చేయాలి?",
+   "known_hazard": true,
+   "hazard": "earthquake",
+   "score": 0.9956648349761963,
+   "margin": 0.01250159740447998,
+   "matched": "భూకంపం తర్వాత నేను ఏం చేయాలి?"
+  },
+  {
+   "set": "v1",
+   "id": "A09",
+   "type": "answerable",
+   "cats": [
+    "earthquake"
+   ],
+   "lang": "kn",
+   "q": "ಭೂಕಂಪ ನಿಂತ ನಂತರ ನಾನು ಏನು ಮಾಡಬೇಕು?",
+   "known_hazard": true,
+   "hazard": "earthquake",
+   "score": 0.9900429248809814,
+   "margin": 0.017970621585845947,
+   "matched": "ಭೂಕಂಪನವಾದ ನಂತರ ನಾನು ಏನು ಮಾಡಬೇಕು?"
+  },
+  {
+   "set": "v1",
+   "id": "A09",
+   "type": "answerable",
+   "cats": [
+    "earthquake"
+   ],
+   "lang": "ml",
+   "q": "ഭൂകമ്പം നിലച്ച ശേഷം ഞാൻ എന്ത് ചെയ്യണം?",
+   "known_hazard": true,
+   "hazard": "earthquake",
+   "score": 0.9933768510818481,
+   "margin": 0.023397624492645264,
+   "matched": "ഭൂകമ്പത്തിന് ശേഷം എനിക്ക് എന്തുചെയ്യണം?"
+  },
+  {
+   "set": "v1",
+   "id": "A10",
+   "type": "answerable",
+   "cats": [
+    "landslide",
+    "flood",
+    "cyclone"
+   ],
+   "lang": "en",
+   "q": "How do I stay safe from a landslide?",
+   "known_hazard": true,
+   "hazard": "landslide",
+   "score": 0.9928078055381775,
+   "margin": 0.035111963748931885,
+   "matched": "How do I stay safe during a landslide?"
+  },
+  {
+   "set": "v1",
+   "id": "A10",
+   "type": "answerable",
+   "cats": [
+    "landslide",
+    "flood",
+    "cyclone"
+   ],
+   "lang": "hi",
+   "q": "भूस्खलन से मैं सुरक्षित कैसे रहूँ?",
+   "known_hazard": true,
+   "hazard": "landslide",
+   "score": 0.9735254049301147,
+   "margin": 0.02666759490966797,
+   "matched": "मैं भूस्खलन के दौरान खुद को सुरक्षित कैसे रखूँ?"
+  },
+  {
+   "set": "v1",
+   "id": "A10",
+   "type": "answerable",
+   "cats": [
+    "landslide",
+    "flood",
+    "cyclone"
+   ],
+   "lang": "ta",
+   "q": "நிலச்சரிவிலிருந்து நான் எப்படி பாதுகாப்பாக இருப்பது?",
+   "known_hazard": true,
+   "hazard": "landslide",
+   "score": 0.981656014919281,
+   "margin": 0.02678626775741577,
+   "matched": "நிலச்சரிவின்போது நான் எப்படி பாதுகாப்பாக இருப்பது?"
+  },
+  {
+   "set": "v1",
+   "id": "A10",
+   "type": "answerable",
+   "cats": [
+    "landslide",
+    "flood",
+    "cyclone"
+   ],
+   "lang": "te",
+   "q": "కొండచరియలు విరిగిపడకుండా నేను ఎలా సురక్షితంగా ఉండాలి?",
+   "known_hazard": true,
+   "hazard": "landslide",
+   "score": 0.9739967584609985,
+   "margin": 0.014053523540496826,
+   "matched": "కొండచరియ విరిగిపడినప్పుడు నేను ఎలా సురక్షితంగా ఉండగలను?"
+  },
+  {
+   "set": "v1",
+   "id": "A10",
+   "type": "answerable",
+   "cats": [
+    "landslide",
+    "flood",
+    "cyclone"
+   ],
+   "lang": "kn",
+   "q": "ಭೂಕುಸಿತದಿಂದ ನಾನು ಹೇಗೆ ಸುರಕ್ಷಿತವಾಗಿರಬೇಕು?",
+   "known_hazard": true,
+   "hazard": "landslide",
+   "score": 0.9790977239608765,
+   "margin": 0.013949930667877197,
+   "matched": "ಭೂಕುಸಿತದ ಸಮಯದಲ್ಲಿ ನಾನು ಹೇಗೆ ಸುರಕ್ಷಿತವಾಗಿರಬಹುದು?"
+  },
+  {
+   "set": "v1",
+   "id": "A10",
+   "type": "answerable",
+   "cats": [
+    "landslide",
+    "flood",
+    "cyclone"
+   ],
+   "lang": "ml",
+   "q": "മണ്ണിടിച്ചിലിൽ നിന്ന് ഞാൻ എങ്ങനെ സുരക്ഷിതനായിരിക്കും?",
+   "known_hazard": true,
+   "hazard": "landslide",
+   "score": 0.9738864898681641,
+   "margin": 0.02921140193939209,
+   "matched": "മണ്ണിടിച്ചിലിനിടയിൽ ഞാൻ എങ്ങനെ സുരക്ഷിതനായി ഇരിക്കാൻ കഴിയും?"
+  },
+  {
+   "set": "v1",
+   "id": "A11",
+   "type": "answerable",
+   "cats": [
+    "fire",
+    "earthquake"
+   ],
+   "lang": "en",
+   "q": "What should I do if a fire breaks out in my building?",
+   "known_hazard": true,
+   "hazard": "fire",
+   "score": 0.964709460735321,
+   "margin": 0.036295413970947266,
+   "matched": "My building is on fire, what should I do?"
+  },
+  {
+   "set": "v1",
+   "id": "A11",
+   "type": "answerable",
+   "cats": [
+    "fire",
+    "earthquake"
+   ],
+   "lang": "hi",
+   "q": "अगर मेरी इमारत में आग लग जाए तो मुझे क्या करना चाहिए?",
+   "known_hazard": false,
+   "hazard": "fire",
+   "score": 0.970819354057312,
+   "margin": 0.02321922779083252,
+   "matched": "मेरी बिल्डिंग में आग लगी है, मुझे क्या करना चाहिए?"
+  },
+  {
+   "set": "v1",
+   "id": "A11",
+   "type": "answerable",
+   "cats": [
+    "fire",
+    "earthquake"
+   ],
+   "lang": "ta",
+   "q": "என் கட்டிடத்தில் தீ பிடித்தால் நான் என்ன செய்ய வேண்டும்?",
+   "known_hazard": false,
+   "hazard": "fire",
+   "score": 0.967919647693634,
+   "margin": 0.01736140251159668,
+   "matched": "ನನ್ನ ಕಟ್ಟಡದಲ್ಲಿ ಬೆಂಕಿ ಆවිದಲ್ಲಿದೆ, ನಾನು ಏನು ಮಾಡಬೇಕು?"
+  },
+  {
+   "set": "v1",
+   "id": "A11",
+   "type": "answerable",
+   "cats": [
+    "fire",
+    "earthquake"
+   ],
+   "lang": "te",
+   "q": "నా భవనంలో మంటలు చెలరేగితే నేను ఏమి చేయాలి?",
+   "known_hazard": true,
+   "hazard": "fire",
+   "score": 0.9633868336677551,
+   "margin": 0.004153788089752197,
+   "matched": "మా భవనంలో మంటలు వచ్చాయి, నేను ఏం చేయాలి?"
+  },
+  {
+   "set": "v1",
+   "id": "A11",
+   "type": "answerable",
+   "cats": [
+    "fire",
+    "earthquake"
+   ],
+   "lang": "kn",
+   "q": "ನನ್ನ ಕಟ್ಟಡದಲ್ಲಿ ಬೆಂಕಿ ಬಿದ್ದರೆ ನಾನು ಏನು ಮಾಡಬೇಕು?",
+   "known_hazard": true,
+   "hazard": "fire",
+   "score": 0.9812372922897339,
+   "margin": 0.020292043685913086,
+   "matched": "ನನ್ನ ಕಟ್ಟಡದಲ್ಲಿ ಬೆಂಕಿ ಆවිದಲ್ಲಿದೆ, ನಾನು ಏನು ಮಾಡಬೇಕು?"
+  },
+  {
+   "set": "v1",
+   "id": "A11",
+   "type": "answerable",
+   "cats": [
+    "fire",
+    "earthquake"
+   ],
+   "lang": "ml",
+   "q": "എന്റെ കെട്ടിടത്തിൽ തീപിടിച്ചാൽ ഞാൻ എന്ത് ചെയ്യണം?",
+   "known_hazard": false,
+   "hazard": "fire",
+   "score": 0.9766227006912231,
+   "margin": 0.023064732551574707,
+   "matched": "ನನ್ನ ಕಟ್ಟಡದಲ್ಲಿ ಬೆಂಕಿ ಆවිದಲ್ಲಿದೆ, ನಾನು ಏನು ಮಾಡಬೇಕು?"
+  },
+  {
+   "set": "v1",
+   "id": "A12",
+   "type": "answerable",
+   "cats": [
+    "flood",
+    "urban_flood"
+   ],
+   "lang": "en",
+   "q": "How should I prepare to evacuate before a flood?",
+   "known_hazard": true,
+   "hazard": "flood",
+   "score": 0.9543319940567017,
+   "margin": 0.01631397008895874,
+   "matched": "How do I prepare for a flood?"
+  },
+  {
+   "set": "v1",
+   "id": "A12",
+   "type": "answerable",
+   "cats": [
+    "flood",
+    "urban_flood"
+   ],
+   "lang": "hi",
+   "q": "बाढ़ से पहले निकासी की तैयारी मुझे कैसे करनी चाहिए?",
+   "known_hazard": true,
+   "hazard": "flood",
+   "score": 0.9569332599639893,
+   "margin": 0.015335142612457275,
+   "matched": "बाढ़ आने से पहले मुझे क्या करना चाहिए?"
+  },
+  {
+   "set": "v1",
+   "id": "A12",
+   "type": "answerable",
+   "cats": [
+    "flood",
+    "urban_flood"
+   ],
+   "lang": "ta",
+   "q": "வெள்ளத்திற்கு முன் வெளியேறுவதற்கு நான் எப்படி தயாராக வேண்டும்?",
+   "known_hazard": true,
+   "hazard": "flood",
+   "score": 0.9704724550247192,
+   "margin": 0.007689118385314941,
+   "matched": "வெள்ளம் வருவதற்கு முன்னாடி நான் என்ன செய்யணும்?"
+  },
+  {
+   "set": "v1",
+   "id": "A12",
+   "type": "answerable",
+   "cats": [
+    "flood",
+    "urban_flood"
+   ],
+   "lang": "te",
+   "q": "వరదకు ముందు ఖాళీ చేయడానికి నేను ఎలా సిద్ధం కావాలి?",
+   "known_hazard": true,
+   "hazard": "flood",
+   "score": 0.9701264500617981,
+   "margin": 0.01652216911315918,
+   "matched": "వరదకు నేను ఎలా సిద్ధం కావాలి?"
+  },
+  {
+   "set": "v1",
+   "id": "A12",
+   "type": "answerable",
+   "cats": [
+    "flood",
+    "urban_flood"
+   ],
+   "lang": "kn",
+   "q": "ಪ್ರವಾಹಕ್ಕೆ ಮುಂಚೆ ಸ್ಥಳಾಂತರಕ್ಕೆ ನಾನು ಹೇಗೆ ಸಿದ್ಧರಾಗಬೇಕು?",
+   "known_hazard": true,
+   "hazard": "flood",
+   "score": 0.9733314514160156,
+   "margin": 0.011219620704650879,
+   "matched": "ಪ್ರವಾಹ ಬರುವ ಮುಂಚೆ ನಾನು ಏನು ಮಾಡಬೇಕು?"
+  },
+  {
+   "set": "v1",
+   "id": "A12",
+   "type": "answerable",
+   "cats": [
+    "flood",
+    "urban_flood"
+   ],
+   "lang": "ml",
+   "q": "വെള്ളപ്പൊക്കത്തിന് മുമ്പ് ഒഴിഞ്ഞുപോകാൻ ഞാൻ എങ്ങനെ തയ്യാറെടുക്കണം?",
+   "known_hazard": true,
+   "hazard": "flood",
+   "score": 0.9593778252601624,
+   "margin": 0.0034313201904296875,
+   "matched": "வெள்ளம் வருவதற்கு முன்னாடி நான் என்ன செய்யணும்?"
+  },
+  {
+   "set": "v1",
+   "id": "U01",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "en",
+   "q": "Who won the cricket match yesterday?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v1",
+   "id": "U01",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "hi",
+   "q": "कल का क्रिकेट मैच कौन जीता?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v1",
+   "id": "U01",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "ta",
+   "q": "நேற்றைய கிரிக்கெட் போட்டியில் யார் வென்றார்?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v1",
+   "id": "U01",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "te",
+   "q": "నిన్నటి క్రికెట్ మ్యాచ్‌లో ఎవరు గెలిచారు?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v1",
+   "id": "U01",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "kn",
+   "q": "ನಿನ್ನೆಯ ಕ್ರಿಕೆಟ್ ಪಂದ್ಯವನ್ನು ಯಾರು ಗೆದ್ದರು?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v1",
+   "id": "U01",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "ml",
+   "q": "ഇന്നലത്തെ ക്രിക്കറ്റ് മത്സരത്തിൽ ആര് ജയിച്ചു?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v1",
+   "id": "U02",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "en",
+   "q": "How do I cook chicken biryani?",
+   "known_hazard": false,
+   "hazard": "fire",
+   "score": 0.8520643711090088,
+   "margin": 0.0020285844802856445,
+   "matched": "How do I prepare for a fire?"
+  },
+  {
+   "set": "v1",
+   "id": "U02",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "hi",
+   "q": "चिकन बिरयानी कैसे बनाएँ?",
+   "known_hazard": false,
+   "hazard": "cold_wave",
+   "score": 0.8727413415908813,
+   "margin": 0.005908191204071045,
+   "matched": "ಚಳಿ ತರಂಡಕ್ಕೆ ನಾನು ಹೇಗೆ ತಯಾರಾಗಬೇಕು?"
+  },
+  {
+   "set": "v1",
+   "id": "U02",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "ta",
+   "q": "சிக்கன் பிரியாணி எப்படி சமைப்பது?",
+   "known_hazard": false,
+   "hazard": "cold_wave",
+   "score": 0.880848228931427,
+   "margin": 0.008175671100616455,
+   "matched": "ಚಳಿ ತರಂಡಕ್ಕೆ ನಾನು ಹೇಗೆ ತಯಾರಾಗಬೇಕು?"
+  },
+  {
+   "set": "v1",
+   "id": "U02",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "te",
+   "q": "చికెన్ బిర్యానీ ఎలా వండాలి?",
+   "known_hazard": false,
+   "hazard": "cold_wave",
+   "score": 0.8760836124420166,
+   "margin": 0.009388267993927002,
+   "matched": "ಚಳಿ ತರಂಡಕ್ಕೆ ನಾನು ಹೇಗೆ ತಯಾರಾಗಬೇಕು?"
+  },
+  {
+   "set": "v1",
+   "id": "U02",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "kn",
+   "q": "ಚಿಕನ್ ಬಿರಿಯಾನಿ ಹೇಗೆ ಮಾಡುವುದು?",
+   "known_hazard": false,
+   "hazard": "cold_wave",
+   "score": 0.8856768012046814,
+   "margin": 0.001827239990234375,
+   "matched": "ಚಳಿ ತರಂಡಕ್ಕೆ ನಾನು ಹೇಗೆ ತಯಾರಾಗಬೇಕು?"
+  },
+  {
+   "set": "v1",
+   "id": "U02",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "ml",
+   "q": "ചിക്കൻ ബിരിയാണി എങ്ങനെ ഉണ്ടാക്കാം?",
+   "known_hazard": false,
+   "hazard": "cold_wave",
+   "score": 0.8714600801467896,
+   "margin": 0.013840794563293457,
+   "matched": "ಚಳಿ ತರಂಡಕ್ಕೆ ನಾನು ಹೇಗೆ ತಯಾರಾಗಬೇಕು?"
+  },
+  {
+   "set": "v1",
+   "id": "U03",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "en",
+   "q": "What is the capital of France?",
+   "known_hazard": false,
+   "hazard": "fire",
+   "score": 0.7725979685783386,
+   "margin": 0.0003769993782043457,
+   "matched": "My building is on fire, what should I do?"
+  },
+  {
+   "set": "v1",
+   "id": "U03",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "hi",
+   "q": "फ्रांस की राजधानी क्या है?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v1",
+   "id": "U03",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "ta",
+   "q": "பிரான்சின் தலைநகரம் எது?",
+   "known_hazard": false,
+   "hazard": "urban_flood",
+   "score": 0.7877076864242554,
+   "margin": 0.016323864459991455,
+   "matched": "நகர்ப்புற வெள்ளத்தில் என்ன செய்வது?"
+  },
+  {
+   "set": "v1",
+   "id": "U03",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "te",
+   "q": "ఫ్రాన్స్ రాజధాని ఏది?",
+   "known_hazard": false,
+   "hazard": "urban_flood",
+   "score": 0.7576256990432739,
+   "margin": 0.01362597942352295,
+   "matched": "நகர்ப்புற வெள்ளத்தில் என்ன செய்வது?"
+  },
+  {
+   "set": "v1",
+   "id": "U03",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "kn",
+   "q": "ಫ್ರಾನ್ಸ್‌ನ ರಾಜಧಾನಿ ಯಾವುದು?",
+   "known_hazard": false,
+   "hazard": "urban_flood",
+   "score": 0.7992211580276489,
+   "margin": 0.014463067054748535,
+   "matched": "మా నగర వీధులు నీట మునిగాయి, నేను ఏం చేయాలి?"
+  },
+  {
+   "set": "v1",
+   "id": "U03",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "ml",
+   "q": "ഫ്രാൻസിന്റെ തലസ്ഥാനം ഏതാണ്?",
+   "known_hazard": false,
+   "hazard": "urban_flood",
+   "score": 0.7820989489555359,
+   "margin": 0.005527794361114502,
+   "matched": "మా నగర వీధులు నీట మునిగాయి, నేను ఏం చేయాలి?"
+  },
+  {
+   "set": "v1",
+   "id": "U04",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "en",
+   "q": "Which smartphone should I buy under 20000 rupees?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v1",
+   "id": "U04",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "hi",
+   "q": "20000 रुपये के अंदर मुझे कौन-सा स्मार्टफोन खरीदना चाहिए?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v1",
+   "id": "U04",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "ta",
+   "q": "20000 ரூபாய்க்குள் நான் எந்த ஸ்மார்ட்போன் வாங்க வேண்டும்?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v1",
+   "id": "U04",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "te",
+   "q": "20000 రూపాయల లోపు నేను ఏ స్మార్ట్‌ఫోన్ కొనాలి?",
+   "known_hazard": false,
+   "hazard": "lightning",
+   "score": 0.8675751090049744,
+   "margin": 0.0007355809211730957,
+   "matched": "மின்னல் தாக்கிய பிறகு நான் என்ன செய்ய வேண்டும்?"
+  },
+  {
+   "set": "v1",
+   "id": "U04",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "kn",
+   "q": "20000 ರೂಪಾಯಿಯೊಳಗೆ ನಾನು ಯಾವ ಸ್ಮಾರ್ಟ್‌ಫೋನ್ ಖರೀದಿಸಬೇಕು?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v1",
+   "id": "U04",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "ml",
+   "q": "20000 രൂപയ്ക്കുള്ളിൽ ഞാൻ ഏത് സ്മാർട്ട്ഫോൺ വാങ്ങണം?",
+   "known_hazard": false,
+   "hazard": "lightning",
+   "score": 0.8810902237892151,
+   "margin": 0.0010854601860046387,
+   "matched": "மின்னல் தாக்கிய பிறகு நான் என்னென்ன முன்னெச்சரிக்கை நடவடிக்கைகள் எடுக்க வேண்டும்?"
+  },
+  {
+   "set": "v1",
+   "id": "L01",
+   "type": "live",
+   "cats": [],
+   "lang": "en",
+   "q": "Which relief shelter is open near me right now?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v1",
+   "id": "L01",
+   "type": "live",
+   "cats": [],
+   "lang": "hi",
+   "q": "अभी मेरे पास कौन-सा राहत शिविर खुला है?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v1",
+   "id": "L01",
+   "type": "live",
+   "cats": [],
+   "lang": "ta",
+   "q": "இப்போது என் அருகில் எந்த நிவாரண முகாம் திறந்திருக்கிறது?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v1",
+   "id": "L01",
+   "type": "live",
+   "cats": [],
+   "lang": "te",
+   "q": "ఇప్పుడు నా దగ్గర ఏ సహాయ శిబిరం తెరిచి ఉంది?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v1",
+   "id": "L01",
+   "type": "live",
+   "cats": [],
+   "lang": "kn",
+   "q": "ಈಗ ನನ್ನ ಹತ್ತಿರ ಯಾವ ಪರಿಹಾರ ಶಿಬಿರ ತೆರೆದಿದೆ?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v1",
+   "id": "L01",
+   "type": "live",
+   "cats": [],
+   "lang": "ml",
+   "q": "ഇപ്പോൾ എന്റെ അടുത്ത് ഏത് ദുരിതാശ്വാസ ക്യാമ്പ് തുറന്നിട്ടുണ്ട്?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v1",
+   "id": "L02",
+   "type": "live",
+   "cats": [],
+   "lang": "en",
+   "q": "Is the road to Chennai currently blocked by floods?",
+   "known_hazard": true,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v1",
+   "id": "L02",
+   "type": "live",
+   "cats": [],
+   "lang": "hi",
+   "q": "क्या चेन्नई की सड़क अभी बाढ़ से बंद है?",
+   "known_hazard": true,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v1",
+   "id": "L02",
+   "type": "live",
+   "cats": [],
+   "lang": "ta",
+   "q": "சென்னைக்கான சாலை தற்போது வெள்ளத்தால் தடைபட்டுள்ளதா?",
+   "known_hazard": true,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v1",
+   "id": "L02",
+   "type": "live",
+   "cats": [],
+   "lang": "te",
+   "q": "చెన్నైకి వెళ్లే రోడ్డు ప్రస్తుతం వరదల వల్ల మూసివేయబడిందా?",
+   "known_hazard": true,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v1",
+   "id": "L02",
+   "type": "live",
+   "cats": [],
+   "lang": "kn",
+   "q": "ಚೆನ್ನೈಗೆ ಹೋಗುವ ರಸ್ತೆ ಈಗ ಪ್ರವಾಹದಿಂದ ಮುಚ್ಚಿದೆಯೇ?",
+   "known_hazard": true,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v1",
+   "id": "L02",
+   "type": "live",
+   "cats": [],
+   "lang": "ml",
+   "q": "ചെന്നൈയിലേക്കുള്ള റോഡ് ഇപ്പോൾ വെള്ളപ്പൊക്കം കാരണം അടച്ചിട്ടുണ്ടോ?",
+   "known_hazard": true,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v1",
+   "id": "L03",
+   "type": "live",
+   "cats": [],
+   "lang": "en",
+   "q": "What is the current weather in Chennai?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v1",
+   "id": "L03",
+   "type": "live",
+   "cats": [],
+   "lang": "hi",
+   "q": "चेन्नई में अभी मौसम कैसा है?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v1",
+   "id": "L03",
+   "type": "live",
+   "cats": [],
+   "lang": "ta",
+   "q": "சென்னையில் தற்போதைய வானிலை என்ன?",
+   "known_hazard": false,
+   "hazard": "cyclone",
+   "score": 0.8608481884002686,
+   "margin": 0.019509434700012207,
+   "matched": "ಚಂಡಮಾರುತದ ಸಮಯದಲ್ಲಿ ಏನು ಮಾಡಬೇಕು?"
+  },
+  {
+   "set": "v1",
+   "id": "L03",
+   "type": "live",
+   "cats": [],
+   "lang": "te",
+   "q": "చెన్నైలో ప్రస్తుత వాతావరణం ఎలా ఉంది?",
+   "known_hazard": false,
+   "hazard": "cyclone",
+   "score": 0.8636819124221802,
+   "margin": 0.01971256732940674,
+   "matched": "ಚಂಡಮಾರುತದ ಸಮಯದಲ್ಲಿ ಏನು ಮಾಡಬೇಕು?"
+  },
+  {
+   "set": "v1",
+   "id": "L03",
+   "type": "live",
+   "cats": [],
+   "lang": "kn",
+   "q": "ಚೆನ್ನೈನಲ್ಲಿ ಪ್ರಸ್ತುತ ಹವಾಮಾನ ಹೇಗಿದೆ?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v1",
+   "id": "L03",
+   "type": "live",
+   "cats": [],
+   "lang": "ml",
+   "q": "ചെന്നൈയിലെ ഇപ്പോഴത്തെ കാലാവസ്ഥ എന്താണ്?",
+   "known_hazard": false,
+   "hazard": "cyclone",
+   "score": 0.8676744103431702,
+   "margin": 0.012975037097930908,
+   "matched": "ಚಂಡಮಾರುತದ ಸಮಯದಲ್ಲಿ ಏನು ಮಾಡಬೇಕು?"
+  },
+  {
+   "set": "v1",
+   "id": "L04",
+   "type": "live",
+   "cats": [],
+   "lang": "en",
+   "q": "Has my village been ordered to evacuate today?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v1",
+   "id": "L04",
+   "type": "live",
+   "cats": [],
+   "lang": "hi",
+   "q": "क्या आज मेरे गाँव को खाली करने का आदेश दिया गया है?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v1",
+   "id": "L04",
+   "type": "live",
+   "cats": [],
+   "lang": "ta",
+   "q": "இன்று என் கிராமத்தை வெளியேற்ற உத்தரவிடப்பட்டுள்ளதா?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v1",
+   "id": "L04",
+   "type": "live",
+   "cats": [],
+   "lang": "te",
+   "q": "ఈ రోజు నా గ్రామాన్ని ఖాళీ చేయమని ఆదేశించారా?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v1",
+   "id": "L04",
+   "type": "live",
+   "cats": [],
+   "lang": "kn",
+   "q": "ಇಂದು ನನ್ನ ಗ್ರಾಮವನ್ನು ಸ್ಥಳಾಂತರಿಸಲು ಆದೇಶಿಸಲಾಗಿದೆಯೇ?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v1",
+   "id": "L04",
+   "type": "live",
+   "cats": [],
+   "lang": "ml",
+   "q": "ഇന്ന് എന്റെ ഗ്രാമം ഒഴിപ്പിക്കാൻ ഉത്തരവിട്ടിട്ടുണ്ടോ?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v2",
+   "id": "H01",
+   "type": "answerable",
+   "cats": [
+    "earthquake"
+   ],
+   "lang": "en",
+   "q": "What should I do if I am driving when an earthquake strikes?",
+   "known_hazard": true,
+   "hazard": "earthquake",
+   "score": 0.9529095888137817,
+   "margin": 0.009555160999298096,
+   "matched": "What should I do during an earthquake?"
+  },
+  {
+   "set": "v2",
+   "id": "H01",
+   "type": "answerable",
+   "cats": [
+    "earthquake"
+   ],
+   "lang": "hi",
+   "q": "अगर भूकंप आने पर मैं गाड़ी चला रहा हूँ तो मुझे क्या करना चाहिए?",
+   "known_hazard": true,
+   "hazard": "earthquake",
+   "score": 0.9467760324478149,
+   "margin": 0.012011528015136719,
+   "matched": "भूकंप के दौरान मुझे क्या करना चाहिए?"
+  },
+  {
+   "set": "v2",
+   "id": "H01",
+   "type": "answerable",
+   "cats": [
+    "earthquake"
+   ],
+   "lang": "ta",
+   "q": "நிலநடுக்கம் ஏற்படும்போது நான் வாகனம் ஓட்டிக்கொண்டிருந்தால் என்ன செய்ய வேண்டும்?",
+   "known_hazard": true,
+   "hazard": "earthquake",
+   "score": 0.9643254280090332,
+   "margin": 0.013018310070037842,
+   "matched": "நிலநடுக்கம் ஏற்படும்போது நான் என்ன செய்ய வேண்டும்?"
+  },
+  {
+   "set": "v2",
+   "id": "H02",
+   "type": "answerable",
+   "cats": [
+    "cyclone"
+   ],
+   "lang": "en",
+   "q": "How can I protect my house from strong cyclone winds?",
+   "known_hazard": true,
+   "hazard": "cyclone",
+   "score": 0.9321836233139038,
+   "margin": 0.00799560546875,
+   "matched": "How can I keep my family safe before a cyclone?"
+  },
+  {
+   "set": "v2",
+   "id": "H02",
+   "type": "answerable",
+   "cats": [
+    "cyclone"
+   ],
+   "lang": "hi",
+   "q": "मैं अपने घर को तेज़ चक्रवाती हवाओं से कैसे बचा सकता हूँ?",
+   "known_hazard": true,
+   "hazard": "cyclone",
+   "score": 0.9294762015342712,
+   "margin": 0.00613480806350708,
+   "matched": "मैं चक्रवात से पहले अपने परिवार को सुरक्षित कैसे रख सकता हूँ?"
+  },
+  {
+   "set": "v2",
+   "id": "H02",
+   "type": "answerable",
+   "cats": [
+    "cyclone"
+   ],
+   "lang": "ta",
+   "q": "பலத்த புயல் காற்றிலிருந்து என் வீட்டை எப்படி பாதுகாப்பது?",
+   "known_hazard": true,
+   "hazard": "cyclone",
+   "score": 0.9449676275253296,
+   "margin": 0.028596103191375732,
+   "matched": "புயலுக்கு முன்னாடி என் குடும்பத்தை எப்படி பாதுகாப்பா வைக்கிறது?"
+  },
+  {
+   "set": "v2",
+   "id": "H03",
+   "type": "answerable",
+   "cats": [
+    "lightning",
+    "thunderstorm_dust_storm_squall"
+   ],
+   "lang": "en",
+   "q": "What should I do if I am caught outside in an open field during a thunderstorm?",
+   "known_hazard": true,
+   "hazard": "lightning",
+   "score": 0.9370133280754089,
+   "margin": 0.00021308660507202148,
+   "matched": "There is thunder and lightning outside, what should I do?"
+  },
+  {
+   "set": "v2",
+   "id": "H03",
+   "type": "answerable",
+   "cats": [
+    "lightning",
+    "thunderstorm_dust_storm_squall"
+   ],
+   "lang": "hi",
+   "q": "अगर आँधी-तूफ़ान के दौरान मैं खुले मैदान में फँस जाऊँ तो क्या करूँ?",
+   "known_hazard": false,
+   "hazard": "forest_fire",
+   "score": 0.9219701886177063,
+   "margin": 0.001044154167175293,
+   "matched": "காட்டுத் தீ பரவும்போது நான் என்ன செய்ய வேண்டும்?"
+  },
+  {
+   "set": "v2",
+   "id": "H03",
+   "type": "answerable",
+   "cats": [
+    "lightning",
+    "thunderstorm_dust_storm_squall"
+   ],
+   "lang": "ta",
+   "q": "இடியுடன் கூடிய மழையின் போது திறந்தவெளியில் மாட்டிக்கொண்டால் என்ன செய்வது?",
+   "known_hazard": false,
+   "hazard": "thunderstorm_dust_storm_squall",
+   "score": 0.9485656023025513,
+   "margin": 0.006847560405731201,
+   "matched": "இடியுடன் கூடிய மழை அல்லது தூசிப் புயல் ஏற்படும்போது என்ன செய்வது?"
+  },
+  {
+   "set": "v2",
+   "id": "H04",
+   "type": "answerable",
+   "cats": [
+    "flood",
+    "urban_flood"
+   ],
+   "lang": "en",
+   "q": "How can I make drinking water safe after a flood?",
+   "known_hazard": true,
+   "hazard": "flood",
+   "score": 0.9424833655357361,
+   "margin": 0.0013381242752075195,
+   "matched": "What precautions should I take after a flood?"
+  },
+  {
+   "set": "v2",
+   "id": "H04",
+   "type": "answerable",
+   "cats": [
+    "flood",
+    "urban_flood"
+   ],
+   "lang": "hi",
+   "q": "बाढ़ के बाद मैं पीने के पानी को सुरक्षित कैसे बना सकता हूँ?",
+   "known_hazard": true,
+   "hazard": "flood",
+   "score": 0.9043007493019104,
+   "margin": 0.0034446120262145996,
+   "matched": "बाढ़ के दौरान मैं खुद को सुरक्षित कैसे रखूँ?"
+  },
+  {
+   "set": "v2",
+   "id": "H04",
+   "type": "answerable",
+   "cats": [
+    "flood",
+    "urban_flood"
+   ],
+   "lang": "ta",
+   "q": "வெள்ளத்திற்குப் பிறகு குடிநீரை பாதுகாப்பாக்குவது எப்படி?",
+   "known_hazard": true,
+   "hazard": "flood",
+   "score": 0.9338449239730835,
+   "margin": 0.0024499893188476562,
+   "matched": "வெள்ளத்தின் போது நான் எப்படி பாதுகாப்பாக இருப்பது?"
+  },
+  {
+   "set": "v2",
+   "id": "H05",
+   "type": "answerable",
+   "cats": [
+    "landslide"
+   ],
+   "lang": "en",
+   "q": "What are the warning signs of a landslide?",
+   "known_hazard": true,
+   "hazard": "landslide",
+   "score": 0.9219003319740295,
+   "margin": 0.01790100336074829,
+   "matched": "What precautions should I take after a landslide?"
+  },
+  {
+   "set": "v2",
+   "id": "H05",
+   "type": "answerable",
+   "cats": [
+    "landslide"
+   ],
+   "lang": "hi",
+   "q": "भूस्खलन के चेतावनी संकेत क्या हैं?",
+   "known_hazard": true,
+   "hazard": "landslide",
+   "score": 0.89764404296875,
+   "margin": 0.012849211692810059,
+   "matched": "भूस्खलन के बाद मुझे क्या सावधानियां बरतनी चाहिए?"
+  },
+  {
+   "set": "v2",
+   "id": "H05",
+   "type": "answerable",
+   "cats": [
+    "landslide"
+   ],
+   "lang": "ta",
+   "q": "நிலச்சரிவின் எச்சரிக்கை அறிகுறிகள் என்ன?",
+   "known_hazard": true,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v2",
+   "id": "H06",
+   "type": "answerable",
+   "cats": [
+    "cold_wave"
+   ],
+   "lang": "en",
+   "q": "How can I stay safe during a cold wave?",
+   "known_hazard": true,
+   "hazard": "cold_wave",
+   "score": 0.998879075050354,
+   "margin": 0.03880953788757324,
+   "matched": "How do I stay safe during a cold wave?"
+  },
+  {
+   "set": "v2",
+   "id": "H06",
+   "type": "answerable",
+   "cats": [
+    "cold_wave"
+   ],
+   "lang": "hi",
+   "q": "शीत लहर के दौरान मैं सुरक्षित कैसे रहूँ?",
+   "known_hazard": false,
+   "hazard": "cold_wave",
+   "score": 0.9717217683792114,
+   "margin": 0.012170672416687012,
+   "matched": "मैं ठंड की लहर के दौरान खुद को सुरक्षित कैसे रखूँ?"
+  },
+  {
+   "set": "v2",
+   "id": "H06",
+   "type": "answerable",
+   "cats": [
+    "cold_wave"
+   ],
+   "lang": "ta",
+   "q": "குளிர் அலையின் போது நான் எப்படி பாதுகாப்பாக இருப்பது?",
+   "known_hazard": false,
+   "hazard": "cold_wave",
+   "score": 0.9969326257705688,
+   "margin": 0.02235943078994751,
+   "matched": "குளிர் அலை நேரத்தில் நான் எப்படி பாதுகாப்பாக இருப்பது?"
+  },
+  {
+   "set": "v2",
+   "id": "H07",
+   "type": "answerable",
+   "cats": [
+    "heat_wave"
+   ],
+   "lang": "en",
+   "q": "What should I do if someone gets heat stroke?",
+   "known_hazard": true,
+   "hazard": "heat_wave",
+   "score": 0.9397919178009033,
+   "margin": 0.01382911205291748,
+   "matched": "How do I avoid heat stroke?"
+  },
+  {
+   "set": "v2",
+   "id": "H07",
+   "type": "answerable",
+   "cats": [
+    "heat_wave"
+   ],
+   "lang": "hi",
+   "q": "अगर किसी को लू लग जाए तो क्या करना चाहिए?",
+   "known_hazard": true,
+   "hazard": "heat_wave",
+   "score": 0.9419623613357544,
+   "margin": 0.004262089729309082,
+   "matched": "लू के दौरान मुझे क्या करना चाहिए?"
+  },
+  {
+   "set": "v2",
+   "id": "H07",
+   "type": "answerable",
+   "cats": [
+    "heat_wave"
+   ],
+   "lang": "ta",
+   "q": "யாருக்காவது வெப்ப பக்கவாதம் ஏற்பட்டால் என்ன செய்ய வேண்டும்?",
+   "known_hazard": false,
+   "hazard": "avalanche",
+   "score": 0.9377058744430542,
+   "margin": 0.0027638673782348633,
+   "matched": "ಹಿಮ ಕುಸಿತವಾದರೆ ಏನು ಮಾಡಬೇಕು?"
+  },
+  {
+   "set": "v2",
+   "id": "H08",
+   "type": "answerable",
+   "cats": [
+    "flood",
+    "cyclone",
+    "earthquake",
+    "fire",
+    "urban_flood"
+   ],
+   "lang": "en",
+   "q": "How should I prepare my family for a disaster?",
+   "known_hazard": false,
+   "hazard": "flood",
+   "score": 0.939842939376831,
+   "margin": 0.00011682510375976562,
+   "matched": "How can I keep my family safe before a flood?"
+  },
+  {
+   "set": "v2",
+   "id": "H08",
+   "type": "answerable",
+   "cats": [
+    "flood",
+    "cyclone",
+    "earthquake",
+    "fire",
+    "urban_flood"
+   ],
+   "lang": "hi",
+   "q": "मैं अपने परिवार को आपदा के लिए कैसे तैयार करूँ?",
+   "known_hazard": false,
+   "hazard": "earthquake",
+   "score": 0.939680814743042,
+   "margin": 0.0010923147201538086,
+   "matched": "நிலநடுக்கத்திற்கு முன்னால் என் குடும்பத்தை நான் எப்படி பாதுகாப்பது?"
+  },
+  {
+   "set": "v2",
+   "id": "H08",
+   "type": "answerable",
+   "cats": [
+    "flood",
+    "cyclone",
+    "earthquake",
+    "fire",
+    "urban_flood"
+   ],
+   "lang": "ta",
+   "q": "பேரிடருக்கு என் குடும்பத்தை எப்படி தயார்படுத்துவது?",
+   "known_hazard": false,
+   "hazard": "fire",
+   "score": 0.9559541344642639,
+   "margin": 0.002089202404022217,
+   "matched": "தீ விபத்து வருவதற்கு முன் என் குடும்பத்தை நான் எப்படி பாதுகாப்பது?"
+  },
+  {
+   "set": "v2",
+   "id": "H09",
+   "type": "answerable",
+   "cats": [
+    "forest_fire",
+    "fire"
+   ],
+   "lang": "en",
+   "q": "How do I stay safe from a forest fire?",
+   "known_hazard": true,
+   "hazard": "forest_fire",
+   "score": 0.9904902577400208,
+   "margin": 0.020513832569122314,
+   "matched": "How do I stay safe during a forest fire?"
+  },
+  {
+   "set": "v2",
+   "id": "H09",
+   "type": "answerable",
+   "cats": [
+    "forest_fire",
+    "fire"
+   ],
+   "lang": "hi",
+   "q": "मैं जंगल की आग से सुरक्षित कैसे रहूँ?",
+   "known_hazard": false,
+   "hazard": "forest_fire",
+   "score": 0.978441596031189,
+   "margin": 0.023082315921783447,
+   "matched": "मैं जंगल की आग के दौरान खुद को सुरक्षित कैसे रखूँ?"
+  },
+  {
+   "set": "v2",
+   "id": "H09",
+   "type": "answerable",
+   "cats": [
+    "forest_fire",
+    "fire"
+   ],
+   "lang": "ta",
+   "q": "காட்டுத்தீயிலிருந்து நான் எப்படி பாதுகாப்பாக இருப்பது?",
+   "known_hazard": false,
+   "hazard": "forest_fire",
+   "score": 0.9647125005722046,
+   "margin": 0.024415671825408936,
+   "matched": "காட்டுத் தீ சமயத்தில் நான் எப்படி பாதுகாப்பாக இருப்பது?"
+  },
+  {
+   "set": "v2",
+   "id": "H10",
+   "type": "answerable",
+   "cats": [
+    "earthquake",
+    "fire"
+   ],
+   "lang": "en",
+   "q": "What should I do if I smell gas after an earthquake?",
+   "known_hazard": true,
+   "hazard": "earthquake",
+   "score": 0.9387372732162476,
+   "margin": 0.008947908878326416,
+   "matched": "What should I do after an earthquake?"
+  },
+  {
+   "set": "v2",
+   "id": "H10",
+   "type": "answerable",
+   "cats": [
+    "earthquake",
+    "fire"
+   ],
+   "lang": "hi",
+   "q": "भूकंप के बाद अगर मुझे गैस की गंध आए तो क्या करूँ?",
+   "known_hazard": true,
+   "hazard": "earthquake",
+   "score": 0.9186654090881348,
+   "margin": 0.014510154724121094,
+   "matched": "भूकंप के बाद मुझे क्या करना चाहिए?"
+  },
+  {
+   "set": "v2",
+   "id": "H10",
+   "type": "answerable",
+   "cats": [
+    "earthquake",
+    "fire"
+   ],
+   "lang": "ta",
+   "q": "நிலநடுக்கத்திற்குப் பிறகு எரிவாயு வாசனை வந்தால் என்ன செய்வது?",
+   "known_hazard": true,
+   "hazard": "earthquake",
+   "score": 0.9474725723266602,
+   "margin": 0.010028839111328125,
+   "matched": "நிலநடுக்கத்திற்குப் பிறகு நான் என்ன செய்ய வேண்டும்?"
+  },
+  {
+   "set": "v2",
+   "id": "H11",
+   "type": "answerable",
+   "cats": [
+    "earthquake"
+   ],
+   "lang": "en",
+   "q": "Where is the safest place inside a building during an earthquake?",
+   "known_hazard": true,
+   "hazard": "earthquake",
+   "score": 0.9121866226196289,
+   "margin": 0.018158018589019775,
+   "matched": "How do I stay safe during an earthquake?"
+  },
+  {
+   "set": "v2",
+   "id": "H11",
+   "type": "answerable",
+   "cats": [
+    "earthquake"
+   ],
+   "lang": "hi",
+   "q": "भूकंप के दौरान इमारत के अंदर सबसे सुरक्षित जगह कौन सी है?",
+   "known_hazard": true,
+   "hazard": "earthquake",
+   "score": 0.8990358114242554,
+   "margin": 0.024144411087036133,
+   "matched": "भूकंप के दौरान मैं खुद को सुरक्षित कैसे रखूँ?"
+  },
+  {
+   "set": "v2",
+   "id": "H11",
+   "type": "answerable",
+   "cats": [
+    "earthquake"
+   ],
+   "lang": "ta",
+   "q": "நிலநடுக்கத்தின் போது கட்டிடத்திற்குள் மிகவும் பாதுகாப்பான இடம் எது?",
+   "known_hazard": true,
+   "hazard": "earthquake",
+   "score": 0.9348770380020142,
+   "margin": 0.037520408630371094,
+   "matched": "நிலநடுக்கத்தின் போது நான் எப்படி பாதுகாப்பாக இருப்பது?"
+  },
+  {
+   "set": "v2",
+   "id": "H12",
+   "type": "answerable",
+   "cats": [
+    "fire"
+   ],
+   "lang": "en",
+   "q": "What should I do if I cannot escape from a burning building through the door?",
+   "known_hazard": false,
+   "hazard": "fire",
+   "score": 0.9253003597259521,
+   "margin": 0.019747912883758545,
+   "matched": "My building is on fire, what should I do?"
+  },
+  {
+   "set": "v2",
+   "id": "H12",
+   "type": "answerable",
+   "cats": [
+    "fire"
+   ],
+   "lang": "hi",
+   "q": "अगर मैं जलती हुई इमारत से दरवाज़े के रास्ते बाहर न निकल पाऊँ तो क्या करूँ?",
+   "known_hazard": false,
+   "hazard": "fire",
+   "score": 0.9103943109512329,
+   "margin": 0.005673885345458984,
+   "matched": "मेरी बिल्डिंग में आग लगी है, मुझे क्या करना चाहिए?"
+  },
+  {
+   "set": "v2",
+   "id": "H12",
+   "type": "answerable",
+   "cats": [
+    "fire"
+   ],
+   "lang": "ta",
+   "q": "எரியும் கட்டிடத்திலிருந்து கதவு வழியாக வெளியேற முடியவில்லை என்றால் என்ன செய்வது?",
+   "known_hazard": false,
+   "hazard": "lightning",
+   "score": 0.9053874015808105,
+   "margin": 0.0042269229888916016,
+   "matched": "പുറത്ത് ഇടിമുഴക്കവും മിന്നലും ഉണ്ട്, എന്തുചെയ്യണം?"
+  },
+  {
+   "set": "v2",
+   "id": "H13",
+   "type": "answerable",
+   "cats": [
+    "tsunami"
+   ],
+   "lang": "en",
+   "q": "How far inland or how high should I go to escape a tsunami?",
+   "known_hazard": true,
+   "hazard": "tsunami",
+   "score": 0.9126074910163879,
+   "margin": 0.007137119770050049,
+   "matched": "How do I stay safe during a tsunami?"
+  },
+  {
+   "set": "v2",
+   "id": "H13",
+   "type": "answerable",
+   "cats": [
+    "tsunami"
+   ],
+   "lang": "hi",
+   "q": "सुनामी से बचने के लिए मुझे कितनी दूर या कितनी ऊँचाई पर जाना चाहिए?",
+   "known_hazard": true,
+   "hazard": "tsunami",
+   "score": 0.9209502339363098,
+   "margin": 0.0067130327224731445,
+   "matched": "सुनामी के लिए मैं कैसे तैयारी करूं?"
+  },
+  {
+   "set": "v2",
+   "id": "H13",
+   "type": "answerable",
+   "cats": [
+    "tsunami"
+   ],
+   "lang": "ta",
+   "q": "சுனாமியிலிருந்து தப்பிக்க நான் எவ்வளவு தூரம் அல்லது எவ்வளவு உயரத்திற்கு செல்ல வேண்டும்?",
+   "known_hazard": true,
+   "hazard": "tsunami",
+   "score": 0.9192073345184326,
+   "margin": 0.0017315149307250977,
+   "matched": "சுனாமி ஏற்படும்போது நான் என்ன செய்ய வேண்டும்?"
+  },
+  {
+   "set": "v2",
+   "id": "H14",
+   "type": "answerable",
+   "cats": [
+    "chemical_emergency"
+   ],
+   "lang": "en",
+   "q": "What should I do during a chemical accident?",
+   "known_hazard": true,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v2",
+   "id": "H14",
+   "type": "answerable",
+   "cats": [
+    "chemical_emergency"
+   ],
+   "lang": "hi",
+   "q": "रासायनिक दुर्घटना के दौरान मुझे क्या करना चाहिए?",
+   "known_hazard": false,
+   "hazard": "fire",
+   "score": 0.9283205270767212,
+   "margin": 0.0038312673568725586,
+   "matched": "தீ விபத்து ஏற்பட்டால் நான் என்ன செய்ய வேண்டும்?"
+  },
+  {
+   "set": "v2",
+   "id": "H14",
+   "type": "answerable",
+   "cats": [
+    "chemical_emergency"
+   ],
+   "lang": "ta",
+   "q": "இரசாயன விபத்தின் போது நான் என்ன செய்ய வேண்டும்?",
+   "known_hazard": false,
+   "hazard": "fire",
+   "score": 0.9506901502609253,
+   "margin": 0.0024573206901550293,
+   "matched": "தீ விபத்து ஏற்பட்டால் நான் என்ன செய்ய வேண்டும்?"
+  },
+  {
+   "set": "v2",
+   "id": "H15",
+   "type": "answerable",
+   "cats": [
+    "flood",
+    "urban_flood"
+   ],
+   "lang": "en",
+   "q": "Why should I stay away from fallen power lines during a flood?",
+   "known_hazard": true,
+   "hazard": "flood",
+   "score": 0.9208431243896484,
+   "margin": 0.010736346244812012,
+   "matched": "How do I stay safe during a flood?"
+  },
+  {
+   "set": "v2",
+   "id": "H15",
+   "type": "answerable",
+   "cats": [
+    "flood",
+    "urban_flood"
+   ],
+   "lang": "hi",
+   "q": "बाढ़ के दौरान मुझे गिरी हुई बिजली की तारों से दूर क्यों रहना चाहिए?",
+   "known_hazard": true,
+   "hazard": "flood",
+   "score": 0.9024982452392578,
+   "margin": 0.004281044006347656,
+   "matched": "बाढ़ के दौरान मैं खुद को सुरक्षित कैसे रखूँ?"
+  },
+  {
+   "set": "v2",
+   "id": "H15",
+   "type": "answerable",
+   "cats": [
+    "flood",
+    "urban_flood"
+   ],
+   "lang": "ta",
+   "q": "வெள்ளத்தின் போது விழுந்த மின்கம்பிகளிடமிருந்து ஏன் விலகி இருக்க வேண்டும்?",
+   "known_hazard": true,
+   "hazard": "flood",
+   "score": 0.90276038646698,
+   "margin": 0.0013252496719360352,
+   "matched": "வெள்ளம் குறைந்த பிறகு நான் என்னென்ன முன்னெச்சரிக்கை நடவடிக்கைகளை எடுக்க வேண்டும்?"
+  },
+  {
+   "set": "v2",
+   "id": "H16",
+   "type": "answerable",
+   "cats": [
+    "cyclone"
+   ],
+   "lang": "en",
+   "q": "What should I do after a cyclone has passed?",
+   "known_hazard": true,
+   "hazard": "cyclone",
+   "score": 0.9856113791465759,
+   "margin": 0.022879421710968018,
+   "matched": "What should I do after a cyclone?"
+  },
+  {
+   "set": "v2",
+   "id": "H16",
+   "type": "answerable",
+   "cats": [
+    "cyclone"
+   ],
+   "lang": "hi",
+   "q": "चक्रवात गुज़र जाने के बाद मुझे क्या करना चाहिए?",
+   "known_hazard": true,
+   "hazard": "cyclone",
+   "score": 0.9881254434585571,
+   "margin": 0.014204025268554688,
+   "matched": "चक्रवात के बाद मुझे क्या करना चाहिए?"
+  },
+  {
+   "set": "v2",
+   "id": "H16",
+   "type": "answerable",
+   "cats": [
+    "cyclone"
+   ],
+   "lang": "ta",
+   "q": "புயல் கடந்த பிறகு நான் என்ன செய்ய வேண்டும்?",
+   "known_hazard": true,
+   "hazard": "cyclone",
+   "score": 0.9756808280944824,
+   "margin": 0.01448214054107666,
+   "matched": "புயல் குறைந்த பிறகு நான் என்ன செய்ய வேண்டும்?"
+  },
+  {
+   "set": "v2",
+   "id": "H17",
+   "type": "answerable",
+   "cats": [
+    "drought"
+   ],
+   "lang": "en",
+   "q": "What precautions can be taken during a drought?",
+   "known_hazard": true,
+   "hazard": "drought",
+   "score": 0.9620265364646912,
+   "margin": 0.026734769344329834,
+   "matched": "What precautions should I take after a drought?"
+  },
+  {
+   "set": "v2",
+   "id": "H17",
+   "type": "answerable",
+   "cats": [
+    "drought"
+   ],
+   "lang": "hi",
+   "q": "सूखे के दौरान कौन सी सावधानियाँ बरती जा सकती हैं?",
+   "known_hazard": false,
+   "hazard": "drought",
+   "score": 0.954197347164154,
+   "margin": 0.027754545211791992,
+   "matched": "सूखे के बाद मुझे क्या सावधानियां बरतनी चाहिए?"
+  },
+  {
+   "set": "v2",
+   "id": "H17",
+   "type": "answerable",
+   "cats": [
+    "drought"
+   ],
+   "lang": "ta",
+   "q": "வறட்சியின் போது என்னென்ன முன்னெச்சரிக்கைகள் எடுக்கலாம்?",
+   "known_hazard": false,
+   "hazard": "drought",
+   "score": 0.9545080661773682,
+   "margin": 0.010339736938476562,
+   "matched": "வறட்சிக்குப் பிறகு நான் என்னென்ன முன்னெச்சரிக்கை நடவடிக்கைகளை எடுக்க வேண்டும்?"
+  },
+  {
+   "set": "v2",
+   "id": "H18",
+   "type": "answerable",
+   "cats": [
+    "flood",
+    "urban_flood"
+   ],
+   "lang": "en",
+   "q": "Why should food that touched floodwater not be eaten?",
+   "known_hazard": true,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v2",
+   "id": "H18",
+   "type": "answerable",
+   "cats": [
+    "flood",
+    "urban_flood"
+   ],
+   "lang": "hi",
+   "q": "बाढ़ के पानी से छुआ हुआ खाना क्यों नहीं खाना चाहिए?",
+   "known_hazard": true,
+   "hazard": "flood",
+   "score": 0.8763172030448914,
+   "margin": 0.001087963581085205,
+   "matched": "बाढ़ के समय मुझे क्या करना चाहिए?"
+  },
+  {
+   "set": "v2",
+   "id": "H18",
+   "type": "answerable",
+   "cats": [
+    "flood",
+    "urban_flood"
+   ],
+   "lang": "ta",
+   "q": "வெள்ள நீரில் பட்ட உணவை ஏன் சாப்பிடக்கூடாது?",
+   "known_hazard": true,
+   "hazard": "flood",
+   "score": 0.9027247428894043,
+   "margin": 0.00354081392288208,
+   "matched": "வெள்ளத்துக்கு நான் எப்படி தயாராவது?"
+  },
+  {
+   "set": "v2",
+   "id": "U05",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "en",
+   "q": "What is the best time to plant rice?",
+   "known_hazard": false,
+   "hazard": "drought",
+   "score": 0.8479549288749695,
+   "margin": 0.004162490367889404,
+   "matched": "How do I prepare for a drought?"
+  },
+  {
+   "set": "v2",
+   "id": "U05",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "hi",
+   "q": "धान बोने का सबसे अच्छा समय कौन सा है?",
+   "known_hazard": false,
+   "hazard": "cold_wave",
+   "score": 0.8220969438552856,
+   "margin": 0.0025989413261413574,
+   "matched": "തണുപ്പുകാലത്തിന് എങ്ങനെ തയ്യാറെടുക്കാം?"
+  },
+  {
+   "set": "v2",
+   "id": "U05",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "ta",
+   "q": "நெல் நடவு செய்ய சிறந்த நேரம் எது?",
+   "known_hazard": false,
+   "hazard": "earthquake",
+   "score": 0.8693718910217285,
+   "margin": 0.008388400077819824,
+   "matched": "நிலநடுக்கத்தின் போது என்ன செய்வது?"
+  },
+  {
+   "set": "v2",
+   "id": "U06",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "en",
+   "q": "How do I apply for a passport?",
+   "known_hazard": false,
+   "hazard": "fire",
+   "score": 0.8478530645370483,
+   "margin": 0.001149296760559082,
+   "matched": "How do I prepare for a fire?"
+  },
+  {
+   "set": "v2",
+   "id": "U06",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "hi",
+   "q": "मैं पासपोर्ट के लिए आवेदन कैसे करूँ?",
+   "known_hazard": false,
+   "hazard": "avalanche",
+   "score": 0.8754228949546814,
+   "margin": 0.007727324962615967,
+   "matched": "അവലാഞ്ചിന് വേണ്ടി ഞാൻ എങ്ങനെ തയ്യാറെടുക്കണം?"
+  },
+  {
+   "set": "v2",
+   "id": "U06",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "ta",
+   "q": "கடவுச்சீட்டுக்கு எப்படி விண்ணப்பிப்பது?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v2",
+   "id": "U07",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "en",
+   "q": "Explain how quantum computers work.",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v2",
+   "id": "U07",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "hi",
+   "q": "क्वांटम कंप्यूटर कैसे काम करते हैं, समझाइए।",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v2",
+   "id": "U07",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "ta",
+   "q": "குவாண்டம் கணினிகள் எப்படி வேலை செய்கின்றன என்று விளக்குங்கள்.",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v2",
+   "id": "U08",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "en",
+   "q": "Which team won the cricket world cup?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v2",
+   "id": "U08",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "hi",
+   "q": "क्रिकेट विश्व कप किस टीम ने जीता?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v2",
+   "id": "U08",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "ta",
+   "q": "கிரிக்கெட் உலகக் கோப்பையை எந்த அணி வென்றது?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v2",
+   "id": "U09",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "en",
+   "q": "Recommend a good restaurant in Chennai.",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v2",
+   "id": "U09",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "hi",
+   "q": "चेन्नई में कोई अच्छा रेस्तरां बताइए।",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v2",
+   "id": "U09",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "ta",
+   "q": "சென்னையில் ஒரு நல்ல உணவகத்தை பரிந்துரைக்கவும்.",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v2",
+   "id": "U10",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "en",
+   "q": "How do I repair a car engine that was damaged by water?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v2",
+   "id": "U10",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "hi",
+   "q": "पानी से खराब हुए कार के इंजन की मरम्मत कैसे करूँ?",
+   "known_hazard": false,
+   "hazard": "urban_flood",
+   "score": 0.866143524646759,
+   "margin": 0.014305830001831055,
+   "matched": "मेरे शहर की सड़कें पानी में डूबी हुई हैं, मुझे क्या करना चाहिए?"
+  },
+  {
+   "set": "v2",
+   "id": "U10",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "ta",
+   "q": "தண்ணீரால் சேதமடைந்த கார் இன்ஜினை எப்படி பழுது பார்ப்பது?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v2",
+   "id": "U11",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "en",
+   "q": "How do I treat a fever at home?",
+   "known_hazard": false,
+   "hazard": "fire",
+   "score": 0.905196487903595,
+   "margin": 0.0019605159759521484,
+   "matched": "There is a fire in my house, what should I do?"
+  },
+  {
+   "set": "v2",
+   "id": "U11",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "hi",
+   "q": "घर पर बुखार का इलाज कैसे करूँ?",
+   "known_hazard": false,
+   "hazard": "fire",
+   "score": 0.9078670740127563,
+   "margin": 0.017270922660827637,
+   "matched": "എൻ്റെ വീട്ടിൽ തീപിടിത്തമുണ്ട്, എന്തുചെയ്യണം?"
+  },
+  {
+   "set": "v2",
+   "id": "U11",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "ta",
+   "q": "வீட்டில் காய்ச்சலுக்கு எப்படி சிகிச்சை அளிப்பது?",
+   "known_hazard": false,
+   "hazard": "fire",
+   "score": 0.9041892290115356,
+   "margin": 0.009297847747802734,
+   "matched": "എൻ്റെ വീട്ടിൽ തീപിടിത്തമുണ്ട്, എന്തുചെയ്യണം?"
+  },
+  {
+   "set": "v2",
+   "id": "U12",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "en",
+   "q": "What is the price of gold today?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v2",
+   "id": "U12",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "hi",
+   "q": "आज सोने का भाव क्या है?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v2",
+   "id": "U12",
+   "type": "unanswerable",
+   "cats": [],
+   "lang": "ta",
+   "q": "இன்று தங்கத்தின் விலை என்ன?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v2",
+   "id": "L05",
+   "type": "live",
+   "cats": [],
+   "lang": "en",
+   "q": "Is there a cyclone warning for Chennai right now?",
+   "known_hazard": true,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v2",
+   "id": "L05",
+   "type": "live",
+   "cats": [],
+   "lang": "hi",
+   "q": "क्या अभी चेन्नई के लिए चक्रवात की चेतावनी जारी है?",
+   "known_hazard": true,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v2",
+   "id": "L05",
+   "type": "live",
+   "cats": [],
+   "lang": "ta",
+   "q": "சென்னைக்கு இப்போது புயல் எச்சரிக்கை உள்ளதா?",
+   "known_hazard": true,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v2",
+   "id": "L06",
+   "type": "live",
+   "cats": [],
+   "lang": "en",
+   "q": "How many people have been rescued in the current flood?",
+   "known_hazard": true,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v2",
+   "id": "L06",
+   "type": "live",
+   "cats": [],
+   "lang": "hi",
+   "q": "मौजूदा बाढ़ में अब तक कितने लोगों को बचाया गया है?",
+   "known_hazard": true,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v2",
+   "id": "L06",
+   "type": "live",
+   "cats": [],
+   "lang": "ta",
+   "q": "தற்போதைய வெள்ளத்தில் இதுவரை எத்தனை பேர் மீட்கப்பட்டுள்ளனர்?",
+   "known_hazard": true,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v2",
+   "id": "L07",
+   "type": "live",
+   "cats": [],
+   "lang": "en",
+   "q": "Which roads near me are flooded at the moment?",
+   "known_hazard": true,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v2",
+   "id": "L07",
+   "type": "live",
+   "cats": [],
+   "lang": "hi",
+   "q": "इस समय मेरे पास की कौन सी सड़कें जलमग्न हैं?",
+   "known_hazard": false,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  },
+  {
+   "set": "v2",
+   "id": "L07",
+   "type": "live",
+   "cats": [],
+   "lang": "ta",
+   "q": "இந்த நேரத்தில் என் அருகிலுள்ள எந்த சாலைகள் வெள்ளத்தில் மூழ்கியுள்ளன?",
+   "known_hazard": true,
+   "hazard": null,
+   "score": 0.0,
+   "margin": 0.0,
+   "matched": null
+  }
+ ]
+}

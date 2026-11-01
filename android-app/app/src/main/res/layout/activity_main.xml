@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/setup_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#0b1020"
+        android:padding="32dp">
+
+        <!-- Same shield mark as the launcher icon and the page header, so
+             start-up looks like the app, not a blank loading page. -->
+        <ImageView
+            android:id="@+id/splash_mark"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_launcher_foreground"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="28dp"
+            android:textColor="#f3f6fc"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:text="Disaster Help" />
+
+        <TextView
+            android:id="@+id/setup_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#9aa8c4"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:autoLink="web"
+            android:text="Preparing on-device AI (first launch only)..." />
+
+        <ProgressBar
+            android:id="@+id/setup_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:indeterminate="true"
+            android:indeterminateTint="#E5483A"
+            android:progressTint="#E5483A"
+            android:max="100" />
+
+        <!--
+            Two ways to get the one-time model file onto the phone:
+            select_model_btn (recommended) hands the picking to Android's
+            own document picker, so the user can download the model with
+            their phone's normal browser over ANY internet connection,
+            hotspot not required, and then just point the app at it. No
+            storage permission needed; scoped storage safe on every API
+            level. wifi_download_btn keeps the original path (this
+            project's own Wi-Fi hotspot server) as a fallback for whoever
+            would rather not use a browser.
+        -->
+        <Button
+            android:id="@+id/select_model_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:visibility="gone"
+            android:text="Select the file I downloaded" />
+
+        <Button
+            android:id="@+id/wifi_download_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:text="Or download now over this app's Wi-Fi hotspot" />
+    </LinearLayout>
+</FrameLayout>

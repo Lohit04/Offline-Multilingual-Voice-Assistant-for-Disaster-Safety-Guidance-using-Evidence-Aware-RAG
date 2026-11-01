@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    App icon foreground: the shield-with-"!" mark used in the page header
+    (index.html, 48x48 viewBox), with a soft drop shadow and a light/dark
+    split for depth. Scaled 1.35x and centred in the 108dp adaptive-icon
+    canvas, inside its 66dp safe zone so circle/squircle masks don't clip it.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- shadow -->
+    <path android:pathData="M54,90 m-20,0 a20,4 0 1,0 40,0 a20,4 0 1,0 -40,0">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="radial" android:centerX="54" android:centerY="90" android:gradientRadius="20">
+                <item android:offset="0" android:color="#66000000" />
+                <item android:offset="1" android:color="#00000000" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <group
+        android:scaleX="1.35"
+        android:scaleY="1.35"
+        android:translateX="21.6"
+        android:translateY="21.6">
+
+        <path android:pathData="M24,3 L43,11 V23 C43,34 35,42 24,45 C13,42 5,34 5,23 V11 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="8"
+                    android:startY="4"
+                    android:endX="40"
+                    android:endY="44">
+                    <item android:offset="0" android:color="#FFFF7A63" />
+                    <item android:offset="0.55" android:color="#FFE5483A" />
+                    <item android:offset="1" android:color="#FFA81F16" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- left half catches the light -->
+        <path
+            android:fillColor="#22FFFFFF"
+            android:pathData="M24,3 L5,11 V23 C5,34 13,42 24,45 Z" />
+
+        <!-- thin inner rim -->
+        <path
+            android:pathData="M24,5.6 L40.6,12.6 V23 C40.6,32.6 33.6,39.8 24,42.5 C14.4,39.8 7.4,32.6 7.4,23 V12.6 Z"
+            android:strokeColor="#33FFFFFF"
+            android:strokeWidth="0.8" />
+
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M23.1,13 h1.8 a1.8,1.8 0 0 1 1.8,1.8 v13.4 a1.8,1.8 0 0 1 -1.8,1.8 h-1.8 a1.8,1.8 0 0 1 -1.8,-1.8 v-13.4 a1.8,1.8 0 0 1 1.8,-1.8 z" />
+
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M21.2,35.6 a2.8,2.8 0 1,0 5.6,0 a2.8,2.8 0 1,0 -5.6,0 z" />
+    </group>
+</vector>

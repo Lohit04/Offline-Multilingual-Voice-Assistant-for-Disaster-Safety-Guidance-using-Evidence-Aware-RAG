@@ -1,0 +1,48 @@
+APK download server (plain HTTP, for Android's Download Manager) on :8080
+Plain-HTTP API server (for the bundled Android app) on :8001
+
+=== Open one of these on the phone (same network as this laptop) ===
+  https://172.17.76.13:8443      (APK: http://172.17.76.13:8080/disaster-assistant.apk)
+If the phone can't connect, run scripts/open_firewall.ps1 once (as admin).
+
+INFO:     Started server process [22004]
+INFO:     Waiting for application startup.
+INFO:     Started server process [22004]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     Uvicorn running on https://0.0.0.0:8443 (Press CTRL+C to quit)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+INFO:     127.0.0.1:54825 - "POST /api/ask HTTP/1.1" 422 Unprocessable Content
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  46%|████▌     | 92/199 [00:00<00:00, 919.34it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 1388.56it/s]
+INFO:     127.0.0.1:54837 - "POST /api/ask HTTP/1.1" 422 Unprocessable Content
+INFO:     127.0.0.1:54844 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54883 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54914 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54938 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54963 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54982 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55023 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55064 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55090 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51057 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61091 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61114 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61138 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61186 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61205 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61245 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61270 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61296 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61315 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61340 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61358 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61398 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61423 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61441 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61465 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61500 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61888 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61928 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61951 - "POST /api/ask HTTP/1.1" 200 OK

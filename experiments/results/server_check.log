@@ -1,0 +1,73 @@
+APK download server (plain HTTP, for Android's Download Manager) on :8080
+Plain-HTTP API server (for the bundled Android app) on :8001
+
+=== Open one of these on the phone (same network as this laptop) ===
+  https://172.17.76.13:8443      (APK: http://172.17.76.13:8080/disaster-assistant.apk)
+If the phone can't connect, run scripts/open_firewall.ps1 once (as admin).
+
+INFO:     Started server process [33348]
+INFO:     Waiting for application startup.
+INFO:     Started server process [33348]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     Uvicorn running on https://0.0.0.0:8443 (Press CTRL+C to quit)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  53%|█████▎    | 105/199 [00:00<00:00, 1028.58it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 1611.83it/s]
+INFO:     127.0.0.1:62053 - "GET / HTTP/1.1" 200 OK
+127.0.0.1 - - [13/Oct/2026 18:49:47] "GET / HTTP/1.1" 200 -
+INFO:     127.0.0.1:62061 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62087 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62107 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52138 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59562 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59562 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54643 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55999 - "GET /static/manifest.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54643 - "POST /api/ask HTTP/1.1" 422 Unprocessable Content
+INFO:     127.0.0.1:59562 - "GET /static/sw.js HTTP/1.1" 200 OK
+Exception in callback _ProactorBasePipeTransport._call_connection_lost()
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost()>
+Traceback (most recent call last):
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:     127.0.0.1:54643 - "GET /static/icon.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54643 - "GET /static/icon.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55117 - "POST /api/ask HTTP/1.1" 200 OK
+Exception in callback _ProactorBasePipeTransport._call_connection_lost()
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost()>
+Traceback (most recent call last):
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+Exception in callback _ProactorBasePipeTransport._call_connection_lost()
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost()>
+Traceback (most recent call last):
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ganes\AppData\Local\Programs\Python\Python314\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:     127.0.0.1:55114 - "POST /api/voice_ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52681 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52681 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59178 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56450 - "GET /static/manifest.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59178 - "POST /api/ask HTTP/1.1" 422 Unprocessable Content
+INFO:     127.0.0.1:52681 - "GET /static/sw.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52681 - "GET /static/icon.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59178 - "GET /static/icon.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59987 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59989 - "GET /static/style.css HTTP/1.1" 200 OK

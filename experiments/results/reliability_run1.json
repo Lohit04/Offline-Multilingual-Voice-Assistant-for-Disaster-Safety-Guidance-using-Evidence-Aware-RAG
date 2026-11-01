@@ -1,0 +1,19 @@
+{
+ "repeatability": {
+  "What should I do if floodwater enters my house?": true,
+  "What should I do during an earthquake?": true,
+  "How should I prepare for a cyclone?": true
+ },
+ "concurrency": {
+  "wall_s": 25.6,
+  "all_200": true,
+  "expected_behaviour": true
+ },
+ "soak": {
+  "n": 30,
+  "errors": 0,
+  "behaviour_ok": true,
+  "median_first": 9.600000000000001,
+  "median_last": 9.65
+ }
+}

@@ -1,0 +1,33 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  87%|████████▋ | 173/199 [00:00<00:00, 1708.72it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 1859.43it/s]
+A01 en ANSWER 4.7s
+A01 hi ANSWER 7.4s
+A01 ta ANSWER 7.6s
+A01 te ANSWER 7.1s
+A01 kn ANSWER 7.2s
+A01 ml ANSWER 7.1s
+A02 en ANSWER 4.7s
+A02 hi ANSWER 7.6s
+A02 ta ANSWER 8.8s
+A02 te ANSWER 8.3s
+A02 kn ANSWER 11.5s
+A02 ml ANSWER 9.2s
+A03 en ANSWER 4.4s
+A03 hi ANSWER 7.1s
+A03 ta ANSWER 7.9s
+A03 te ANSWER 7.7s
+A03 kn ANSWER 7.0s
+A03 ml ANSWER 7.6s
+A04 en ANSWER 3.9s
+A04 hi ANSWER 5.5s
+A04 ta ANSWER 6.4s
+A04 te ANSWER 6.0s
+A04 kn ANSWER 6.0s
+A04 ml ANSWER 6.6s
+A05 en ANSWER 3.0s
+A05 hi ANSWER 5.7s
+A05 ta ANSWER 6.2s
+A05 te ANSWER 5.7s
+A05 kn ANSWER 5.9s
+A05 ml ANSWER 6.8s
+A06 en ANSWER 6.7s

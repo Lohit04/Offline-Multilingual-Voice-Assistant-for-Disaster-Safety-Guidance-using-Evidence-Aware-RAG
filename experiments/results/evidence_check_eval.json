@@ -1,0 +1,258 @@
+[
+ {
+  "expected": "NO",
+  "kind": "off_topic",
+  "q": "How do I invest in the stock market?",
+  "got": "NO",
+  "max_dense5": 0.8174363374710083,
+  "s": 2.5
+ },
+ {
+  "expected": "NO",
+  "kind": "off_topic",
+  "q": "Teach me Python programming",
+  "got": "NO",
+  "max_dense5": 0.8312274813652039,
+  "s": 2.5
+ },
+ {
+  "expected": "NO",
+  "kind": "off_topic",
+  "q": "How do I file my income tax return?",
+  "got": "NO",
+  "max_dense5": 0.8133161664009094,
+  "s": 2.5
+ },
+ {
+  "expected": "NO",
+  "kind": "off_topic",
+  "q": "What is the score of the cricket match?",
+  "got": "NO",
+  "max_dense5": 0.7913321256637573,
+  "s": 2.8
+ },
+ {
+  "expected": "NO",
+  "kind": "off_topic",
+  "q": "Give me a recipe for margherita pizza",
+  "got": "NO",
+  "max_dense5": 0.7968417406082153,
+  "s": 2.5
+ },
+ {
+  "expected": "NO",
+  "kind": "off_topic",
+  "q": "Which movie should I watch this weekend?",
+  "got": "NO",
+  "max_dense5": 0.7994300127029419,
+  "s": 2.5
+ },
+ {
+  "expected": "NO",
+  "kind": "off_topic",
+  "q": "How do I learn to play the guitar?",
+  "got": "NO",
+  "max_dense5": 0.8016871213912964,
+  "s": 2.4
+ },
+ {
+  "expected": "NO",
+  "kind": "off_topic",
+  "q": "Translate hello into French",
+  "got": "NO",
+  "max_dense5": 0.8216642141342163,
+  "s": 2.5
+ },
+ {
+  "expected": "NO",
+  "kind": "off_topic",
+  "q": "Which laptop is best for gaming?",
+  "got": "NO",
+  "max_dense5": 0.8008206486701965,
+  "s": 2.4
+ },
+ {
+  "expected": "NO",
+  "kind": "off_topic",
+  "q": "Who is the prime minister of Japan?",
+  "got": "NO",
+  "max_dense5": 0.7738581895828247,
+  "s": 2.5
+ },
+ {
+  "expected": "NO",
+  "kind": "near_topic_not_in_kb",
+  "q": "How do I treat a snake bite?",
+  "got": "NO",
+  "max_dense5": 0.8339191675186157,
+  "s": 2.5
+ },
+ {
+  "expected": "NO",
+  "kind": "near_topic_not_in_kb",
+  "q": "What is the cure for dengue fever?",
+  "got": "NO",
+  "max_dense5": 0.8209809064865112,
+  "s": 2.3
+ },
+ {
+  "expected": "NO",
+  "kind": "near_topic_not_in_kb",
+  "q": "What is the COVID vaccination schedule for children?",
+  "got": "NO",
+  "max_dense5": 0.8024755716323853,
+  "s": 2.4
+ },
+ {
+  "expected": "NO",
+  "kind": "near_topic_not_in_kb",
+  "q": "How do I install solar panels on my roof?",
+  "got": "NO",
+  "max_dense5": 0.8322134017944336,
+  "s": 2.5
+ },
+ {
+  "expected": "NO",
+  "kind": "near_topic_not_in_kb",
+  "q": "How do I pass a driving test?",
+  "got": "NO",
+  "max_dense5": 0.8243467211723328,
+  "s": 2.5
+ },
+ {
+  "expected": "NO",
+  "kind": "near_topic_not_in_kb",
+  "q": "What is the history of the Taj Mahal?",
+  "got": "NO",
+  "max_dense5": 0.7678108811378479,
+  "s": 2.4
+ },
+ {
+  "expected": "NO",
+  "kind": "near_topic_not_in_kb",
+  "q": "What is the population of Tamil Nadu?",
+  "got": "NO",
+  "max_dense5": 0.8057966232299805,
+  "s": 2.7
+ },
+ {
+  "expected": "NO",
+  "kind": "near_topic_not_in_kb",
+  "q": "How does a nuclear power plant generate electricity?",
+  "got": "NO",
+  "max_dense5": 0.8134956955909729,
+  "s": 2.4
+ },
+ {
+  "expected": "NO",
+  "kind": "near_topic_not_in_kb",
+  "q": "How do I learn to swim?",
+  "got": "NO",
+  "max_dense5": 0.8352712392807007,
+  "s": 2.4
+ },
+ {
+  "expected": "NO",
+  "kind": "near_topic_not_in_kb",
+  "q": "How do I get a flood insurance claim approved?",
+  "got": "NO",
+  "max_dense5": 0.8553389310836792,
+  "s": 4.7
+ },
+ {
+  "expected": "YES",
+  "kind": "answerable_en",
+  "q": "What should I do if floodwater enters my house?",
+  "got": "YES",
+  "max_dense5": 0.8811771869659424,
+  "s": 5.1
+ },
+ {
+  "expected": "YES",
+  "kind": "answerable_en",
+  "q": "What should I do during an earthquake?",
+  "got": "YES",
+  "max_dense5": 0.8760249614715576,
+  "s": 2.7
+ },
+ {
+  "expected": "YES",
+  "kind": "answerable_en",
+  "q": "How should I prepare for a cyclone?",
+  "got": "YES",
+  "max_dense5": 0.9090020060539246,
+  "s": 2.4
+ },
+ {
+  "expected": "YES",
+  "kind": "answerable_en",
+  "q": "What supplies should I keep in an emergency kit?",
+  "got": "YES",
+  "max_dense5": 0.8691787719726562,
+  "s": 2.5
+ },
+ {
+  "expected": "YES",
+  "kind": "answerable_en",
+  "q": "Is it safe to walk or drive through flood water?",
+  "got": "YES",
+  "max_dense5": 0.8593144416809082,
+  "s": 2.5
+ },
+ {
+  "expected": "YES",
+  "kind": "answerable_en",
+  "q": "What should I do to stay safe during lightning?",
+  "got": "YES",
+  "max_dense5": 0.8928935527801514,
+  "s": 2.4
+ },
+ {
+  "expected": "YES",
+  "kind": "answerable_en",
+  "q": "What should I do if there is a tsunami warning?",
+  "got": "YES",
+  "max_dense5": 0.8869537115097046,
+  "s": 2.5
+ },
+ {
+  "expected": "YES",
+  "kind": "answerable_en",
+  "q": "How can I protect myself from a heat wave?",
+  "got": "YES",
+  "max_dense5": 0.8837313652038574,
+  "s": 2.4
+ },
+ {
+  "expected": "YES",
+  "kind": "answerable_en",
+  "q": "What should I do after an earthquake stops?",
+  "got": "YES",
+  "max_dense5": 0.86212557554245,
+  "s": 2.5
+ },
+ {
+  "expected": "YES",
+  "kind": "answerable_en",
+  "q": "How do I stay safe from a landslide?",
+  "got": "YES",
+  "max_dense5": 0.8933939933776855,
+  "s": 2.5
+ },
+ {
+  "expected": "YES",
+  "kind": "answerable_en",
+  "q": "What should I do if a fire breaks out in my building?",
+  "got": "YES",
+  "max_dense5": 0.859146237373352,
+  "s": 2.5
+ },
+ {
+  "expected": "YES",
+  "kind": "answerable_en",
+  "q": "How should I prepare to evacuate before a flood?",
+  "got": "YES",
+  "max_dense5": 0.890245795249939,
+  "s": 2.4
+ }
+]

@@ -1,0 +1,92 @@
+APK download server (plain HTTP, for Android's Download Manager) on :8080
+Plain-HTTP API server (for the bundled Android app) on :8001
+
+=== Open one of these on the phone (same network as this laptop) ===
+  https://10.243.106.166:8443      (APK: http://10.243.106.166:8080/disaster-assistant.apk)
+If the phone can't connect, run scripts/open_firewall.ps1 once (as admin).
+
+INFO:     127.0.0.1:58152 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52548 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52042 - "GET /api/health HTTP/1.1" 200 OK
+Warm-up: speech recognition and all voices loaded.
+INFO:     127.0.0.1:57402 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59813 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62340 - "GET /?theme=dark HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63704 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59000 - "GET /static/manifest.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54697 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54697 - "GET /static/sw.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57601 - "GET /static/icon.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57601 - "GET /static/icon.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59813 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63704 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57601 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56485 - "POST /api/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61896 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65455 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56485 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56485 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56485 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56485 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52984 - "GET /static/manifest.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65455 - "GET /static/icon.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56485 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.166:64104 - "GET /?theme=dark HTTP/1.1" 200 OK
+INFO:     10.243.106.166:64104 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     10.243.106.166:63764 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     10.243.106.166:57068 - "GET /static/manifest.json HTTP/1.1" 200 OK
+INFO:     10.243.106.166:64104 - "GET /static/icon.svg HTTP/1.1" 200 OK
+INFO:     10.243.106.166:63764 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62386 - "GET /?theme=dark HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62386 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53033 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63444 - "GET /static/manifest.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62386 - "GET /static/sw.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63759 - "GET /static/icon.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63759 - "GET /static/icon.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53033 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55026 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58336 - "POST /api/voice_ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58336 - "POST /api/tts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59221 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49817 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51025 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50143 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55677 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59666 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59700 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57719 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.166:59707 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55414 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50406 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53425 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61698 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55454 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54339 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64025 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52399 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50157 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45618 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64630 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45630 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45642 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45666 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60515 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45694 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45710 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45732 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54825 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45742 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45752 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.105:45760 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50428 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61358 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55359 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55219 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61538 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64094 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56922 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     10.243.106.166:63584 - "GET / HTTP/1.1" 200 OK
+INFO:     10.243.106.166:63586 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50995 - "GET /api/health HTTP/1.1" 200 OK
