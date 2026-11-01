@@ -76,3 +76,6 @@ In this mode the phone is a *client* to this machine, which does the actual work
 4. Optional: use the browser's "Add to Home Screen" option to install it like an app.
 
 If the phone can't reach the page at all, check: both devices on the *same* Wi-Fi network, and Windows Firewall prompting to allow `python.exe` on first run (allow it).
+
+## License
+Code: [MIT](LICENSE). The NDMA guidance text and the third-party models (Whisper, Gemma, multilingual-e5, Piper, MMS-TTS) remain under their own owners' terms.
