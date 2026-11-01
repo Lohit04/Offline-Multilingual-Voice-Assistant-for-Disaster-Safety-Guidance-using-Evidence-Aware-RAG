@@ -4,6 +4,19 @@ An offline, voice-first assistant that answers disaster-safety questions in **En
 
 During floods and cyclones, networks fail, and general chatbots can invent shelters, routes or phone numbers. This assistant answers only when the official text supports the answer. Otherwise it refuses.
 
+<table>
+  <tr>
+    <td align="center" width="33%"><img src="docs/screenshots/phone_home.png" width="230" alt="Phone home screen: one mic button, eight hazard tiles and Call 112"><br><sub>Phone app: one mic, eight hazards, Call 112 always visible</sub></td>
+    <td align="center" width="33%"><img src="docs/screenshots/phone_answer.png" width="230" alt="Flood answer with numbered official steps"><br><sub>One tap: official NDMA steps, read aloud</sub></td>
+    <td align="center" width="33%"><img src="docs/screenshots/answer_tamil.png" width="230" alt="Tamil flood answer with the step being read highlighted"><br><sub>Tamil, with the step being read highlighted</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/instant_answer.png" width="230" alt="Instant flood answer shown in 0.06 seconds"><br><sub>Pre-verified instant answer in 0.06 s</sub></td>
+    <td align="center"><img src="docs/screenshots/refusal.png" width="230" alt="Off-topic question refused with emergency numbers"><br><sub>Off-topic question: refused, with 112 / 1070 / 1077</sub></td>
+    <td align="center"><img src="docs/screenshots/live_info.png" width="230" alt="Live-information question answered with a disclaimer and official guidance only"><br><sub>Live-information question: disclaimer, official guidance only</sub></td>
+  </tr>
+</table>
+
 ## How it works
 - Retrieval-Augmented Generation over 4 NDMA documents (493 pages, 1,322 cited passages)
 - Hybrid retrieval: BM25 plus multilingual-e5-small (FAISS)
